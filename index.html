@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,20 +11,74 @@
         content="Product Management, Product Leader, Product Owner, PM, APM, Product Manager, Ireland">
     <meta name="author" content="Produck">
 
-    <!-- Bootstrap -->
+    <!-- Main Website Title -->
+    <title>Produck</title>
+    <!-- Website Favicon -->
+    <link rel="icon" href="assets/images/produck-favicon.png" type="image/icon">
+
+    <!-- Styling File-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <!-- Bootstrap (HTML, CSS, JS Library) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         type="text/css" />
-    <!-- Font Awesome -->
+    <!-- JQuery (JavaScript) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <!-- Font Awesome (Icons) -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
-    <!-- Styling -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <!-- Main Title -->
-    <title>Produck</title>
-    <!-- Favicon: http://bit.ly/3dKBMHD/ -->
-    <link rel="icon" href="assets/images/produck-favicon.png" type="image/icon">
 </head>
-<body>
-    
+
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
+
+    <!-- Main Navigation Bar | Website Menu -->
+    <header id="navigation-bar">
+
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" href="#home">Produck <i class="fa fa-heartbeat"></i></a>
+
+            <!-- Toggle Navigation -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarFour"
+                aria-controls="navbarFour" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars toggle-btn navbar-toggler-icon"></i>
+            </button>
+
+            <!-- Navigation Bar -->
+            <div class="collapse navbar-collapse" id="navbarFour">
+
+                <!-- Main Website Menu-->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link page-scroll active" href="#home"><i class="fa fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link page-scroll" href="#about"><i class="fa fa-heartbeat"></i></i> About</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link page-scroll" href="#leaders"><i class="fa fa-star"></i> Leaders</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link page-scroll" href="#books"><i class="fa fa-book"></i> Books</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link page-scroll" href="#toreadlist"><i class="fa fa-envelope"></i> ToReadList</a>
+                    </li>
+
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link page-scroll" href="#resources"><i class="fa fa-envelope"></i> Resources</a>
+                    </li>
+
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link page-scroll" href="#contact"><i class="fa fa-envelope"></i> Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
 </body>
+
 </html>

@@ -195,7 +195,7 @@ button.navbar-toggler:focus {
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 0.5px;
-    background: linear-gradient(to right, #4B76E5, #3CBED0);
+    background: #4B76E5;
     color: #fff;
     padding: 12px 25px 10px 25px;
     border-radius: 30px;
@@ -207,7 +207,7 @@ button.navbar-toggler:focus {
 
 /* Button Hover Over Effect */
 .right-side a:hover {
-    background: #4B76E5;
+    background: linear-gradient(to right, #4B76E5, #3CBED0);
     color: #fff;
 }
 

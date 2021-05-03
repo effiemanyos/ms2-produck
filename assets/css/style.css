@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700');
+
+* {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------------[ HEADER SECTION ]-------------------------------------- */
+
+/* Navigation Bar Background */
+.navbar-dark {
+    background: linear-gradient(to right, #4B76E5, #3CBED0);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Website Brand */
+.navbar-brand {
+    font-family: Poppins;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px 0 2px;
+}
+
+/* .ie Styling */
+.lowercase {
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Navigation Main Menu Styling */
+.nav-link {
+    font-family: Poppins;
+    font-size: 18px;
+    margin: 5px 2px 2px;
+    text-align: center;
+}
+
+/* Navigation Main Menu Hover Over Effect */
+.nav-link:hover {
+    color: #fff !important;
+}
+
+/* Button Toggler */
+button .navbar-toggler {
+    border: 0;
+    padding: 0px 15px 0px 15px;
+}
+
+/* Button Toggler Border */
+button.navbar-toggler:focus {
+    outline: 1px dotted;
+}
+
+/* Toggler Button Styling */
+.toggle-btn {
+    font-size: 18px;
+    padding: 0px;
+    height: initial;
+}

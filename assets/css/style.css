@@ -122,6 +122,97 @@ button.navbar-toggler:focus {
 
 /* Section CTA Button Hover Effect */
 .cta-btn-wt-db a:hover {
+    background: linear-gradient(to right, #4B76E5, #3CBED0);
+    color: #fff;
+}
+
+/* ------------------------------------[ ABOUT PRODUCK SECTION ]-------------------------------------- */
+
+/* Section Styling */
+#about-produck-section {
+    background-color: #f3f2ef;
+    color: #434343;
+    box-sizing: border-box;
+    line-height: 1.5;
+    padding: 80px 40px 70px;
+    display: flex;
+    align-items: center;
+}
+
+.produck-cont-styling {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.produck-grid-styling {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+.right-side>* {
+    margin-bottom: 1.1rem;
+}
+
+/* 'Hey there!' Styling */
+.right-side h4 {
+    color: #fff;
+    font-weight: 500px;
+    background: #434343;
+    display: inline-block;
+    padding: 10px 21px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* 'We're Produck' Styling */
+.right-side h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Section Button Styling */
+.right-side a {
+    display: inline-block;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #4B76E5, #3CBED0);
+    color: #fff;
+    padding: 12px 25px 10px 25px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* Button Hover Over Effect */
+.right-side a:hover {
     background: #4B76E5;
     color: #fff;
+}
+
+@media (max-width:768px) {
+    .produck-grid-styling {
+        grid-template-columns: 1fr;
+    }
 }

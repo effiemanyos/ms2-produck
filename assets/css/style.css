@@ -11,7 +11,6 @@
 /* Navigation Bar Background */
 .navbar-dark {
     background: linear-gradient(to right, #4B76E5, #3CBED0);
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
 /* Website Brand */
@@ -61,4 +60,68 @@ button.navbar-toggler:focus {
     font-size: 18px;
     padding: 0px;
     height: initial;
+}
+
+/* ------------------------------------[ HERO IMAGE SECTION ]-------------------------------------- */
+
+/* Section Styling */
+#hero-img-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../images/bg-hero-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    padding: 200px 40px 100px;
+}
+
+/* Section Text */
+.hero-text {
+    text-align: center;
+    margin: auto;
+}
+
+/* Section Title */
+.hero-text h1 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+/* Section Paragraph */
+.hero-text p {
+    font-size: 20px;
+}
+
+/* Section CTA Button Alignment */
+.cta-btn-wt-db {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Section CTA Button Styling */
+.cta-btn-wt-db a {
+    display: flex;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    background: #F5f6fa;
+    color: #000;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 25px 10px 25px;
+    margin: 25px 0 15px 0;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* Section CTA Button Hover Effect */
+.cta-btn-wt-db a:hover {
+    background: #4B76E5;
+    color: #fff;
 }

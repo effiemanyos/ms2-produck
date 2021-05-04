@@ -336,7 +336,7 @@ button.navbar-toggler:focus {
 .resp-cont-styling {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 4rem;
+    padding: 55px;
     grid-gap: 30px;
     width: 80%;
     margin: auto;
@@ -345,12 +345,12 @@ button.navbar-toggler:focus {
 /* Card Styling */
 .resp-card-styling {
     text-align: center;
-    padding: 2rem;
+    padding: 40px 30px 25px;
     line-height: 1.5;
     background-color: #f3f2ef;
     border-radius: 20px !important;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     border: none !important;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
 /* Main Responsibilities */
@@ -374,6 +374,7 @@ button.navbar-toggler:focus {
 /* Section Icons */
 .icon-style {
     color: #4B76E5;
+    font-size: 70px !important;
 }
 
 /* -----[ Section Responsiveness ]----- */

@@ -141,10 +141,10 @@ button.navbar-toggler:focus {
     color: #fff;
 }
 
-/* ------------------------------------[ ABOUT PRODUCK SECTION ]-------------------------------------- */
+/* ------------------------------------[ ABOUT SECTIONS ]-------------------------------------- */
 
 /* Section Styling */
-#about-produck-section {
+#about-section {
     background-color: #f3f2ef;
     color: #000;
     box-sizing: border-box;
@@ -154,14 +154,14 @@ button.navbar-toggler:focus {
     align-items: center;
 }
 
-.produck-cont-styling {
+.about-cont-styling {
     width: 100%;
     max-width: 1160px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.produck-grid-styling {
+.about-grid-styling {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
@@ -199,7 +199,7 @@ button.navbar-toggler:focus {
     font-weight: 700;
     margin-top: 10px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
 }
 
 /* Section Button Styling */
@@ -259,14 +259,14 @@ button.navbar-toggler:focus {
 /* Intro Title */
 .section-title .section-main-title {
     font-size: 40px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-align: center;
 }
 
 /* Intro Subtitle */
 .section-title .section-subtitle {
     font-size: 20px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-align: center;
 }
 
@@ -475,9 +475,7 @@ button.navbar-toggler:focus {
 }
 
 @media (max-width:645px) {
-    .container-fluid {
-        display: inline-flex;
-    }
+    /* Improve the responsiveness */
 }
 
 /* ------------------------------------[ Footer Section ]-------------------------------------- */

@@ -874,8 +874,8 @@ form {
 
 /* ------------------------------------[ LEADERS SECTION ]-------------------------------------- */
 
-#key-experts {
-    padding-top: 30px;
+#experts-section {
+    padding-top: 110px;
     padding-bottom: 80px;
     background: linear-gradient(to right, #4B76E5, #3CBED0);
     box-sizing: none;

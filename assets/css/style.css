@@ -227,7 +227,7 @@ button.navbar-toggler:focus {
 }
 
 @media (max-width:768px) {
-    .produck-grid-styling {
+    .about-grid-styling {
         grid-template-columns: 1fr;
     }
 }
@@ -308,6 +308,112 @@ button.navbar-toggler:focus {
     left: 0;
     bottom: 0;
 }
+
+/* ------------------------------------[ RESPONSIBILITIES SECTION ]-------------------------------------- */
+
+#resp-section {
+    width: auto;
+    height: auto;
+    /** Fix these two **/
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    background: #faf9fa;
+    /**background: linear-gradient(to right, #4B76E5, #3CBED0);**/
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.text {
+    text-align: center;
+    line-height: 1.5;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    color: #434343;
+}
+
+.section-title {
+    color: #4B76E5;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.resp-card-styling h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.resp-cont-styling {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 4rem;
+    grid-gap: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.resp-card-styling {
+    /**border: 1px solid #fff;**/
+    text-align: center;
+    padding: 2rem;
+    line-height: 1.5;
+    background-color: #fff;
+    border-radius: 15px !important;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+.resp-card-styling p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.resp-card-styling:hover {
+    transform: translateY(-10px);
+    transition: all 300ms;
+}
+
+.icon-style {
+    color: #4B76E5;
+}
+
+@media(max-width:1400px) {
+    .resp-cont-styling {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .resp-card-styling {
+        padding: 3rem;
+    }
+}
+
+@media(max-width:900px) {
+    .resp-cont-styling {
+        grid-template-columns: 1fr;
+    }
+
+    .resp-card-styling {
+        padding: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ------------------------------------[ Contact Me Section ]-------------------------------------- */
 

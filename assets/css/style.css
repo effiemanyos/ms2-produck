@@ -315,7 +315,7 @@ button.navbar-toggler:focus {
 #contact-section {
     background: linear-gradient(to right, #4B76E5, #3CBED0);
     color: #F5f6fa;
-    padding: 70px 80px 30px;
+    padding: 70px 150px 30px;
 }
 
 /* Intro Title */
@@ -336,7 +336,7 @@ button.navbar-toggler:focus {
 }
 
 /* Column 1 Paragraph */
-.contact-info .text  {
+.contact-info .text {
     margin: 24px 0 32px 0;
     font-size: 15px;
 }
@@ -406,8 +406,8 @@ button.navbar-toggler:focus {
 
 /* Social Media Icons Hover Effect */
 .social-icons a:hover {
-  transform: scale(1.12);
-  color: #4B76E5;
+    transform: scale(1.12);
+    color: #4B76E5;
 }
 
 /*--- Column 2 ---*/
@@ -459,14 +459,25 @@ button.navbar-toggler:focus {
 /* -----[ Section Responsiveness ]----- */
 
 @media (max-width:960px) {
-.contact-info,
-.contact-information,
-.social-icons {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: #F5f6fa;
+
+    .contact-info,
+    .contact-information,
+    .social-icons {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: #F5f6fa;
+    }
+
+    #contact-section {
+        padding: 70px 50px 30px;
+    }
 }
+
+@media (max-width:645px) {
+    .container-fluid {
+        display: inline-flex;
+    }
 }
 
 /* ------------------------------------[ Footer Section ]-------------------------------------- */
@@ -487,7 +498,8 @@ button.navbar-toggler:focus {
 }
 
 /* Section Paragraph & Form */
-.footer-top p, form {
+.footer-top p,
+form {
     color: #f5f6fa;
     line-height: 20px;
     font-family: Poppins;
@@ -645,6 +657,7 @@ button.navbar-toggler:focus {
         margin-right: 15px;
         margin-left: 15px;
     }
+
     .footer-top {
         padding-top: 60px;
         padding-bottom: 25px;

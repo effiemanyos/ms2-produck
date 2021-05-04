@@ -236,9 +236,9 @@ button.navbar-toggler:focus {
 
 /* Section Styling */
 #services-section {
-    background: linear-gradient(to right, #4B76E5, #3CBED0);
+    background: #fff;
     padding: 80px 50px;
-    color: #F5f6fa;
+    color: #000;
 }
 
 /* Layout Spacing */
@@ -272,7 +272,7 @@ button.navbar-toggler:focus {
 
 /* Section Icons */
 .services-item i {
-    color: #F5f6fa;
+    color: #000;
     font-size: 45px;
     line-height: 45px;
     float: left;
@@ -286,7 +286,7 @@ button.navbar-toggler:focus {
 /* Section Title */
 .services-heading {
     font-size: 23px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     position: relative;
     margin-bottom: 8px;
     padding-bottom: 10px;
@@ -303,10 +303,170 @@ button.navbar-toggler:focus {
     content: '';
     width: 30px;
     height: 3px;
-    background: #F5f6fa;
+    background: #000;
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+/* ------------------------------------[ Contact Me Section ]-------------------------------------- */
+
+/* Section Styling */
+#contact-section {
+    background: linear-gradient(to right, #4B76E5, #3CBED0);
+    color: #F5f6fa;
+    padding: 70px 80px 30px;
+}
+
+/* Intro Title */
+.contact-intro h2 {
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*--- Column 1 ---*/
+
+/* Column 1 Title */
+.contact-info h2 {
+    letter-spacing: 0.5px;
+    font-size: 25px;
+    margin-top: 12px;
+}
+
+/* Column 1 Paragraph */
+.contact-info .text  {
+    margin: 24px 0 32px 0;
+    font-size: 15px;
+}
+
+.information {
+    text-decoration: none;
+    color: #F5f6fa;
+}
+
+.information a {
+    text-decoration: none !important;
+    color: #F5f6fa;
+}
+
+.information a:hover {
+    color: #F5f6fa;
+}
+
+/* Column 1 Contact Details */
+.contact-information {
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* Column 1 Contact Details Icons */
+.contact-information i {
+    margin: 0 15px 18px 0;
+    height: 35px;
+    width: 35px;
+    background-color: #f5f6fa;
+    color: #4B76E5;
+    font-size: 18px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Follow Me Section */
+.social-media {
+    padding: 10px 0 15px;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+}
+
+/* Social Media Individual Icons */
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #F5f6fa;
+    color: #4B76E5;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 8px 30px 0;
+    box-shadow: 0 4px 10px 0 rgba(128, 90, 90, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+/* Social Media Icons Hover Effect */
+.social-icons a:hover {
+  transform: scale(1.12);
+  color: #4B76E5;
+}
+
+/*--- Column 2 ---*/
+
+/* Form Alignment */
+.container-fluid .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Center Form */
+.center-form {
+    margin: auto;
+}
+
+/* Inner Form */
+.form-control {
+    margin: 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Form CTA Button */
+.contact-btn {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    background-color: #F5f6fa;
+    color: #4B76E5;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 25px 10px 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 20px 0 45px;
+}
+
+/* Form CTA Button Hover Effect */
+.contact-btn:hover {
+    background: #000;
+    color: #f5f6fa;
+}
+
+/* -----[ Section Responsiveness ]----- */
+
+@media (max-width:960px) {
+.contact-info,
+.contact-information,
+.social-icons {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #F5f6fa;
+}
 }
 
 /* ------------------------------------[ Footer Section ]-------------------------------------- */

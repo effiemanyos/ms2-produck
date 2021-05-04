@@ -399,6 +399,111 @@ button.navbar-toggler:focus {
     }
 }
 
+/* ------------------------------------[ PERFECT PM SECTION ]-------------------------------------- */
+
+/* Section Styling */
+#areas-section {
+    box-sizing: border-box;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #000;
+    padding: 80px 20px 80px 20px;
+}
+
+/* Section Padding */
+.areas-section-padding {
+
+}
+
+/* Space Between Intro & Areas */
+.areas-intro-styling {
+    margin-bottom: 50px;
+}
+
+/* Space Between Areas */
+.pm-areas-box {
+    gap: 25px;
+}
+
+.pm-areas-box:not(:first-child) {
+    margin-top: 50px;
+}
+
+/* Section Subtitles */
+.pm-areas-content h3 {
+    font-size: 23px;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+
+/* Section Paragraphs */
+.pm-areas-content p {
+    font-size: 16px;
+    margin: 0px;
+}
+
+/* Section Icons */
+.pm-areas-icon {
+    height: 50px;
+    width: 50px;
+    background-color: #4B76E5;
+    color: #f5f6fa;
+    font-size: 22px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Section Image Alignment */
+.pm-areas-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section Image Styling */
+.pm-areas-img img {
+    max-width: 100%;
+    margin: 30px 0;
+}
+
+/* Section CTA Button Alignment */
+.areas-cta-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* Section CTA Button Styling */
+.areas-cta-btn a {
+    text-decoration: none !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    background: #4B76E5;
+    color: #fff;
+    padding: 12px 25px 10px 25px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* Section CTA Button Hover Over Effect */
+.areas-cta-btn a:hover {
+    background: linear-gradient(to right, #4B76E5, #3CBED0);
+    color: #fff;
+}
+
+
+
+
 
 
 

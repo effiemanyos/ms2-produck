@@ -253,7 +253,7 @@ button.navbar-toggler:focus {
 
 /* Section Styling */
 #services-section {
-    background: #fff;
+    background: #EDF1FC;
     padding: 80px 50px;
     color: #000;
 }
@@ -273,19 +273,19 @@ button.navbar-toggler:focus {
     margin-top: 30px;
 }
 
-/* Intro Title MODIFY */
+/* Intro Title */
 .blue-title {
     color: #4B76E5;
 }
 
-/* Intro Subtitle MODIFY */
+/* Intro Subtitle */
 .black-subtitle {
     color: #000;
 }
 
 /* Section Icons */
 .services-item i {
-    color: #000;
+    color: #4B76E5;
     font-size: 45px;
     line-height: 45px;
     float: left;
@@ -316,7 +316,7 @@ button.navbar-toggler:focus {
     content: '';
     width: 30px;
     height: 3px;
-    background: #000;
+    background: #4B76E5;
     position: absolute;
     left: 0;
     bottom: 0;

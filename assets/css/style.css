@@ -26,7 +26,7 @@ label {
 }
 
 .section-main-title {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .section-subtitle {
@@ -210,10 +210,10 @@ button.navbar-toggler:focus {
 
 /* 'We're Produck' Styling */
 .right-side h2 {
-    font-size: 2rem;
+    font-family: Poppins;
+    font-size: 40px;
     font-weight: 700;
     margin-top: 10px;
-    text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 

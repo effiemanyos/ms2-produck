@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-/* Invisible Form Labels */
+/* Hidden Form Labels */
 .hidden-label {
     display: none !important;
 }
@@ -1149,58 +1149,62 @@ form {
     }
 }
 
-/* ------------------------------------[ LEADERS SECTION ]-------------------------------------- */
+/* ------------------------------------[ LEADERS SECTION √ ]-------------------------------------- */
 
+/** Section Styling **/
 #experts-section {
     padding-top: 130px;
     padding-bottom: 110px;
-    background: linear-gradient(to right, #4B76E5, #3CBED0);
+    background: #EDF1FC;
     box-sizing: none;
 }
 
+/** Intro Section Styling **/
 .leaders-intro-styling {
     line-height: 1.5;
     width: 90%;
     margin: auto;
-    color: #fff;
 }
 
+/** Intro Title Styling **/
 .section-main-title {
-    font-size: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
-/** Container **/
+/** Card Styling & Spacing **/
 .industry-experts {
     padding: 20px 15px 30px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background: #fff;
     border-radius: 30px;
     text-align: center;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     margin-top: 40px;
 }
 
-.industry-experts .pic {
+/** Industry Experts Image Section **/
+.industry-experts .expert-img {
     display: inline-block;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: #fff;
     padding: 10px;
     margin-bottom: 20px;
     transition: all 0.5s ease 0s;
 }
 
-.industry-experts:hover .pic {
-    /*background: linear-gradient(to right, #4B76E5, #3CBED0);*/
+/** Industry Experts Image Section Hover Over Effect **/
+.industry-experts:hover .expert-img {
     background: #4B76E5;
     border-radius: 50%;
 }
 
-.pic img {
+/** Industry Experts Image Styling **/
+.expert-img img {
     width: 100%;
     height: 50%;
     border-radius: 50%;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
+/** Industry Experts Name **/
 .expert-name {
     display: block;
     font-size: 20px;
@@ -1209,25 +1213,28 @@ form {
     margin: 0 0 7px 0;
 }
 
+/** Industry Experts Role **/
 .expert-role {
     display: block;
     font-size: 15px;
-    color: #434343;
     margin-bottom: 15px;
 }
 
-.social-media {
+/** Section Social Media **/
+.leaders-social {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.social-media li {
+/** Social Media Channels **/
+.leaders-social li {
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 4px;
 }
 
-.social-media li a {
+/** Social Media Icons & Links **/
+.leaders-social li a {
     display: block;
     width: 30px;
     height: 30px;
@@ -1240,10 +1247,13 @@ form {
     text-decoration: none;
 }
 
-.industry-experts:hover .social-media li a {
+/** Social Media Hover Over Effect **/
+.industry-experts:hover .leaders-social li a {
     background: #4B76E5;
     color: #fff;
 }
+
+/** -----[ Section Responsiveness ]----- **/
 
 @media only screen and (max-width: 900px) {
     .industry-experts {

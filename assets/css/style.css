@@ -1022,12 +1022,12 @@ form {
 /** Book Cover (Image) **/
 .books-grid-styling>article img {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
 /** Book Main Information **/
-.book-txt-styling {
+.book-text-styling {
     padding: 30px 10px 25px;
 }
 
@@ -1044,7 +1044,7 @@ form {
 }
 
 /** Book Information - Subtitle (Official Size) **/
-.book-text-styling .b-title {
+.book-text-styling .b-subtitle {
     font-size: 15px;
     color: #000;
 }

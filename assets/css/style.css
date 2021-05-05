@@ -981,17 +981,18 @@ form {
     }
 }
 
-/* ------------------------------------[ RECOMMENDED BOOKS ]-------------------------------------- */
+/* ------------------------------------[ RECOMMENDED BOOKS √ ]-------------------------------------- */
 
+/** Section Styling **/
 #books-section {
-    background: linear-gradient(to right, #4B76E5, #3CBED0);
+    background: #EDF1FC;
     padding-top: 130px;
     padding-bottom: 40px;
-    color: #fff;
+    color: #434343;
 }
 
 /** Grid Styling **/
-.bgrid-styling {
+.books-grid-styling {
     margin: 80px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -1001,25 +1002,25 @@ form {
 }
 
 /** Card Container **/
-.bgrid-styling>article {
-    background-color: rgba(255, 255, 255, 0.9);
+.books-grid-styling>article {
+    background-color: #fff;
     border: none;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     text-align: left;
     width: 255px;
-    transition: transform .3s;
+    transition: transform 0.3s;
     padding: 20px;
 }
 
 /** Card Container Hover Effect **/
-.bgrid-styling>article:hover {
+.books-grid-styling>article:hover {
     transform: translateY(-10px);
     transition: all 300ms;
 }
 
-/** Book Image **/
-.bgrid-styling>article img {
+/** Book Cover (Image) **/
+.books-grid-styling>article img {
     width: 100%;
     border-radius: 20px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
@@ -1028,40 +1029,42 @@ form {
 /** Book Main Information **/
 .book-txt-styling {
     padding: 30px 10px 25px;
-    font-family: Poppins;
 }
 
-/** Book Information - Title **/
-.book-txt-styling h3 {
+/** Book Information - Title (Official Size) **/
+.book-text-styling h3 {
     font-size: 20px;
     font-weight: 600;
     color: #4B76E5;
 }
 
-.book-txt-styling .b-sm-title {
-    font-size: 18.7px;
+/** Book Information - Title (Alternative Size) **/
+.book-text-styling .b-sm-title {
+    font-size: 18.8px;
 }
 
-/** Book Information - Subtitle **/
-.book-txt-styling .b-title {
+/** Book Information - Subtitle (Official Size) **/
+.book-text-styling .b-title {
     font-size: 15px;
-    color: #434343;
+    color: #000;
 }
 
-.book-txt-styling .b-smm-title {
+/** Book Information - Subtitle (Alternative Size) **/
+.book-text-styling .b-sm-subtitle {
     font-size: 12.8px;
-    color: #434343;
+    color: #000;
 }
 
-/** Book Information - Author **/
+/** Book Information - Author (Official Size) **/
 .b-author {
     font-size: 15px;
-    color: #434343;
-    text-decoration: none !important;
+    color: #000;
 }
 
+/** Book Information - Author (Hover Over Effect) **/
 .b-author:hover {
-    color: #4B76E5;
+    color: #4B76E5 !important;
+    text-decoration: none !important;
 }
 
 /** Book Additional Information **/
@@ -1070,70 +1073,62 @@ form {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     border-radius: 10px;
-    /**background: linear-gradient(#4B76E5, #3CBED0);**/
     background: #4B76E5;
     text-align: center;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
-/** Book Additional Information **/
+/** Book Additional Information - Stats **/
 .card-stats .stat1,
 .stat2,
 .stat3 {
-    /**display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;**/
-    padding: 5px;
+    padding: 10px;
 }
 
-/** Numbers **/
-.card-stats .value {
+/** Value & Type Text Size **/
+.card-stats .value,
+.type {
     font-size: 12px;
 }
 
-/** Tags **/
-.card-stats .type {
-    font-size: 12px;
+/** Additional Info External Link **/
+.b-link {
+    color: #fff;
 }
 
-/** Hover Effect Additional Info Text **/
-.linking {
+/** Additional Info External Link (Hover Over Effect) **/
+.b-link:hover {
     color: #fff;
     text-decoration: none !important;
 }
 
-/** Hover Effect Additional Info Text **/
-.linking:hover {
-    color: #fff;
-}
-
-/** Hover Effect Rating **/
+/** Hover Over Effect - Rating **/
 .stat1:hover {
     background: #3CBED0;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
 
-/** Hover Effect Publication Year **/
+/** Hover Over Effect - Ratings **/
 .stat2:hover {
     background: #3CBED0;
 }
 
-/** Hover Effect Reviews **/
+/** Hover Over Effect - Published **/
 .stat3:hover {
     background: #3CBED0;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-/** White Lines **/
+/** White Lines in Between Stats **/
 .stat2 {
-    border-left: 3px solid rgba(255, 255, 255, 0.9);
-    border-right: 3px solid rgba(255, 255, 255, 0.9);
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
 }
 
-/** Responsiveness **/
+/** -----[ Section Responsiveness ]----- **/
+
 @media (max-width: 1200px) {
     .grid {
         grid-template-columns: repeat(3, 1fr);

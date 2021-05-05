@@ -63,15 +63,15 @@ label {
     color: #fff !important;
 }
 
-/* Toggler Button Styling (Responsiveness) */
+/** Toggler Button Styling (Responsiveness) **/
 .navbar-toggler-icon {
     font-size: 18px;
     height: initial;
 }
 
-/* ------------------------------------[ HERO IMAGE SECTION ]-------------------------------------- */
+/* ------------------------------------[ HERO IMAGE | JUMBOTRON SECTION √ ]-------------------------------------- */
 
-/* Section Styling */
+/** Section Styling **/
 #hero-img-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../images/bg-hero-img.png);
     background-position: center;
@@ -79,39 +79,39 @@ label {
     background-size: cover;
     position: relative;
     color: #F5f6fa;
-    padding: 250px 40px 120px;
+    padding: 250px 40px 150px;
 }
 
-/* Section Text */
-.hero-text {
+/** Section Text **/
+.hero-img-text {
     text-align: center;
     margin: auto;
 }
 
-/* Section Title */
-.hero-text h1 {
-    letter-spacing: 3px;
+/** Section Title **/
+.hero-img-text h1 {
+    letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 45px;
     font-weight: 600;
 }
 
-/* Section Paragraph */
-.hero-text p {
+/** Section Paragraph **/
+.hero-img-text p {
     font-size: 20px;
+    letter-spacing: 1px;
 }
 
-/* Section CTA Button Alignment */
-.cta-btn-wt-db {
+/** Section CTA Button Position **/
+.cta-btn-white {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    padding-bottom: 20px;
 }
 
-/* Section CTA Button Styling */
-.cta-btn-wt-db a {
+/** Section CTA Button Styling **/
+.cta-btn-white a {
     display: flex;
     text-decoration: none !important;
     text-transform: uppercase;
@@ -128,10 +128,23 @@ label {
     cursor: pointer;
 }
 
-/* Section CTA Button Hover Effect */
-.cta-btn-wt-db a:hover {
+/** Section CTA Button Hover Over Effect **/
+.cta-btn-white a:hover {
     background: linear-gradient(to right, #4B76E5, #3CBED0);
     color: #fff;
+}
+
+/* -----[ Section Responsiveness ]----- */
+
+@media (max-width:415px) {
+    .hero-img-text h1 {
+        font-size: 32px;
+    }
+}
+@media (max-width:380px) {
+    #hero-img-section {
+        padding: 200px 40px 100px;
+    }
 }
 
 /* ------------------------------------[ ABOUT SECTIONS ]-------------------------------------- */

@@ -243,23 +243,23 @@ label {
     }
 }
 
-/* ------------------------------------[ OUR SERVICES SECTION ]-------------------------------------- */
+/* ------------------------------------[ OUR SERVICES SECTION √ ]-------------------------------------- */
 
-/* Section Styling */
+/** Section Styling **/
 #services-section {
     background: #EDF1FC;
     padding: 80px 50px;
     color: #000;
 }
 
-/* Layout Spacing */
+/** Layout Spacing **/
 .services-item {
     padding: 0 8px;
 }
 
-/* Section Spacing */
+/** Space Between Intro & Main Content **/
 .content-spacing .row {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 /* Spacing Between Services */
@@ -267,17 +267,17 @@ label {
     margin-top: 30px;
 }
 
-/* Intro Title */
+/** Intro Title **/
 .blue-title {
     color: #4B76E5;
 }
 
-/* Intro Subtitle */
+/** Intro Subtitle **/
 .black-subtitle {
     color: #000;
 }
 
-/* Section Icons */
+/** Section Icons **/
 .services-item i {
     color: #4B76E5;
     font-size: 45px;
@@ -285,12 +285,12 @@ label {
     float: left;
 }
 
-/* Icons Spacing */
+/** Icons Spacing **/
 .services-single-item {
     margin-left: 70px;
 }
 
-/* Section Title */
+/** Section Title **/
 .services-heading {
     font-size: 23px;
     letter-spacing: 0.5px;
@@ -299,13 +299,13 @@ label {
     padding-bottom: 10px;
 }
 
-/* Section Paragraphs */
+/** Section Paragraphs **/
 .services-single-item p {
     font-size: 15px;
     margin-top: 15px;
 }
 
-/* White Hyphen Symbol */
+/* Blue Hyphen Symbol */
 .services-heading::after {
     content: '';
     width: 30px;

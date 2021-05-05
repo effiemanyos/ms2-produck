@@ -134,7 +134,7 @@ label {
     color: #fff;
 }
 
-/* -----[ Section Responsiveness ]----- */
+/** -----[ Section Responsiveness ]----- **/
 
 @media (max-width:415px) {
     .hero-img-text h1 {
@@ -147,9 +147,9 @@ label {
     }
 }
 
-/* ------------------------------------[ ABOUT SECTIONS ]-------------------------------------- */
+/* ------------------------------------[ ABOUT SECTIONS √ ]-------------------------------------- */
 
-/* Section Styling */
+/** Section Styling **/
 #about-section {
     background-color: #f3f2ef;
     color: #000;
@@ -160,6 +160,7 @@ label {
     align-items: center;
 }
 
+/** Container Styling **/
 .about-cont-styling {
     width: 100%;
     max-width: 1160px;
@@ -167,14 +168,16 @@ label {
     padding: 0 20px;
 }
 
+/** Grid Styling **/
 .about-grid-styling {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
-    align-items: center;
-    justify-content: center;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
+/** Section Image (Left Side) **/
 .left-side img {
     max-width: 100%;
     height: auto;
@@ -182,24 +185,25 @@ label {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
+/** Right Side Items Spacing **/
 .right-side>* {
     margin-bottom: 1.1rem;
 }
 
-/* 'Hey there!' Styling */
+/** 'Hey there!' Styling **/
 .right-side h4 {
     color: #fff;
-    font-weight: 500px;
+    font-weight: 500;
     background: #000;
     display: inline-block;
     padding: 10px 21px;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-top: 15px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
-/* 'Welcome to Produck' & 'Product Management' Styling */
+/** 'Welcome to Produck' & 'Product Management' Styling **/
 .right-side h2 {
     font-size: 40px;
     font-weight: 600;
@@ -207,7 +211,7 @@ label {
     letter-spacing: 0.5px;
 }
 
-/* Section Button Styling */
+/** Section CTA Button Styling **/
 .right-side a {
     display: inline-block;
     text-decoration: none !important;
@@ -225,13 +229,13 @@ label {
     margin-top: 15px;
 }
 
-/* Button Hover Over Effect */
+/** CTA Button Hover Over Effect **/
 .right-side a:hover {
     background: linear-gradient(to right, #4B76E5, #3CBED0);
     color: #fff;
 }
 
-/* -----[ Section Responsiveness ]----- */
+/** -----[ Section Responsiveness ]----- **/
 
 @media (max-width:768px) {
     .about-grid-styling {
@@ -1121,19 +1125,19 @@ form {
 /** -----[ Section Responsiveness ]----- **/
 
 @media (max-width: 1200px) {
-    .grid {
+    .books-grid-styling {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (max-width: 900px) {
-    .grid {
+    .books-grid-styling {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 620px) {
-    .grid {
+    .books-grid-styling {
         grid-template-columns: repeat(1, 1fr);
     }
 }

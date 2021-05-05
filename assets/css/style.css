@@ -508,7 +508,7 @@
     width: 80%;
     background: #fff;
     padding: 20px 30px 5px;
-    margin: 60px auto;
+    margin: 70px auto;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     border-radius: 30px;
 }
@@ -1280,7 +1280,7 @@ form {
 
 /** Grid Styling **/
 .books-grid-styling {
-    margin: 80px;
+    margin: 70px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;

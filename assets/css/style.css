@@ -6,12 +6,12 @@
     padding: 0;
 }
 
-/* Hidden Form Labels */
+/** Hidden Form Labels **/
 .hidden-label {
     display: none !important;
 }
 
-/* Social Media Icons Hidden Text */
+/** Social Media Icons Hidden Text **/
 .sr-only {
     font-size: 0;
     height: 1px;
@@ -19,7 +19,7 @@
     display: block;
 }
 
-/* Sections Title & Subtitle */
+/** Sections Title & Subtitle **/
 .section-main-intro {
     letter-spacing: 0.5px;
     text-align: center;
@@ -306,7 +306,7 @@
     margin-top: 15px;
 }
 
-/* Blue Hyphen Symbol */
+/** Blue Hyphen Symbol **/
 .services-heading::after {
     content: '';
     width: 30px;
@@ -317,7 +317,7 @@
     bottom: 0;
 }
 
-/* ------------------------------------[ RESPONSIBILITIES SECTION ]-------------------------------------- */
+/* ------------------------------------[ RESPONSIBILITIES SECTION √ ]-------------------------------------- */
 
 /* Section Styling */
 #resp-section {
@@ -328,37 +328,37 @@
     padding: 80px 0 50px;
 }
 
-/* Container Styling */
+/** Container Styling **/
 .resp-cont-styling {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 55px;
+    padding: 50px;
     grid-gap: 30px;
     width: 80%;
     margin: auto;
 }
 
-/* Card Styling */
+/** Card Styling **/
 .resp-card-styling {
     text-align: center;
     padding: 40px 30px 25px;
     line-height: 1.5;
-    background-color: #f3f2ef;
-    border-radius: 20px !important;
+    background-color: #fff !important;
+    border-radius: 30px !important;
     border: none !important;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
-/* Main Responsibilities */
+/** Main Responsibilities **/
 .resp-card-styling h3 {
     font-size: 20px;
     margin-top: 20px;
 }
 
-/* Section Paragraphs */
+/** Section Paragraphs **/
 .resp-card-styling p {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 /* Card Hover Over Effect */
@@ -370,10 +370,10 @@
 /* Section Icons */
 .icon-style {
     color: #4B76E5;
-    font-size: 70px !important;
+    font-size: 65px !important;
 }
 
-/* -----[ Section Responsiveness ]----- */
+/** -----[ Section Responsiveness ]----- **/
 
 @media(max-width:1400px) {
     .resp-cont-styling {

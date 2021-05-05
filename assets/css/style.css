@@ -7,9 +7,9 @@
 }
 
 /* Invisible Form Labels */
-/**label {
+.hidden-label {
     display: none !important;
-}**/
+}
 
 /* Social Media Icons Hidden Text */
 .sr-only {

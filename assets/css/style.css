@@ -38,8 +38,9 @@ label {
 
 /* Navigation Bar Background */
 .navbar-dark {
-    background: #000;
-    box-shadow: 0 4px 10px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.05);
+    background: #4B76E5;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+
 }
 
 /* Website Brand */
@@ -1013,7 +1014,7 @@ form {
     padding: 20px;
 }
 
-/** Card Container Hover Effect **/
+/** Card Container Hover Over Effect **/
 .books-grid-styling>article:hover {
     transform: translateY(-10px);
     transition: all 300ms;

@@ -590,29 +590,32 @@ table.table td .text-wth-link:hover {
 
 /** 'Watch' Label **/
 .label-watch {
-    padding: 4px 12px;
+    padding: 3px 8px;
+    font-size: 13px;
     background: #DB3545;
     color: #fff;
     border-radius: 8px;
-    font-size: 15px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
 /** 'Read' Label **/
 .label-read {
-    padding: 4px 12px;
+    padding: 2px 8px;
+    font-size: 13px;
     background: #15A2B8;
     color: #fff;
     border-radius: 8px;
-    font-size: 15px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
 /** 'Listen' Label **/
 .label-listen {
-    padding: 4px 12px;
+    padding: 2px 8px;
+    font-size: 13px;
     background: #28A745;
     color: #fff;
     border-radius: 8px;
-    font-size: 15px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
 /** Tiny Logo **/
@@ -634,10 +637,10 @@ table.table td .text-wth-link:hover {
 .dropbtn {
     background-color: #4B76E5;
     color: white;
-    padding: 4px 13px;
-    font-size: 15px;
+    padding: 2px 12px;
+    font-size: 13px;
     border: none;
-    border-radius: 15px;
+    border-radius: 8px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
@@ -750,7 +753,7 @@ table.table td .text-wth-link:hover {
     }
 
     .dropdown-content a {
-        font-size: 8px !important;
+        font-size: 10px !important;
     }
 
     .dropbtn {
@@ -759,6 +762,9 @@ table.table td .text-wth-link:hover {
         border-radius: 15px;
     }
 
+    .dropdown-content {
+    min-width: 90px;
+    }
 }
 
 @media (max-width: 441px) {

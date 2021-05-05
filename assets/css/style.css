@@ -34,61 +34,38 @@ label {
     font-weight: 500;
 }
 
-/* ------------------------------------[ HEADER SECTION ]-------------------------------------- */
+/* ------------------------------------[ HEADER SECTION √ ]-------------------------------------- */
 
-/* Navigation Bar Background */
+/** NavBar Background Color **/
 .navbar-dark {
     background: #4B76E5;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-
 }
 
-/* Website Brand */
+/** Brand (Produck Logo) **/
 .navbar-brand {
-    font-family: Poppins;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    font-size: 20px;
-    font-weight: 800;
-    margin: 5px 0 2px;
-}
-
-/* .ie Styling */
-.lowercase {
-    text-transform: lowercase;
-    letter-spacing: 0.5px;
+    font-size: 25px !important;
     font-weight: 600;
-    font-size: 16px;
+    margin: 2px 0 0;
 }
 
-/* Navigation Main Menu Styling */
+/** Navigation Main Menu Styling **/
 .nav-link {
-    font-family: Poppins;
     font-size: 17px;
-    margin: 5px 2px 2px;
+    margin: 5px 4px 2px;
     text-align: center;
 }
 
-/* Navigation Main Menu Hover Over Effect */
+/** Navigation Main Menu Hover Over Effect **/
 .nav-link:hover {
     color: #fff !important;
 }
 
-/* Button Toggler */
-button .navbar-toggler {
-    border: 0;
-    padding: 0px 15px 0px 15px;
-}
-
-/* Button Toggler Border */
-button.navbar-toggler:focus {
-    outline: 1px dotted;
-}
-
-/* Toggler Button Styling */
-.toggle-btn {
+/* Toggler Button Styling (Responsiveness) */
+.navbar-toggler-icon {
     font-size: 18px;
-    padding: 0px;
     height: initial;
 }
 

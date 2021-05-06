@@ -1100,7 +1100,7 @@ table.table td .text-wth-link:hover {
 /** Section First Icons (Batery) **/
 .path-timeline .main-icon {
     font-size: 70px;
-    color: #4B76E5;
+    color: #000;
     margin-bottom: 10px;
 }
 
@@ -1109,7 +1109,7 @@ table.table td .text-wth-link:hover {
     font-weight: 600;
     font-size: 15px;
     margin-top: 10px;
-    color: #4B76E5;
+    color: #000;
 }
 
 /** List Position **/
@@ -1149,20 +1149,20 @@ table.table td .text-wth-link:hover {
 
 /** Highlighting Last Role in Hierarchy **/
 .path-list-styling li:nth-child(6) .special-icon {
-    color: #000;
+    color: #4B76E5;
 }
 
 .path-list-styling li:nth-child(6) .path-circle {
-    background: #000;
-    color: #000;
+    background: #4B76E5;
+    color: #4B76E5;
 }
 
 .path-list-styling li:nth-child(6) .path-circle::after {
-    background: #000;
+    background: #4B76E5;
 }
 
 .path-list-styling li:nth-child(6) .special-txt {
-    color: #000;
+    color: #4B76E5;
 }
 
 /** Reduce Line Width (First & Last Roles) **/

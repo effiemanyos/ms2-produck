@@ -500,6 +500,268 @@
     color: #fff;
 }
 
+/* ------------------------------------[ SOFT SKILLS SECTION √ ]-------------------------------------- */
+
+/** Section Styling **/
+#skills-section {
+    box-sizing: border-box;
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #f3f2ef;
+    padding: 80px 0 110px;
+}
+
+/** Section Styling - FIGURE THIS OUT! **/
+.skills-cols {
+    display: inline-block;
+}
+
+/** Intro Title Styling **/
+.skills-intro-styling {
+    margin-bottom: 50px;
+}
+
+/** Skills Bar **/
+.skills-bar {
+    width: 540px;
+    background: #fff;
+    border-radius: 30px;
+    padding: 25px 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/** Main Skills Alignment **/
+.skills-bar .bar {
+    margin: 20px 0;
+}
+
+.skills-bar .bar:first-child {
+    margin-top: 0px;
+}
+
+.skills-bar .bar .info {
+    margin-bottom: 5px;
+}
+
+/** Skills Text Stlying **/
+.skills-bar .bar .info span {
+    font-size: 16px;
+    color: #000;
+    opacity: 0;
+    animation: showText1 0.5s 1s linear forwards;
+}
+
+/** Animation **/
+@keyframes showText1 {
+    100% {
+        opacity: 1;
+    }
+}
+
+/** Bars Styling (Underneath) **/
+.skills-bar .bar .progress-line {
+    position: relative;
+    height: 15px;
+    width: 100%;
+    background: #e7e8ef;
+    border-radius: 30px;
+    transform: scaleX(0);
+    transform-origin: left;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
+        0px 1px rgba(255, 255, 255, 0.08);
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+/** Bars Styling (On Top) **/
+.bar .progress-line span {
+    height: 100%;
+    width: 80%;
+    background: linear-gradient(to right, #4B76E5, #3CBED0);
+    position: absolute;
+    border-radius: 30px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+/** Animation **/
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+/** -----[ Bars Percentage (Width) ]----- **/
+
+.progress-line.skill-1 span {
+    width: 95%;
+}
+
+.progress-line.skill-2 span {
+    width: 90%;
+}
+
+.progress-line.skill-3 span {
+    width: 80%;
+}
+
+.progress-line.skill-4 span {
+    width: 90%;
+}
+
+.progress-line.skill-5 span {
+    width: 90%;
+}
+
+.progress-line.skill-6 span {
+    width: 90%;
+}
+
+.progress-line.skill-7 span {
+    width: 90%;
+}
+
+.progress-line.skill-8 span {
+    width: 90%;
+}
+
+.progress-line.skill-9 span {
+    width: 90%;
+}
+
+.progress-line.skill-10 span {
+    width: 90%;
+}
+
+.progress-line.skill-11 span {
+    width: 90%;
+}
+
+.progress-line.skill-12 span {
+    width: 90%;
+}
+
+.progress-line.skill-13 span {
+    width: 90%;
+}
+
+.progress-line.skill-14 span {
+    width: 90%;
+}
+
+.progress-line.skill-15 span {
+    width: 90%;
+}
+
+.progress-line.skill-16 span {
+    width: 90%;
+}
+
+/** Tiny Indicators Tail Styling **/
+.bar .progress-line span::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -10px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+/** Indicators Styling **/
+.bar .progress-line span::after {
+    position: absolute;
+    right: 0;
+    top: -27px;
+    color: #f5f6fa;
+    letter-spacing: 1px;
+    font-size: 13px;
+    background: #000;
+    padding: 1px 8px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+/** Animation **/
+@keyframes showText2 {
+    100% {
+        opacity: 1;
+    }
+}
+
+/** -----[ Indicators Percentage (Number) ]----- **/
+
+.progress-line.skill-1 span::after {
+    content: "95%";
+}
+
+.progress-line.skill-2 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-3 span::after {
+    content: "80%";
+}
+
+.progress-line.skill-4 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-5 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-6 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-7 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-8 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-9 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-10 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-11 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-12 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-13 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-14 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-15 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-16 span::after {
+    content: "90%";
+}
+
 /* ------------------------------------[ RESOURCES SECTION √ ]-------------------------------------- */
 
 /** Section Styling **/

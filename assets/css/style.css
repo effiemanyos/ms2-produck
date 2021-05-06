@@ -1165,6 +1165,15 @@ table.table td .text-wth-link:hover {
     color: #000;
 }
 
+/** Reduce Line Width (First & Last Roles) **/
+.path-list-styling li:first-child .path-circle::after {
+    width: 90px;
+    left: 100px;
+}
+
+.path-list-styling li:last-child .path-circle::after {
+    width: 90px;
+}
 
 
 

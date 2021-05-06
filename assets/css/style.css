@@ -319,7 +319,7 @@
 
 /* ------------------------------------[ RESPONSIBILITIES SECTION √ ]-------------------------------------- */
 
-/* Section Styling */
+/** Section Styling **/
 #resp-section {
     box-sizing: border-box;
     align-items: center;
@@ -361,13 +361,13 @@
     font-size: 15px;
 }
 
-/* Card Hover Over Effect */
+/** Card Hover Over Effect **/
 .resp-card-styling:hover {
     transform: translateY(-10px);
     transition: all 300ms;
 }
 
-/* Section Icons */
+/** Section Icons **/
 .icon-style {
     color: #4B76E5;
     font-size: 65px !important;
@@ -395,9 +395,9 @@
     }
 }
 
-/* ------------------------------------[ PERFECT PM SECTION ]-------------------------------------- */
+/* ------------------------------------[ PERFECT PM SECTION √ ]-------------------------------------- */
 
-/* Section Styling */
+/** Section Styling **/
 #areas-section {
     box-sizing: border-box;
     line-height: 1.5;
@@ -406,42 +406,41 @@
     padding: 80px 20px 80px 20px;
 }
 
-/* Section Padding */
-.areas-section-padding {}
-
-/* Space Between Intro & Areas */
+/** Space Between Intro & Main Areas **/
 .areas-intro-styling {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
-/* Space Between Areas */
+/** Space Between Areas & Icons **/
 .pm-areas-box {
-    gap: 25px;
+    gap: 20px;
 }
 
+/** Space Between Areas **/
 .pm-areas-box:not(:first-child) {
     margin-top: 50px;
 }
 
-/* Section Subtitles */
+/** Section Titles **/
 .pm-areas-content h3 {
-    font-size: 23px;
+    font-size: 22px;
     letter-spacing: 0.5px;
     margin-bottom: 5px;
+    color: #4B76E5;
 }
 
-/* Section Paragraphs */
+/** Section Paragraphs **/
 .pm-areas-content p {
     font-size: 16px;
-    margin: 0px;
+    margin: 0;
 }
 
-/* Section Icons */
+/** Section Icons **/
 .pm-areas-icon {
     height: 50px;
     width: 50px;
     background-color: #4B76E5;
-    color: #f5f6fa;
+    color: #fff;
     font-size: 22px;
     flex-shrink: 0;
     border-radius: 50%;
@@ -451,28 +450,28 @@
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
-/* Section Image Alignment */
+/** Section Illustration Alignment **/
 .pm-areas-img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Section Image Styling */
+/** Section Illustration Styling **/
 .pm-areas-img img {
-    max-width: 100%;
-    margin: 30px 0;
+    max-width: 80%;
+    margin: 25px 0;
 }
 
-/* Section CTA Button Alignment */
+/** Section CTA Button Alignment **/
 .areas-cta-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
-/* Section CTA Button Styling */
+/** Section CTA Button Styling **/
 .areas-cta-btn a {
     text-decoration: none !important;
     text-transform: uppercase;
@@ -489,7 +488,7 @@
     cursor: pointer;
 }
 
-/* Section CTA Button Hover Over Effect */
+/** Section CTA Button Hover Over Effect **/
 .areas-cta-btn a:hover {
     background: linear-gradient(to right, #4B76E5, #3CBED0);
     color: #fff;

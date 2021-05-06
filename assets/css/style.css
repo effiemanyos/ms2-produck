@@ -1084,12 +1084,86 @@ table.table td .text-wth-link:hover {
     }
 }
 
+/* ------------------------------------[ CAREER PATH SECTION ]-------------------------------------- */
 
+/** Section Styling **/
+#career-section {
+    background: #fff;
+    padding: 80px 0 30px;
+}
 
+/** Section List Spacing **/
+.path-timeline {
+    margin: 50px auto;
+}
 
+/** Section First Icons (Batery) **/
+.path-timeline .main-icon {
+    font-size: 80px;
+    color: #4B76E5;
+    margin-bottom: 10px;
+}
 
+/** Role Titles **/
+.path-timeline p {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #4B76E5;
+}
 
+/** List Position **/
+.path-list-styling {
+    text-align: center;
+}
 
+/** List Items **/
+.path-list-styling li {
+    display: inline-block;
+    width: 200px;
+    position: relative;
+}
+
+/** Section Second Icons (Circle) **/
+.path-list-styling li .path-circle {
+    height: 20px;
+    width: 20px;
+    background-color: #4B76E5;
+    color: #4B76E5;
+    font-size: 16px;
+    border-radius: 50%;
+    padding-top: 2px;
+}
+
+/** Section Line **/
+.path-list-styling li .path-circle::after {
+    content: '';
+    background: #4B76E5;
+    height: 5px;
+    width: 205px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 99px;
+}
+
+/** Highlighting Last Role in Hierarchy **/
+.path-list-styling li:nth-child(6) .special-icon {
+    color: #000;
+}
+
+.path-list-styling li:nth-child(6) .path-circle {
+    background: #000;
+    color: #000;
+}
+
+.path-list-styling li:nth-child(6) .path-circle::after {
+    background: #000;
+}
+
+.path-list-styling li:nth-child(6) .special-txt {
+    color: #000;
+}
 
 
 

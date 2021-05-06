@@ -509,17 +509,33 @@
     height: 100%;
     place-items: center;
     background: #f3f2ef;
-    padding: 80px 0 110px;
-}
-
-/** Section Styling - FIGURE THIS OUT! **/
-.skills-cols {
-    display: inline-block;
+    padding: 80px 40px 90px;
 }
 
 /** Intro Title Styling **/
 .skills-intro-styling {
     margin-bottom: 50px;
+}
+
+/** Columns Styling **/
+.skills-centered {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+/** Skills Text Stlying **/
+.skills-bar .bar .info span {
+    font-size: 16px;
+    color: #000;
+    opacity: 0;
+    animation: showText1 0.5s 1s linear forwards;
+}
+
+/** Animation **/
+@keyframes showText1 {
+    100% {
+        opacity: 1;
+    }
 }
 
 /** Skills Bar **/
@@ -542,21 +558,6 @@
 
 .skills-bar .bar .info {
     margin-bottom: 5px;
-}
-
-/** Skills Text Stlying **/
-.skills-bar .bar .info span {
-    font-size: 16px;
-    color: #000;
-    opacity: 0;
-    animation: showText1 0.5s 1s linear forwards;
-}
-
-/** Animation **/
-@keyframes showText1 {
-    100% {
-        opacity: 1;
-    }
 }
 
 /** Bars Styling (Underneath) **/
@@ -762,6 +763,16 @@
     content: "90%";
 }
 
+/** -----[ Section Responsiveness ]----- **/
+
+@media (max-width: 1300px) {
+    .skills-centered {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}
+
 /* ------------------------------------[ RESOURCES SECTION √ ]-------------------------------------- */
 
 /** Section Styling **/
@@ -950,7 +961,6 @@ table.table td .text-wth-link:hover {
 }
 
 /** -----[ Section Responsiveness ]----- **/
-
 
 @media (max-width: 1200px) {
     .r-number {

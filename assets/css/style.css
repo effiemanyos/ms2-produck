@@ -395,6 +395,12 @@
     }
 }
 
+@media(max-width:800px) {
+    #resp-section {
+        padding: 0 25px;
+    }
+}
+
 /* ------------------------------------[ PERFECT PM SECTION √ ]-------------------------------------- */
 
 /** Section Styling **/
@@ -762,7 +768,7 @@ table.table td .text-wth-link:hover {
     }
 
     .dropdown-content {
-    min-width: 90px;
+        min-width: 90px;
     }
 }
 

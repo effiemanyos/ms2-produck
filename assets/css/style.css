@@ -509,7 +509,7 @@
     height: 100%;
     place-items: center;
     background: #f3f2ef;
-    padding: 80px 40px 90px;
+    padding: 80px 30px 90px;
 }
 
 /** Intro Title Styling **/
@@ -538,7 +538,7 @@
     }
 }
 
-/** Skills Bar **/
+/** Skills Card Styling **/
 .skills-bar {
     width: 540px;
     background: #fff;
@@ -771,6 +771,18 @@
         align-items: center;
         display: flex;
     }
+}
+
+@media (max-width: 600px) {
+.skills-bar {
+    width: 305px;
+}
+}
+
+@media (max-width: 360px) {
+.skills-bar {
+    width: 260px;
+}
 }
 
 /* ------------------------------------[ RESOURCES SECTION √ ]-------------------------------------- */

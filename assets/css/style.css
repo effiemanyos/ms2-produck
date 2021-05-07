@@ -1180,7 +1180,7 @@ table.table td .text-wth-link:hover {
 /** Section Styling **/
 #read-list-section {
     background: #f3f2ef;
-    padding: 100px 20px 100px;
+    padding: 100px 20px 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1361,7 +1361,8 @@ ol li:hover {
 /** Popup Main Container Styling **/
 .ui-dialog {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-    border-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
 }
 
 /** Popup Bottom Section Styling **/

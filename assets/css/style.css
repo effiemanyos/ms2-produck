@@ -1280,6 +1280,14 @@ table.table td .text-wth-link:hover {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
+/* Category Tabs Close (X) Symbol */
+.ui-icon-close {
+    transform: scale(1.2) !important;
+    margin-right: 15px !important;
+    margin-top: 10px !important;
+    cursor: pointer !important;
+}
+
 /** All Internal CTA Buttons (Popups) **/
 .ui-button {
     /* Fix all these !important messages */
@@ -1350,124 +1358,74 @@ table.table td .text-wth-link:hover {
     display: none !important;
 }
 
-
-
-
-
-/* Popup Bottom Section */
-.ui-dialog-buttonpane {
-    border-top: 1px dotted #dddddd;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Popup Entire Section */
+/** Popup Main Container Styling **/
 .ui-dialog {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-    border-radius: 10px;
+    border-radius: 20px !important;
 }
 
-/* Project Tabs Closing Symbol */
-.ui-icon-close {
-    transform: scale(1.2);
-    margin-right: 15px;
-    margin-top: 10px;
-    cursor: pointer;
-    color: #21639b;
+/** Popup Bottom Section Styling **/
+.ui-dialog-buttonpane {
+    border-top: 1px dotted #dddddd !important;
+    padding-top: 12px !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
 }
 
-/* Tasks Edit and Remove Buttons */
+/** List Items | Edit & Remove Icons **/
 .tasks-edit,
 .tasks-delete {
     border: none;
     outline: none;
     background: none;
     margin-right: 7px;
-    color: #21639b;
     float: right;
-    /*border-radius: 5px;
-    margin-left: 5px;
-    border: none;
-    background: #21639b;
-    color: #fff;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-    padding: 3px 6px 3px 6px;*/
+    color: #4B76E5;
 }
 
-/* Tasks Edit and Remove Buttons Hover Effect*/
-.tasks-delete:hover,
+/** Edit Icon (Pencil) Hover Over Colour **/
 .tasks-edit:hover {
-    color: #3caea3;
-    /*background: #3caea3;
-    color: #fff;*/
+    color: #3CBED0;
 }
 
+/** Remove Icon (Trash) Hover Over Colour **/
+.tasks-delete:hover {
+    color: #A90710;
+}
+
+/** Book Icon Colour **/
 .book-icon {
-    color: #21639b;
+    color: #4B76E5;
 }
 
+/** Book Icon Hover Over Colour **/
 .book-icon:hover {
-    color: #3caea3;
+    color: #3CBED0;
 }
 
-/* Tasks Before and After Space */
+/** List Items (Book Names) Before & After Space (Sides) **/
 .task-text {
     margin-left: 4px;
     margin-right: 20px;
 }
 
-/* Book Icon Before and After Space */
+/** Book Icon Before & After Space (Sides) **/
 .book-icon {
     margin-left: 5px;
     margin-right: 8px;
 }
 
+/** JS Checked Item Effect **/
 .checked {
     text-decoration: line-through;
+    color: #B2B2B2;
 }
 
+/** -----[ Section Responsiveness ]----- **/
 
+@media (max-width:960px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 

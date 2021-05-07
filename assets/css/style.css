@@ -1100,8 +1100,8 @@ table.table td .text-wth-link:hover {
 /** Section First Icons (Batery) **/
 .path-timeline .main-icon {
     font-size: 70px;
-    color: #000;
-    margin-bottom: 10px;
+    color: #4B76E5;
+    margin-bottom: 9px;
 }
 
 /** Role Titles **/
@@ -1109,7 +1109,7 @@ table.table td .text-wth-link:hover {
     font-weight: 600;
     font-size: 15px;
     margin-top: 10px;
-    color: #000;
+    color: #4B76E5;
 }
 
 /** List Position **/
@@ -1128,8 +1128,8 @@ table.table td .text-wth-link:hover {
 .path-list-styling li .path-circle {
     height: 20px;
     width: 20px;
-    background-color: #4B76E5;
-    color: #4B76E5;
+    background-color: #000;
+    color: #000;
     font-size: 16px;
     border-radius: 50%;
     padding-top: 2px;
@@ -1138,31 +1138,31 @@ table.table td .text-wth-link:hover {
 /** Section Line **/
 .path-list-styling li .path-circle::after {
     content: '';
-    background: #4B76E5;
+    background: #000;
     height: 4px;
     width: 190px;
     display: block;
     position: absolute;
     left: 0;
-    top: 89px;
+    top: 88px;
 }
 
 /** Highlighting Last Role in Hierarchy **/
 .path-list-styling li:nth-child(6) .special-icon {
-    color: #4B76E5;
+    color: #000;
 }
 
 .path-list-styling li:nth-child(6) .path-circle {
-    background: #4B76E5;
-    color: #4B76E5;
+    background: #000;
+    color: #000;
 }
 
 .path-list-styling li:nth-child(6) .path-circle::after {
-    background: #4B76E5;
+    background: #000;
 }
 
 .path-list-styling li:nth-child(6) .special-txt {
-    color: #4B76E5;
+    color: #000;
 }
 
 /** Reduce Line Width (First & Last Roles) **/

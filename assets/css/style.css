@@ -1338,7 +1338,7 @@ ol li:hover {
 }
 
 /** All Internal CTA Buttons (Popups) **/
-.ui-button {
+.ui-dialog-buttonpane button {
     /* Fix all these !important messages */
     font-size: 13px !important;
     color: #fff !important;
@@ -1347,13 +1347,13 @@ ol li:hover {
     border-radius: 30px !important;
     padding: 11px 17px 10px !important;
     font-family: Poppins !important;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     justify-content: center !important;
     align-items: center !important;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
 /** All Internal CTA Buttons (Pop-Ups) Hover Over Effect **/
-.ui-button:hover {
+.ui-dialog-buttonpane button:hover {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     background: #3CBED0 !important;
 }

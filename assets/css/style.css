@@ -1177,6 +1177,7 @@ table.table td .text-wth-link:hover {
 
 /* ------------------------------------[ TOREADLIST APP SECTION ]-------------------------------------- */
 
+/** Section Styling **/
 #todolist {
     background: linear-gradient(to right, #21639b, #3caea3);
     padding: 50px 40px 100px;

@@ -1099,16 +1099,16 @@ table.table td .text-wth-link:hover {
 
 /** Section First Icons (Batery) **/
 .path-timeline .main-icon {
-    font-size: 70px;
+    font-size: 60px;
     color: #4B76E5;
-    margin-bottom: 9px;
+    margin-bottom: 10px;
 }
 
 /** Role Titles **/
 .path-timeline p {
     font-weight: 600;
     font-size: 15px;
-    margin-top: 10px;
+    margin-top: 12px;
     color: #4B76E5;
 }
 
@@ -1130,9 +1130,9 @@ table.table td .text-wth-link:hover {
     width: 20px;
     background-color: #000;
     color: #000;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 50%;
-    padding-top: 2px;
+    padding-top: 4px;
 }
 
 /** Section Line **/
@@ -1144,7 +1144,7 @@ table.table td .text-wth-link:hover {
     display: block;
     position: absolute;
     left: 0;
-    top: 88px;
+    top: 81px;
 }
 
 /** Highlighting Last Role in Hierarchy **/
@@ -1168,7 +1168,7 @@ table.table td .text-wth-link:hover {
 /** Reduce Line Width (First & Last Roles) **/
 .path-list-styling li:first-child .path-circle::after {
     width: 90px;
-    left: 100px;
+    left: 98px;
 }
 
 .path-list-styling li:last-child .path-circle::after {
@@ -1209,12 +1209,12 @@ table.table td .text-wth-link:hover {
 }
 
 /** Order List Styling **/
-.ol-styling {
+ol {
     margin-left: 15px;
 }
 
 /** Order List Items Styling **/
-.ol-styling li {
+ol li {
     border: 1px dotted #dddddd;
     border-radius: 10px;
     cursor: pointer;
@@ -1223,7 +1223,7 @@ table.table td .text-wth-link:hover {
 }
 
 /** Order List Items Hover Over Effect **/
-.ol-styling li:hover {
+ol li:hover {
     background: #eeeeee;
     transform: scale(1.02);
 }
@@ -1270,7 +1270,7 @@ table.table td .text-wth-link:hover {
     background: #4B76E5 !important;
     border: none !important;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-    height: 43px;
+    height: 48px;
 }
 
 /* Main Categories Tabs */

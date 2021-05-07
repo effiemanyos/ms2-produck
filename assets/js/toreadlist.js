@@ -9,6 +9,7 @@ $(document).ready(function () {
         axis: "y",
         containment: "#projects"
     });
+
     // Deletes tasks once they are clicked on dinamically added elements
     // Event delegation (delegating responsibility)
     $("#projects").on("click", ".tasks-delete", function () {
@@ -16,10 +17,12 @@ $(document).ready(function () {
             $(this).remove();
         });
     });
+
     // Event delegatiion - for new tasks implementation
     $("#projects").on("click", "input[type=checkbox]", function () {
         $(this).next().toggleClass("checked");
     });
+
     // Deletes project tabs and its respective tasks
     $("#projects").on("click", "span.ui-icon-close", function () {
         var index = $(this).closest("li").index();
@@ -28,6 +31,7 @@ $(document).ready(function () {
         $(id).remove();
         $("#projects").tabs("refresh");
     });
+
     // Add tasks button
     $("#btnAddTask").click(function () {
         $("#task-dialog").dialog({
@@ -50,6 +54,7 @@ $(document).ready(function () {
             }
         });
     });
+    
     // Add project button
     $("#btnAddProject").click(function () {
         $("#project-dialog").dialog({

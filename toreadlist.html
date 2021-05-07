@@ -86,18 +86,30 @@
         </nav>
     </header>
 
-    <!-- ToReadList App | Books Tracking -->
-    <section id=todolist>
+    <!-- ToReadList App | Which One Is Next? -->
+    <section id="read-list-section">
+
         <div id="todo-container">
-            <h2 class="todo-title"><i class="fa fa-book middle-class"></i> To<span class="middle-class">Read</span>List
-            </h2>
+
+            <div class="section-main-intro">
+                <div class="section-subtitle">Your Annual Plan</div>
+                <h2 class="section-main-title blue-title">ToReadList</h2>
+            </div>
+
+            <!-- Add New Category Button -->
             <button id="btnAddProject">Add New Category</button>
+
+            <!-- Projects -->
             <div id="projects" class="content-styling">
+
+                <!-- Default Categories -->
                 <ul id="main">
                     <li><a href="#product">Product</a><span class="ui-icon ui-icon-close"></span></li>
                     <li><a href="#design">UX Design</a><span class="ui-icon ui-icon-close"></span></li>
                 </ul>
-                <ol id="product">
+
+                <!-- Default Category 1: Product Management -->
+                <ol id="product" class="ol-styling">
                     <li><input class="checkbox" type="checkbox"><span class="task-text"><i
                                 class="book-icon fa fa-book"></i>The Product Book — Carlos González</span><span><button
                                 class="tasks-delete"><i class="fa fa-trash"></i></button><button class="tasks-edit"><i
@@ -111,7 +123,9 @@
                                 class="tasks-delete"><i class="fa fa-trash"></i></button><button class="tasks-edit"><i
                                     class="fa fa-pencil"></i></button></span></li>
                 </ol>
-                <ol id="design">
+
+                <!-- Default Category 2: UX Design -->
+                <ol id="design" class="ol-styling">
                     <li><input class="checkbox" type="checkbox"><span class="task-text"><i
                                 class="book-icon fa fa-book"></i>The Design of Everyday Things — Don
                             Norman</span><span><button class="tasks-delete"><i class="fa fa-trash"></i></button><button
@@ -125,16 +139,25 @@
                                 class="tasks-delete"><i class="fa fa-trash"></i></button><button class="tasks-edit"><i
                                     class="fa fa-pencil"></i></button></span></li>
                 </ol>
+
             </div>
+
+            <!-- Add New Book Button -->
             <button id="btnAddTask">Add New Book</button>
+
+            <!-- Category Name: -->
             <div id="project-dialog" title="Add New Category" style="display: none;">
                 <label class="replace-this-name" for="new-project">Category Name:</label><input id="new-project"
                     type="text" />
             </div>
+
+            <!-- Book Name: -->
             <div id="task-dialog" title="Add New Book" style="display: none;">
                 <label class="replace-this-name" for="new-task">Book Name:</label><input id="new-task" type="text" />
             </div>
+
         </div>
+
     </section>
 
     <!-- Footer | Important Links -->

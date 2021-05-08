@@ -1,10 +1,10 @@
 // Initial Ratings
 const ratings = {
-    hooked: 0,
-    probook: 0,
-    mindset: 0,
-    measure: 0,
-    crossing: 0
+    hooked: 1,
+    probook: 1,
+    mindset: 1,
+    measure: 1,
+    crossing: 1
 }
 
 // Total Stars

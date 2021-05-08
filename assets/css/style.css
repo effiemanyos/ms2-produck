@@ -54,7 +54,7 @@
 /** Navigation Main Menu Styling **/
 .nav-link {
     font-size: 17px;
-    margin: 5px 4px 2px;
+    margin: 5px 2px 2px;
     text-align: center;
     display: flex;
 }
@@ -1573,15 +1573,11 @@ ol li:hover {
     font-size: 15px;
 }
 
-.title-width {
-    width: 50px;
-}
-
-/** 'Delete' Icon (Trash) Styling **/
+/** 'Delete' Icon (X) Styling **/
 .delete-styling {
     color: #fff;
-    border-radius: 50% !important;
-    padding: 5px;
+    border-radius: 4px !important;
+    padding: 2px 8px !important;
 }
 
 

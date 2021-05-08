@@ -1482,11 +1482,16 @@ ol li:hover {
 /** Section Styling **/
 #tobuy-list-section {
     background: #f3f2ef;
-    padding: 100px 40px 100px;
+    padding: 100px 40px 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #000;
+}
+
+/** Intro Section **/
+.tobuy-intro-styling {
+    margin: 10px 0 40px;
 }
 
 /** Main Form Size **/

@@ -1477,9 +1477,10 @@ ol li:hover {
 
 }
 
-/* ------------------------------------[ TOBUYLIST APP SECTION √ ]-------------------------------------- */
+/* ------------------------------------[ BOOKSTOBUY APP SECTION √ ]-------------------------------------- */
 
-#buy-list-section {
+/** Section Styling **/
+#tobuy-list-section {
     background: #f3f2ef;
     padding: 100px 40px 100px;
     display: flex;
@@ -1488,77 +1489,86 @@ ol li:hover {
     color: #000;
 }
 
-.the-title {
-    font-family: Poppins;
-    color: #21639b;
-    text-align: center;
-    font-size: 3.5rem;
-    font-weight: 300;
-    line-height: 1.2;
-    margin-bottom: 25px;
+/** Main Form Size **/
+#book-form {
+    margin: 30px;
 }
 
-.container-two {
+/** Container Styling **/
+.tobuy-cont-styling {
     width: 700px;
     height: 1000px;
     margin: 70px;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-    background-color: #fff;
+    background: #fff;
     padding-top: 40px;
 }
 
-/**th {
-    font-weight: 400;
-}**/
-/** Change general name to specific class for styling **/
-
-.btn-styling {
-    background-color: #21639b;
-    border: none;
-    outline: none;
-    border-radius: 30px;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-    font-family: Poppins;
-    font-size: 15px;
-    color: #fff;
-    height: 43px;
-    justify-content: center;
-    align-items: center;
+/** Form Input Titles **/
+.form-group {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
 }
 
-.btn-styling:hover {
-    background: #3caea3;
-}
-
+/** Form Input Icons **/
 .icon-styling {
-    color: #21639b;
+    color: #4B76E5;
 }
 
-#book-form {
-    margin: 30px;
-}
-
-/**.table {
-    width: 93% !important;
-    margin: auto;
-}**/
-/** Use another class name instead of table, not general names for styling **/
-
+/** Form Input Areas **/
 #title,
 #author,
 #isbn,
 #price {
+    border-radius: 8px;
+    box-shadow: none;
+    margin: auto;
+}
+
+/** 'Add Book' Button Styling **/
+.btn-styling {
+    background: #4B76E5;
+    border: none;
+    outline: none;
     border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    font-size: 16px;
+    color: #fff;
+    height: 43px;
+    margin-top: 30px;
 }
 
+/** 'Add Book' Button Hover Over Effect **/
+.btn-styling:hover {
+    background: #3CBED0;
+}
+
+/** Main Table Styling **/
+.table-styling {
+    width: 95% !important;
+    margin: auto;
+}
+
+/** Table Titles (Header) **/
+.title-styling {
+    font-weight: 600;
+    color: #000;
+    font-size: 16px;
+}
+
+/** 'Delete' Icon (Trash) Styling **/
 .trash-styling {
-    color: #21639b;
+    color: #4B76E5;
 }
 
+/** 'Delete' Icon (Trash) Hover Over Effect **/
 .trash-styling:hover {
-    color: #3caea3;
+    color: #3CBED0;
 }
+
+
 
 
 

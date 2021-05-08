@@ -103,42 +103,52 @@
         </nav>
     </header>
 
-    <!-- ToBuyList App | Next Book to Buy -->
-    <section id="buy-list-section">
-        <div class="container container-two">
-            <h2 class="the-title"><i class="fa fa-shopping-cart middle-class"></i> My<span
-                    class="middle-class">Book</span>List</h2>
+    <!-- BooksToBuy App | Books To Buy List -->
+    <section id="tobuy-list-section">
+        <div class="container tobuy-cont-styling">
+
+            <!-- Intro Section -->
+            <div class="section-main-intro">
+                <div class="section-subtitle">To Buy List</div>
+                <h2 class="section-main-title blue-title">My BooksToBuy</h2>
+            </div>
+
+            <!-- App Form -->
             <form id="book-form">
                 <div class="form-group">
-                    <label for="title"><i class="fa fa-book icon-styling"></i> Book Title</label>
+                    <label for="title"><i class="fa fa-book icon-styling"></i> Title</label>
                     <input type="text" id="title" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="author"><i class="fa fa-user icon-styling"></i> Book Author</label>
+                    <label for="author"><i class="fa fa-user icon-styling"></i> Author</label>
                     <input type="text" id="author" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="isbn"><i class="fa fa-hashtag icon-styling"></i> Book ISBN</label>
+                    <label for="isbn"><i class="fa fa-hashtag icon-styling"></i> ISBN</label>
                     <input type="text" id="isbn" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="price"><i class="fa fa-eur icon-styling"></i> Book Price</label>
+                    <label for="price"><i class="fa fa-eur icon-styling"></i> Price</label>
                     <input type="text" id="price" class="form-control">
                 </div>
                 <input type="submit" value="Add Book" class="btn-styling btn-block">
             </form>
-            <table class="table table-striped mt-5">
+
+            <!-- App Table -->
+            <table class="table table-striped mt-5 table-styling">
                 <thead>
                     <tr>
-                        <th>Title</th>
-                        <th>Author</th>
-                        <th>ISBN</th>
-                        <th>Price</th>
+                        <th class="title-styling">Title</th>
+                        <th class="title-styling">Author</th>
+                        <th class="title-styling">ISBN</th>
+                        <th class="title-styling">Price</th>
+                        <!-- empty space for the trash icon to delete the entire row -->
                         <th></th>
                     </tr>
                 </thead>
                 <tbody id="book-list"></tbody>
             </table>
+
         </div>
     </section>
 

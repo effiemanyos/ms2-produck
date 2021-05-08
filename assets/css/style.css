@@ -1579,7 +1579,7 @@ ol li:hover {
     padding: 2px 8px !important;
 }
 
-/* ------------------------------------[ MYBOOKSRATING APP √ ]-------------------------------------- */
+/* ------------------------------------[ TORATELIST APP √ ]-------------------------------------- */
 
 /** Section Styling **/
 #rating-section {
@@ -1594,6 +1594,10 @@ ol li:hover {
     margin-bottom: 60px;
 }
 
+.rating-cont-styling {
+    
+}
+
 /** Form Styling **/
 .rating-form-styling {
     box-shadow: none !important;
@@ -1606,6 +1610,8 @@ ol li:hover {
     color: #4B76E5;
     margin-right: 10px;
 }
+
+
 
 
 

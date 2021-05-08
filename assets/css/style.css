@@ -594,7 +594,7 @@
     width: 540px;
     background: #fff;
     border-radius: 30px;
-    padding: 25px 30px;
+    padding: 25px 30px 10px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 

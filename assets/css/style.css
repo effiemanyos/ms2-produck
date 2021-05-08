@@ -316,12 +316,12 @@
 
 /** Intro Title **/
 .blue-title {
-    color: #4B76E5;
+    color: var(--color-headings);
 }
 
 /** Intro Subtitle **/
 .black-subtitle {
-    color: #000;
+    color: var(--color-text);
 }
 
 /** Section Icons **/
@@ -1479,12 +1479,11 @@ ol li:hover {
 
 /** Section Styling **/
 #tobuy-list-section {
-    background: #f3f2ef;
+    background: var(--bg);
     padding: 100px 40px 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #000;
 }
 
 /** Intro Section **/
@@ -1504,20 +1503,20 @@ ol li:hover {
     margin: 70px;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-    background: #fff;
+    background: var(--bg-panel);
     padding-top: 40px;
 }
 
 /** Form Input Titles **/
 .form-group {
-    color: #000;
+    color: var(--color-text);
     font-weight: 600;
     font-size: 16px;
 }
 
 /** Form Input Icons **/
 .icon-styling {
-    color: #4B76E5;
+    color: var(--color-headings);
 }
 
 /** Form Input Areas **/
@@ -1533,13 +1532,13 @@ ol li:hover {
 
 /** 'Add Book' Button Styling **/
 .btn-styling {
-    background: #4B76E5;
+    background: var(--color-headings);
     border: none;
     outline: none;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     font-size: 16px;
-    color: #fff;
+    color: var(--color-buttons);
     height: 43px;
     margin-top: 30px;
 }
@@ -1563,7 +1562,7 @@ ol li:hover {
 /** Table Titles (Header) **/
 .title-styling {
     font-weight: 600;
-    color: #000;
+    color: var(--color-text);
     font-size: 16px;
 }
 
@@ -1579,30 +1578,128 @@ ol li:hover {
     padding: 2px 8px !important;
 }
 
+/* -----[ Dark Mode Toggle ]----- */
+
+/** Dark Mode Button **/
+.toggle-container {
+  position: absolute;
+  z-index: 100;
+  top: 6em;
+  right: 2em;
+}
+
+/** Colour Variables (Light Mode) **/
+html {
+    --bg: #f3f2ef;
+    --bg-panel: #fff;
+    --color-headings: #4B76E5;
+    --color-buttons: #fff;
+    --color-text: #000;
+}
+
+html[data-theme='dark'] {
+    --bg: #000;
+    --bg-panel: #4C4C4C;
+    --color-headings: #A5BAF2;
+    --color-buttons: #000;
+    --color-text: #fff;
+}
+
+.toggle-input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+.toggle-label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 52px;
+	height: 27px;
+	background: #4C4C4C;
+	float: right;
+	border-radius: 100px;
+	position: relative;
+}
+
+.toggle-label:after {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+.toggle-input:checked + label {
+	background: var(--color-headings);
+}
+
+.toggle-input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+.toggle-label:active:after {
+	width: 45px;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------------------------------------[ TORATELIST APP √ ]-------------------------------------- */
 
 /** Section Styling **/
 #rating-section {
     background: #f3f2ef;
-    padding: 100px 20px 80px;
+    padding: 122px 20px 120px;
     justify-content: center;
     align-items: center; 
 }
 
-/** Intro Title Styling **/
+/** Intro Title Positioning **/
 .rating-intro-styling {
-    margin-bottom: 60px;
+    padding: 50px 0 20px;
 }
 
+/** Container Styling **/
 .rating-cont-styling {
-    
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(128, 90, 90, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    height: 800px;
+}
+
+/** Container Inner Width **/
+.container-inner {
+    padding: 0 25px;
 }
 
 /** Form Styling **/
 .rating-form-styling {
     box-shadow: none !important;
     border-radius: 8px !important;
-    margin: auto;
+    margin: auto !important;
 }
 
 /** Blue Book Icon **/
@@ -1611,21 +1708,21 @@ ol li:hover {
     margin-right: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
+/** Grey Stars (Empty) Position **/
 .stars-outer {
   position: relative;
   display: inline-block;
 }
 
+/** Grey Stars (Empty) Styling **/
+.stars-outer::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "FontAwesome";
+  font-weight: 900;
+  color: #ccc;
+}
+
+/** Yellow Stars (Rated) Position **/
 .stars-inner {
   position: absolute;
   top: 0;
@@ -1635,19 +1732,17 @@ ol li:hover {
   width: 0;
 }
 
-.stars-outer::before {
-  content: "\f005 \f005 \f005 \f005 \f005";
-  font-family: "FontAwesome";
-  font-weight: 900;
-  color: #ccc;
-}
-
+/** Yellow Stars (Rated) Styling **/
 .stars-inner::before {
   content: "\f005 \f005 \f005 \f005 \f005";
   font-family: "FontAwesome";
   font-weight: 900;
   color: #f8ce0b;
 }
+
+
+
+
 
 
 

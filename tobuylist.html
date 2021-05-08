@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -78,7 +78,8 @@
 
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <div class="dropdown">
-                            <button class="dropbtn page-scroll active"><a class="nav-link" href="#"><i class="fa fa-book"></i>
+                            <button class="dropbtn page-scroll active"><a class="nav-link" href="#"><i
+                                        class="fa fa-book"></i>
                                     PM Books</a></button>
                             <div class="dropdown-content">
                                 <a href="books.html">> Book Directory</a>
@@ -107,11 +108,19 @@
 
     <!-- BooksToBuy App | Books To Buy List -->
     <section id="tobuy-list-section">
+
+        <!-- Dark Mode Button -->
+        <div class="toggle-container">
+            <input type="checkbox" id="switch" name="theme" class="toggle-input">
+            <label for="switch" class="toggle-label">Toggle</label>
+        </div>
+
+        <!-- Main Application -->
         <div class="container tobuy-cont-styling">
 
             <!-- Intro Section -->
             <div class="section-main-intro tobuy-intro-styling">
-                <div class="section-subtitle">Buying Top PM Books</div>
+                <div class="section-subtitle black-subtitle">Buying Top PM Books</div>
                 <h2 class="section-main-title blue-title">My ToBuyList</h2>
             </div>
 
@@ -156,6 +165,7 @@
             </table>
 
         </div>
+
     </section>
 
     <!-- Footer | Important Links -->

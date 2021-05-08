@@ -26,7 +26,7 @@ class UI {
       <td>${book.author}</td>
       <td>${book.price}</td>
       <td>${book.isbn}</td>
-      <td><a href="#" class="btn btn-sm delete"><i class="fa fa-trash trash-styling"></i></a></td>
+      <td><a href="#" class="btn btn-danger btn-sm delete delete-styling">X</a></td>
     `;
 
         list.appendChild(row);
@@ -116,7 +116,7 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
         // Add Book to UI
         UI.addBookToList(book);
 
-        // Add book to store
+        // Add book to local storage
         Store.addBook(book);
 
         // Show success message
@@ -133,7 +133,7 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
     // Remove book from UI
     UI.deleteBook(e.target);
 
-    // Remove book from store
+    // Remove book from local storage
     Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
 
     // Show success message

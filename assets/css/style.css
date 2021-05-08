@@ -1578,13 +1578,10 @@ ol li:hover {
 }
 
 /** 'Delete' Icon (Trash) Styling **/
-.trash-styling {
-    color: #4B76E5;
-}
-
-/** 'Delete' Icon (Trash) Hover Over Effect **/
-.trash-styling:hover {
-    color: #3CBED0;
+.delete-styling {
+    color: #fff;
+    border-radius: 50% !important;
+    padding: 5px;
 }
 
 

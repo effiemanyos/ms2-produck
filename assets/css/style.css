@@ -1237,7 +1237,7 @@ table.table td .text-wth-link:hover {
 
 /** Container Styling **/
 #todo-container {
-    width: 1000px;
+    width: 1139px;
     /* up to 10 books */
     height: 800px;
     margin: 70px;
@@ -1279,8 +1279,8 @@ ol li:hover {
 
 /** 'Add New Category' CTA Button **/
 #btnAddProject {
-    /* Fix this positioning */
-    margin-left: 79%;
+    /* FIX THIS POSITIONING (BOTH BUTTONS) */
+    margin-left: 42.9%;
     margin-bottom: 25px;
     background-color: #4B76E5;
     border: none;
@@ -1298,7 +1298,8 @@ ol li:hover {
 
 /** 'Add New Book' CTA Button **/
 #btnAddTask {
-    margin-left: 82%;
+    /* FIX THIS POSITIONING (BOTH BUTTONS) */
+    margin-left: 44%;
     margin-top: 25px;
     background-color: #4B76E5;
     border: none;
@@ -1525,8 +1526,9 @@ ol li:hover {
 /** Form Input Areas **/
 #title,
 #author,
-#isbn,
-#price {
+#rating,
+#price,
+#isbn {
     border-radius: 8px;
     box-shadow: none;
     margin: auto;

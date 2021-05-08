@@ -1,8 +1,9 @@
 // Book Class: Represents a Book
 class Book {
-    constructor(title, author, price, isbn) {
+    constructor(title, author, rating, price, isbn) {
         this.title = title;
         this.author = author;
+        this.rating = rating;
         this.price = price;
         this.isbn = isbn;
     }
@@ -24,6 +25,7 @@ class UI {
         row.innerHTML = `
       <td>${book.title}</td>
       <td>${book.author}</td>
+      <td>${book.rating}</td>
       <td>${book.price}</td>
       <td>${book.isbn}</td>
       <td><a href="#" class="btn btn-danger btn-sm delete delete-styling">X</a></td>
@@ -53,6 +55,7 @@ class UI {
     static clearFields() {
         document.querySelector('#title').value = '';
         document.querySelector('#author').value = '';
+        document.querySelector('#rating').value = '';
         document.querySelector('#price').value = '';
         document.querySelector('#isbn').value = '';
     }
@@ -102,16 +105,17 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
     // Get form values
     const title = document.querySelector('#title').value;
     const author = document.querySelector('#author').value;
+    const rating = document.querySelector('#rating').value;
     const price = document.querySelector('#price').value;
     const isbn = document.querySelector('#isbn').value;
 
     // Validate input has a text
-    if (title === '' || author === '' || price === '' || isbn === '') {
+    if (title === '' || author === '' || rating === '' || price === '' || isbn === '') {
         UI.showAlert('Please fill in all fields', 'danger');
     } else {
 
         // Instatiate book
-        const book = new Book(title, author, price, isbn);
+        const book = new Book(title, author, rating, price, isbn);
 
         // Add Book to UI
         UI.addBookToList(book);

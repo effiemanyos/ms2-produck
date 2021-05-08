@@ -34,6 +34,89 @@
     font-weight: 500;
 }
 
+/** -----[ Dark Mode Toggle ]----- **/
+
+/** Dark Mode Button **/
+.toggle-container {
+  position: absolute;
+  z-index: 100;
+  top: 6em;
+  right: 2em;
+}
+
+/** Colour Variables (Light Mode) **/
+html {
+    --bg: #f3f2ef;
+    --bg-panel: #fff;
+    --color-headings: #4B76E5;
+    --color-buttons: #fff;
+    --color-text: #000;
+}
+
+/** Colour Variables (Dark Mode) **/
+html[data-theme='dark'] {
+    --bg: #000;
+    --bg-panel: #4C4C4C;
+    --color-headings: #A5BAF2;
+    --color-buttons: #000;
+    --color-text: #fff;
+}
+
+/** Toggle Input Hidden **/
+.toggle-input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+/** Toggle Label Styling (Back) **/
+.toggle-label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 52px;
+	height: 27px;
+	background: #4C4C4C;
+	float: right;
+	border-radius: 100px;
+	position: relative;
+}
+
+/** Toggle Label Styling (Front) **/
+.toggle-label:after {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+/** Toggle Switch Animation **/
+.toggle-input:checked + label {
+	background: var(--color-headings);
+}
+
+.toggle-input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+.toggle-label:active:after {
+	width: 45px;
+}
+
+/** Toggle Transition **/
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
+}
+
 /* ------------------------------------[ HEADER SECTION √ ]-------------------------------------- */
 
 /** NavBar Background Color **/
@@ -1578,100 +1661,11 @@ ol li:hover {
     padding: 2px 8px !important;
 }
 
-/* -----[ Dark Mode Toggle ]----- */
-
-/** Dark Mode Button **/
-.toggle-container {
-  position: absolute;
-  z-index: 100;
-  top: 6em;
-  right: 2em;
-}
-
-/** Colour Variables (Light Mode) **/
-html {
-    --bg: #f3f2ef;
-    --bg-panel: #fff;
-    --color-headings: #4B76E5;
-    --color-buttons: #fff;
-    --color-text: #000;
-}
-
-html[data-theme='dark'] {
-    --bg: #000;
-    --bg-panel: #4C4C4C;
-    --color-headings: #A5BAF2;
-    --color-buttons: #000;
-    --color-text: #fff;
-}
-
-.toggle-input[type=checkbox]{
-	height: 0;
-	width: 0;
-	visibility: hidden;
-}
-
-.toggle-label {
-	cursor: pointer;
-	text-indent: -9999px;
-	width: 52px;
-	height: 27px;
-	background: #4C4C4C;
-	float: right;
-	border-radius: 100px;
-	position: relative;
-}
-
-.toggle-label:after {
-	content: '';
-	position: absolute;
-	top: 3px;
-	left: 3px;
-	width: 20px;
-	height: 20px;
-	background: #fff;
-	border-radius: 90px;
-	transition: 0.3s;
-}
-
-.toggle-input:checked + label {
-	background: var(--color-headings);
-}
-
-.toggle-input:checked + label:after {
-	left: calc(100% - 5px);
-	transform: translateX(-100%);
-}
-
-.toggle-label:active:after {
-	width: 45px;
-}
-
-html.transition,
-html.transition *,
-html.transition *:before,
-html.transition *:after {
-  transition: all 750ms !important;
-  transition-delay: 0 !important;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------------[ TORATELIST APP √ ]-------------------------------------- */
 
 /** Section Styling **/
 #rating-section {
-    background: #f3f2ef;
+    background: var(--bg);
     padding: 122px 20px 120px;
     justify-content: center;
     align-items: center; 
@@ -1684,7 +1678,7 @@ html.transition *:after {
 
 /** Container Styling **/
 .rating-cont-styling {
-    background: #fff;
+    background: var(--bg-panel);
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(128, 90, 90, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     height: 800px;
@@ -1704,7 +1698,7 @@ html.transition *:after {
 
 /** Blue Book Icon **/
 .rating-book-icon {
-    color: #4B76E5;
+    color: var(--color-headings);
     margin-right: 10px;
 }
 

@@ -144,6 +144,7 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
     UI.showAlert('Book Removed', 'success');
 });
 
+// Dark mode toggle
 var checkbox = document.querySelector('input[name=theme]');
 
 checkbox.addEventListener('change', function () {

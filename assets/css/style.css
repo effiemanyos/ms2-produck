@@ -1556,11 +1556,25 @@ ol li:hover {
     margin: auto;
 }
 
+/** 1st Column Size (Book Name) **/
+.table-styling .th-title {
+    width: 40% !important;
+}
+
 /** Table Titles (Header) **/
 .title-styling {
     font-weight: 600;
     color: #000;
     font-size: 16px;
+}
+
+/** Table Body Text **/
+.table-styling td {
+    font-size: 15px;
+}
+
+.title-width {
+    width: 50px;
 }
 
 /** 'Delete' Icon (Trash) Styling **/

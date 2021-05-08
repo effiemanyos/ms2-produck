@@ -12,7 +12,7 @@
     <meta name="author" content="Produck">
 
     <!-- Main Website Title -->
-    <title>BooksToBuy</title>
+    <title>ToBuyList</title>
     <!-- Website Favicon -->
     <link rel="icon" href="assets/images/produck-favicon.png" type="image/icon">
     <!-- Styling File-->
@@ -77,22 +77,26 @@
                     </li>
 
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a class="nav-link page-scroll" href="books.html"><i class="fa fa-book"></i> Books</a>
-                    </li>
-
-                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a class="nav-link page-scroll" href="toreadlist.html"><i class="fa fa-list-ol"></i>
-                            ToReadList</a>
-                    </li>
-
-                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a class="nav-link page-scroll active" href="bookstobuy.html"><i class="fa fa-list-ul"></i>
-                            BooksToBuy</a>
+                        <div class="dropdown">
+                            <button class="dropbtn page-scroll active"><a class="nav-link" href="#"><i class="fa fa-book"></i>
+                                    PM Books</a></button>
+                            <div class="dropdown-content">
+                                <a href="books.html">> Book Directory</a>
+                                <a href="toreadlist.html">> ToReadList App</a>
+                                <a href="tobuylist.html">> ToBuyList App</a>
+                                <a href="toratelist.html">> ToRateList App</a>
+                            </div>
+                        </div>
                     </li>
 
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <a class="nav-link page-scroll" href="resources.html"><i class="fa fa-folder-open"></i>
                             Resources</a>
+                    </li>
+
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link page-scroll" href="index.html#contact"><i class="fa fa-envelope"></i>
+                            Contact</a>
                     </li>
 
                 </ul>
@@ -107,8 +111,8 @@
 
             <!-- Intro Section -->
             <div class="section-main-intro tobuy-intro-styling">
-                <div class="section-subtitle">To Buy List</div>
-                <h2 class="section-main-title blue-title">My BooksToBuy</h2>
+                <div class="section-subtitle">Buying Top PM Books</div>
+                <h2 class="section-main-title blue-title">My ToBuyList</h2>
             </div>
 
             <!-- App Form -->
@@ -230,7 +234,7 @@
     </script>
 
     <!--JavaScript File-->
-    <script type="text/javascript" src="assets/js/bookstobuy.js"></script>
+    <script type="text/javascript" src="assets/js/tobuylist.js"></script>
 
 </body>
 

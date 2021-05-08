@@ -77,17 +77,17 @@
                     </li>
 
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a class="nav-link page-scroll" href="books.html"><i class="fa fa-book"></i> Books</a>
-                    </li>
-
-                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a class="nav-link page-scroll" href="toreadlist.html"><i class="fa fa-list-ol"></i>
-                            ToReadList</a>
-                    </li>
-
-                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a class="nav-link page-scroll active" href="bookstobuy.html"><i class="fa fa-list-ul"></i>
-                            BooksToBuy</a>
+                        <div class="dropdown">
+                            <button class="dropbtn page-scroll active"><a class="nav-link" href="#"><i
+                                        class="fa fa-book"></i>
+                                    PM Books</a></button>
+                            <div class="dropdown-content">
+                                <a href="books.html">> Book Directory</a>
+                                <a href="toreadlist.html">> ToReadList App</a>
+                                <a href="tobuylist.html">> ToBuyList App</a>
+                                <a href="toratelist.html">> ToRateList App</a>
+                            </div>
+                        </div>
                     </li>
 
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
@@ -95,11 +95,107 @@
                             Resources</a>
                     </li>
 
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="nav-link page-scroll" href="index.html#contact"><i class="fa fa-envelope"></i>
+                            Contact</a>
+                    </li>
+
                 </ul>
 
             </div>
         </nav>
     </header>
+
+    <!-- Rating Books | Personal Book Rating -->
+    <section id="rating-section">
+        <div class="container mt-5">
+
+            <!-- Intro Section -->
+            <div class="section-main-intro rating-intro-styling">
+                <div class="section-subtitle black-subtitle">Rating Top PM Books</div>
+                <h2 class="section-main-title blue-title">My ToRateList</h2>
+            </div>
+
+            <!-- App Form -->
+            <!-- Books List-->
+            <div class="form-group">
+                <select id="book-select" class="form-control custom-select rating-form-styling">
+                    <option value="0" disabled selected>Select Book</option>
+                    <option value="hooked">Hooked — Nir Eyal</option>
+                    <option value="probook">The Product Book — Carlos Gonzalez</option>
+                    <option value="mindset">Product Mindset — Product School</option>
+                    <option value="measure">Measure What Matters — John E. Doerr</option>
+                    <option value="crossing">Crossing the Chasm — Geoffrey A. Moore</option>
+                </select>
+            </div>
+
+            <!-- Rating Input -->
+            <div class="form-group">
+                <input type="number" id="rating-control" class="form-control rating-form-styling" step="0.1" max="5"
+                    placeholder="Rate 1 - 5" disabled>
+            </div>
+
+            <!-- App Table -->
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Book Title</th>
+                        <th>My Rating</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr class="hooked">
+                        <td><i class="fa fa-book rating-book-icon"></i> Hooked — Nir Eyal</td>
+                        <td>
+                            <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                            </div>
+                            <span class="number-rating"></span>
+                        </td>
+                    </tr>
+                    <tr class="probook">
+                        <td><i class="fa fa-book rating-book-icon"></i> Product Book — Carlos Gonzalez</td>
+                        <td>
+                            <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                            </div>
+                            <span class="number-rating"></span>
+                        </td>
+                    </tr>
+                    <tr class="mindset">
+                        <td><i class="fa fa-book rating-book-icon"></i> Product Mindset — Product School</td>
+                        <td>
+                            <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                            </div>
+                            <span class="number-rating"></span>
+                        </td>
+                    </tr>
+                    <tr class="measure">
+                        <td><i class="fa fa-book rating-book-icon"></i> Measure What Matters — John E. Doerr</td>
+                        <td>
+                            <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                            </div>
+                            <span class="number-rating"></span>
+                        </td>
+                    </tr>
+                    <tr class="crossing">
+                        <td><i class="fa fa-book rating-book-icon"></i> Crossing the Chasm — Geoffrey A. Moore</td>
+                        <td>
+                            <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                            </div>
+                            <span class="number-rating"></span>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+
+            </table>
+        </div>
+    </section>
 
     <!-- Footer | Important Links -->
     <div class="anchors" id="footer" style="padding-top: 60px; margin-top: -60px"></div>
@@ -177,7 +273,7 @@
     </script>
 
     <!--JavaScript File-->
-    <script type="text/javascript" src="assets/js/bookstobuy.js"></script>
+    <script type="text/javascript" src="assets/js/toratelist.js"></script>
 
 </body>
 

@@ -54,7 +54,7 @@
 /** Navigation Main Menu Styling **/
 .nav-link {
     font-size: 17px;
-    margin: 5px 2px 2px;
+    margin: 5px 5px 2px;
     text-align: center;
     display: flex;
 }
@@ -113,9 +113,6 @@
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
-
-
-
 
 
 /* ------------------------------------[ HERO IMAGE | JUMBOTRON SECTION √ ]-------------------------------------- */
@@ -1582,9 +1579,69 @@ ol li:hover {
     padding: 2px 8px !important;
 }
 
+/* ------------------------------------[ MYBOOKSRATING APP √ ]-------------------------------------- */
+
+/** Section Styling **/
+#rating-section {
+    background: #f3f2ef;
+    padding: 100px 20px 80px;
+    justify-content: center;
+    align-items: center; 
+}
+
+/** Intro Title Styling **/
+.rating-intro-styling {
+    margin-bottom: 60px;
+}
+
+/** Form Styling **/
+.rating-form-styling {
+    box-shadow: none !important;
+    border-radius: 8px !important;
+    margin: auto;
+}
+
+/** Blue Book Icon **/
+.rating-book-icon {
+    color: #4B76E5;
+    margin-right: 10px;
+}
 
 
 
+
+
+
+
+
+
+.stars-outer {
+  position: relative;
+  display: inline-block;
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.stars-outer::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "FontAwesome";
+  font-weight: 900;
+  color: #ccc;
+}
+
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "FontAwesome";
+  font-weight: 900;
+  color: #f8ce0b;
+}
 
 
 

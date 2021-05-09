@@ -1368,7 +1368,7 @@ ol li:hover {
 /** 'Add New Category' CTA Button **/
 #btnAddProject {
     /* FIX THIS POSITIONING (BOTH BUTTONS) */
-    margin-left: 42.9%;
+    margin-left: 81%;
     margin-bottom: 25px;
     background-color: #4B76E5;
     border: none;
@@ -1387,7 +1387,7 @@ ol li:hover {
 /** 'Add New Book' CTA Button **/
 #btnAddTask {
     /* FIX THIS POSITIONING (BOTH BUTTONS) */
-    margin-left: 44%;
+    margin-left: 84%;
     margin-top: 25px;
     background-color: #4B76E5;
     border: none;

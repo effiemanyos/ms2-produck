@@ -1,16 +1,16 @@
-$(document).ready(function () {
-    $("input[type=checkbox]").removeAttr("checked"); // Removes checks from checkboxes
-    $("#projects").tabs();
-    $("ul").sortable({
-        axis: "x",
-        containment: "#projects"
-    });
-    $("ol").sortable({
-        axis: "y",
-        containment: "#projects"
-    });
+$("input[type=checkbox]").removeAttr("checked"); // Removes checks from checkboxes
+$("#projects").tabs();
+$("ul").sortable({
+    axis: "x",
+    containment: "#projects"
+});
+$("ol").sortable({
+    axis: "y",
+    containment: "#projects"
+});
 
-    // Deletes tasks once they are clicked on dinamically added elements
+$(document).ready(function () {
+    // Deletes books once they are clicked on dinamically added elements
     // Event delegation (delegating responsibility)
     $("#projects").on("click", ".tasks-delete", function () {
         $(this).closest("li").slideUp(function () {
@@ -18,12 +18,12 @@ $(document).ready(function () {
         });
     });
 
-    // Event delegatiion - for new tasks implementation
+    // Event delegatiion - for new books implementation
     $("#projects").on("click", "input[type=checkbox]", function () {
         $(this).next().toggleClass("checked");
     });
 
-    // Deletes project tabs and its respective tasks
+    // Deletes category tabs and its respective books
     $("#projects").on("click", "span.ui-icon-close", function () {
         var index = $(this).closest("li").index();
         var id = $("#main li:eq(" + index + ") a").attr("href");
@@ -32,7 +32,7 @@ $(document).ready(function () {
         $("#projects").tabs("refresh");
     });
 
-    // Add tasks button
+    // Add books button
     $("#btnAddTask").click(function () {
         $("#task-dialog").dialog({
             width: 400,
@@ -54,8 +54,8 @@ $(document).ready(function () {
             }
         });
     });
-    
-    // Add project button
+
+    // Add category button
     $("#btnAddProject").click(function () {
         $("#project-dialog").dialog({
             width: 400,

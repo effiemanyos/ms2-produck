@@ -1794,11 +1794,24 @@ ol li:hover {
     background: var(--color-hover) !important;
 }
 
+
+/** 'Visit Site' Button **/
+.results-list .btn-default {
+    color: var(--color-buttons) !important;
+    background: var(--color-headings) !important;
+    border-radius: 30px !important;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    float: right;
+    margin-right: 8px;
+}
+
 /** Secondary CTA Button **/
 .bm-btn-danger {
     color: var(--color-buttons) !important;
     background: var(--color-danger) !important;
     border-radius: 30px !important;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    float: right;
 }
 
 /** Secondary CTA Button Hover Over Effect **/
@@ -1817,12 +1830,6 @@ ol li:hover {
     margin-bottom: 20px;
     color: var(--color-text);
 }
-
-/** Visit Site Button **/
-.results-list .btn-default {
-    color: var(--color-text);
-}
-
 
 
 

@@ -38,10 +38,10 @@
 
 /** Dark Mode Button **/
 .toggle-container {
-  position: absolute;
-  z-index: 100;
-  top: 6em;
-  right: 2em;
+    position: absolute;
+    z-index: 100;
+    top: 6em;
+    right: 2em;
 }
 
 /** Colour Variables (Light Mode) **/
@@ -50,6 +50,9 @@ html {
     --bg-panel: #fff;
     --color-headings: #4B76E5;
     --color-buttons: #fff;
+    --color-hover: #3CBED0;
+    --color-danger: #DB3545;
+    --color-dhover: #DE4957;
     --color-text: #000;
 }
 
@@ -59,53 +62,56 @@ html[data-theme='dark'] {
     --bg-panel: #4C4C4C;
     --color-headings: #A5BAF2;
     --color-buttons: #000;
+    --color-hover: #9DDEE7;
+    --color-danger: #ED9AA2;
+    --color-dhover: #F1B6BB;
     --color-text: #fff;
 }
 
 /** Toggle Input Hidden **/
-.toggle-input[type=checkbox]{
-	height: 0;
-	width: 0;
-	visibility: hidden;
+.toggle-input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
 }
 
 /** Toggle Label Styling (Back) **/
 .toggle-label {
-	cursor: pointer;
-	text-indent: -9999px;
-	width: 52px;
-	height: 27px;
-	background: #4C4C4C;
-	float: right;
-	border-radius: 100px;
-	position: relative;
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 52px;
+    height: 27px;
+    background: #4C4C4C;
+    float: right;
+    border-radius: 100px;
+    position: relative;
 }
 
 /** Toggle Label Styling (Front) **/
 .toggle-label:after {
-	content: '';
-	position: absolute;
-	top: 3px;
-	left: 3px;
-	width: 20px;
-	height: 20px;
-	background: #fff;
-	border-radius: 90px;
-	transition: 0.3s;
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
 }
 
 /** Toggle Switch Animation **/
-.toggle-input:checked + label {
-	background: var(--color-headings);
+.toggle-input:checked+label {
+    background: var(--color-headings);
 }
 
-.toggle-input:checked + label:after {
-	left: calc(100% - 5px);
-	transform: translateX(-100%);
+.toggle-input:checked+label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
 }
 
 .toggle-label:active:after {
-	width: 45px;
+    width: 45px;
 }
 
 /** Toggle Transition **/
@@ -113,8 +119,8 @@ html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  transition: all 750ms !important;
-  transition-delay: 0 !important;
+    transition: all 750ms !important;
+    transition-delay: 0 !important;
 }
 
 /* ------------------------------------[ HEADER SECTION √ ]-------------------------------------- */
@@ -157,34 +163,34 @@ html.transition *:after {
 
 /** Dropdown Button Styling **/
 .menu-dropbtn {
-  background: none;
-  border: none;
+    background: none;
+    border: none;
 }
 
 /** Dropdown Content Position **/
 .menu-dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 /* Dropdown Container (Hidden by Default) */
 .menu-dropdown-content {
-  display: none;
-  position: absolute;
-  background: #000;
-  min-width: 165px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  border-radius: 8px;
+    display: none;
+    position: absolute;
+    background: #000;
+    min-width: 165px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 8px;
 }
 
 /* Links inside the dropdown */
 .menu-dropdown-content a {
-  padding: 12px 16px;
-  text-decoration: none !important;
-  display: block;
-  color: #fff;
-  font-size: 15px;
+    padding: 12px 16px;
+    text-decoration: none !important;
+    display: block;
+    color: #fff;
+    font-size: 15px;
 }
 
 /* Change color of dropdown links on hover */
@@ -195,7 +201,9 @@ html.transition *:after {
 }
 
 /* Show the dropdown menu on hover */
-.menu-dropdown:hover .menu-dropdown-content {display: block;}
+.menu-dropdown:hover .menu-dropdown-content {
+    display: block;
+}
 
 
 /* ------------------------------------[ HERO IMAGE | JUMBOTRON SECTION √ ]-------------------------------------- */
@@ -1554,9 +1562,7 @@ ol li:hover {
 
 /** -----[ Section Responsiveness ]----- **/
 
-@media (max-width:960px) {
-
-}
+@media (max-width:960px) {}
 
 /* ------------------------------------[ BOOKSTOBUY APP SECTION √ ]-------------------------------------- */
 
@@ -1628,7 +1634,8 @@ ol li:hover {
 
 /** 'Add Book' Button Hover Over Effect **/
 .btn-styling:hover {
-    background: #3CBED0;
+    background: var(--color-hover);
+    color: var(--color-buttons);
 }
 
 /** Main Table Styling **/
@@ -1668,7 +1675,7 @@ ol li:hover {
     background: var(--bg);
     padding: 122px 20px 120px;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     color: var(--color-text);
 }
 
@@ -1710,62 +1717,101 @@ ol li:hover {
 
 /** Grey Stars (Empty) Position **/
 .stars-outer {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 /** Grey Stars (Empty) Styling **/
 .stars-outer::before {
-  content: "\f005 \f005 \f005 \f005 \f005";
-  font-family: "FontAwesome";
-  font-weight: 900;
-  color: #ccc;
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "FontAwesome";
+    font-weight: 900;
+    color: #ccc;
 }
 
 /** Yellow Stars (Rated) Position **/
 .stars-inner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
 }
 
 /** Yellow Stars (Rated) Styling **/
 .stars-inner::before {
-  content: "\f005 \f005 \f005 \f005 \f005";
-  font-family: "FontAwesome";
-  font-weight: 900;
-  color: #f8ce0b;
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "FontAwesome";
+    font-weight: 900;
+    color: #f8ce0b;
 }
 
+/* ------------------------------------[ BOOKMARKS APP SECTION √ ]-------------------------------------- */
 
+/** Section Styling **/
+#bookmark-section {
+    background: var(--bg);
+    padding: 100px 40px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+/** Container Styling **/
+.bm-cont-styling {
+    width: 700px;
+    height: 1000px;
+    margin: 70px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    background: var(--bg-panel);
+}
 
+/** Jumbotron Hidden Colour **/
+.jumbo-styling {
+    background: transparent !important;
+}
 
+/** Form Input Styling **/
+.bm-input-styling {
+    box-shadow: none !important;
+    border-radius: 8px !important;
+    margin: auto !important;
+}
 
+/** Primary CTA Button **/
+.bm-btn-styling {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 30px !important;
+    color: var(--color-buttons) !important;
+    background: var(--color-headings) !important;
+    margin-top: 10px;
+}
 
+/** Primary CTA Button Hover Over Effect **/
+.bm-btn-styling:hover {
+    color: var(--color-buttons) !important;
+    background: var(--color-hover) !important;
+}
 
+/** Secondary CTA Button **/
+.bm-btn-danger {
+    color: var(--color-buttons) !important;
+    background: var(--color-danger) !important;
+    border-radius: 30px !important;
+}
 
+/** Secondary CTA Button Hover Over Effect **/
+.bm-btn-danger:hover {
+    color: var(--color-buttons) !important;
+    background: var(--color-dhover) !important;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/** Bookmarks Results **/
+.bm-results {
+    padding: 0 35px 0;
+}
 
 
 

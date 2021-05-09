@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -24,7 +24,7 @@
         type="text/css" />
 </head>
 
-<body>
+<body onload="fetchBookmarks()">
 
     <!-- Main Navigation Bar | Website Menu -->
     <header id="navigation-bar">
@@ -78,7 +78,8 @@
 
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <div class="dropdown menu-dropdown">
-                            <button class="dropbtn page-scroll menu-dropbtn"><a class="nav-link" href="books.html"><i class="fa fa-book"></i>
+                            <button class="dropbtn page-scroll menu-dropbtn"><a class="nav-link" href="books.html"><i
+                                        class="fa fa-book"></i>
                                     PM Books</a></button>
                             <div class="dropdown-content menu-dropdown-content">
                                 <a href="books.html">> Top PM Books</a>
@@ -91,8 +92,8 @@
 
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <div class="dropdown menu-dropdown">
-                            <button class="dropbtn page-scroll menu-dropbtn active"><a class="nav-link" href="resources.html"><i
-                                        class="fa fa-folder-open"></i> Resources</a></button>
+                            <button class="dropbtn page-scroll menu-dropbtn active"><a class="nav-link"
+                                    href="resources.html"><i class="fa fa-folder-open"></i> Resources</a></button>
                             <div class="dropdown-content menu-dropdown-content">
                                 <a href="resources.html">> Top Resources</a>
                                 <a href="bookmarks.html">> Bookmarks App</a>
@@ -112,15 +113,50 @@
     </header>
 
     <!-- Bookmarks App | Favourite Websites -->
-    <section>
+    <section id="bookmark-section">
 
+        <!-- Dark Mode Button -->
+        <div class="toggle-container">
+            <input type="checkbox" id="switch" name="theme" class="toggle-input">
+            <label for="switch" class="toggle-label">Toggle</label>
+        </div>
 
+        <!-- Container -->
+        <div class="container bm-cont-styling">
 
+            <!-- Jumbotron -->
+            <div class="jumbotron jumbo-styling">
 
+                <!-- Intro Section -->
+                <div class="section-main-intro bookmarks-intro-styling">
+                    <div class="section-subtitle black-subtitle">Top Favourite Sites</div>
+                    <h2 class="section-main-title blue-title">My Bookmarks</h2>
+                </div>
 
+                <!-- App Form -->
+                <form id="myForm">
+                    <div class="form-group">
+                        <label>Site Name</label>
+                        <input type="text" class="form-control bm-input-styling" id="siteName" placeholder="Website Name">
+                    </div>
 
+                    <div class="form-group">
+                        <label>Site URL</label>
+                        <input type="text" class="form-control bm-input-styling" id="siteUrl" placeholder="Website URL">
+                    </div>
 
-        
+                    <button type="submit" class="btn bm-btn-styling">Submit</button>
+                </form>
+            </div>
+
+            <!-- Bookmark Results -->
+            <div class="row bm-results">
+                <div class="col-lg-12">
+                    <div id="bookmarksResults"></div>
+                </div>
+            </div>
+
+        </div>
 
     </section>
 
@@ -200,7 +236,7 @@
     </script>
 
     <!--JavaScript File-->
-    <script type="text/javascript" src="assets/js/toratelist.js"></script>
+    <script type="text/javascript" src="assets/js/bookmarks.js"></script>
 </body>
 
 </html>

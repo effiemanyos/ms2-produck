@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
     <meta name="author" content="Produck">
 
     <!-- Main Website Title -->
-    <title>ToBuyList</title>
+    <title>MyBookNotes</title>
     <!-- Website Favicon -->
     <link rel="icon" href="assets/images/produck-favicon.png" type="image/icon">
     <!-- Styling File-->
@@ -78,7 +78,8 @@
 
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <div class="dropdown menu-dropdown">
-                            <button class="dropbtn page-scroll menu-dropbtn active"><a class="nav-link" href="books.html"><i class="fa fa-book"></i>
+                            <button class="dropbtn page-scroll menu-dropbtn active"><a class="nav-link"
+                                    href="books.html"><i class="fa fa-book"></i>
                                     PM Books</a></button>
                             <div class="dropdown-content menu-dropdown-content">
                                 <a href="books.html">> Top PM Books</a>
@@ -91,8 +92,8 @@
 
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <div class="dropdown menu-dropdown">
-                            <button class="dropbtn page-scroll menu-dropbtn"><a class="nav-link" href="resources.html"><i
-                                        class="fa fa-folder-open"></i> Resources</a></button>
+                            <button class="dropbtn page-scroll menu-dropbtn"><a class="nav-link"
+                                    href="resources.html"><i class="fa fa-folder-open"></i> Resources</a></button>
                             <div class="dropdown-content menu-dropdown-content">
                                 <a href="resources.html">> Top Resources</a>
                                 <a href="bookmarks.html">> Bookmarks App</a>
@@ -111,66 +112,27 @@
         </nav>
     </header>
 
-    <!-- BooksToBuy App | Books To Buy List -->
-    <section id="tobuy-list-section">
+    <!-- MyBookNotes | Sticky Notes -->
+    <section id="sticky-section">
 
-        <!-- Dark Mode Button -->
-        <div class="toggle-container">
-            <input type="checkbox" id="switch" name="theme" class="toggle-input">
-            <label for="switch" class="toggle-label">Toggle</label>
+        <!-- Intro Section -->
+        <div class="section-main-intro tobuy-intro-styling">
+            <div class="section-subtitle black-subtitle">Buying Top PM Books</div>
+            <h2 class="section-main-title blue-title">My ToBuyList</h2>
         </div>
 
-        <!-- Main Application -->
-        <div class="container tobuy-cont-styling">
-
-            <!-- Intro Section -->
-            <div class="section-main-intro tobuy-intro-styling">
-                <div class="section-subtitle black-subtitle">Buying Top PM Books</div>
-                <h2 class="section-main-title blue-title">My ToBuyList</h2>
+        <!-- Main App -->
+        <div class="main-container">
+            <div class="container1">
+                <button class="btn-style" onclick="typeNote">Create New Sticky</button>
             </div>
-
-            <!-- App Form -->
-            <form id="book-form">
-                <div class="form-group">
-                    <label for="title"><i class="fa fa-book icon-styling"></i> Title</label>
-                    <input type="text" id="title" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="author"><i class="fa fa-user icon-styling"></i> Author</label>
-                    <input type="text" id="author" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="rating"><i class="fa fa-star icon-styling"></i> Rating</label>
-                    <input type="text" id="rating" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="price"><i class="fa fa-eur icon-styling"></i> Price</label>
-                    <input type="text" id="price" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="isbn"><i class="fa fa-hashtag icon-styling"></i> ISBN</label>
-                    <input type="text" id="isbn" class="form-control">
-                </div>
-                <input type="submit" value="Add Book" class="btn-styling btn-block">
-            </form>
-
-            <!-- App Table -->
-            <table class="table mt-5 table-styling">
-                <thead>
-                    <tr>
-                        <th class="title-styling th-title">Title</th>
-                        <th class="title-styling">Author</th>
-                        <th class="title-styling">Rating</th>
-                        <th class="title-styling">Price</th>
-                        <th class="title-styling">ISBN</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody id="book-list"></tbody>
-            </table>
-
+            <div class="container2"></div>
+            <div class="container3">
+                <textarea id="note-text" placeholder="Write Note..." maxlength="95"></textarea>
+                <i id="check-icon" class="fa fa-check-circle" aria-hidden="true"></i>
+                <i id="x-icon" class="fa fa-times-circle" aria-hidden="true"></i>
+            </div>
         </div>
-
     </section>
 
     <!-- Footer | Important Links -->
@@ -249,8 +211,7 @@
     </script>
 
     <!--JavaScript File-->
-    <script type="text/javascript" src="assets/js/tobuylist.js"></script>
-
+    <script type="text/javascript" src="assets/js/booknotes.js"></script>
 </body>
 
 </html>

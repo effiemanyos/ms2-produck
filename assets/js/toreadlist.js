@@ -34,7 +34,7 @@ $(document).ready(function () {
 
     // Add books button
     $("#btnAddTask").click(function () {
-        $("#task-dialog").dialog({
+        $("#book-dialog").dialog({
             width: 400,
             resizable: false,
             modal: true,
@@ -46,6 +46,11 @@ $(document).ready(function () {
                     $("#projects " + title).append("<li> <input class='checkbox' type='checkbox'>" + "<span class='task-text'><i class='book-icon fa fa-book'></i>" + $("#new-task").val() + "</span>" + "<span><button class='tasks-delete'><i class='fa fa-trash'></i></button><button class='tasks-edit'><i class='fa fa-pencil'></i></button></span></li>");
                     $("#new-task").val("");
                     $(this).dialog("close");
+
+                    if (!projectName) {
+                        alert('please fill in the form');
+                        return false;
+                    }
                 },
                 "Cancel": function () {
                     $("#new-task").val("");
@@ -57,7 +62,7 @@ $(document).ready(function () {
 
     // Add category button
     $("#btnAddProject").click(function () {
-        $("#project-dialog").dialog({
+        $("#category-dialog").dialog({
             width: 400,
             resizable: false,
             modal: true,
@@ -73,6 +78,11 @@ $(document).ready(function () {
                     $("#projects").tabs("option", "active", tabCount - 1);
                     $("#new-project").val("");
                     $(this).dialog("close");
+
+                    if (!projectName) {
+                        alert('Please add a valid name');
+                        return false;
+                    }
                 },
                 "Cancel": function () {
                     $("#new-project").val("");
@@ -81,4 +91,6 @@ $(document).ready(function () {
             }
         });
     });
+
+
 });

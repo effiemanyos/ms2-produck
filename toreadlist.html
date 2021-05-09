@@ -177,14 +177,15 @@
             <button id="btnAddTask">Add New Book</button>
 
             <!-- Category Name: -->
-            <div id="project-dialog" title="Add New Category" style="display: none;">
-                <label class="replace-this-name" for="new-project">Category Name:</label><input id="new-project"
-                    type="text" />
+            <div id="category-dialog" title="Add New Category" style="display: none;">
+                <label class="replace-this-name" for="new-project">Category Name:</label>
+                <input id="new-project" type="text" placeholder="Category" required>
             </div>
 
             <!-- Book Name: -->
-            <div id="task-dialog" title="Add New Book" style="display: none;">
-                <label class="replace-this-name" for="new-task">Book Name:</label><input id="new-task" type="text" />
+            <div id="book-dialog" title="Add New Book" style="display: none;">
+                <label class="replace-this-name" for="new-task">Book Name:</label>
+                <input id="new-task" type="text" placeholder="Book Title" required>
             </div>
 
         </div>
@@ -252,6 +253,7 @@
 
     <!-- JavaScript Links -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">

@@ -1786,7 +1786,6 @@ ol li:hover {
     border-radius: 30px !important;
     color: var(--color-buttons) !important;
     background: var(--color-headings) !important;
-    margin-top: 10px;
 }
 
 /** Primary CTA Button Hover Over Effect **/
@@ -1808,9 +1807,20 @@ ol li:hover {
     background: var(--color-dhover) !important;
 }
 
-/** Bookmarks Results **/
+/** Bookmarks List **/
 .bm-results {
     padding: 0 35px 0;
+}
+
+/** Main Bookmarks **/
+.results-list h3 {
+    margin-bottom: 20px;
+    color: var(--color-text);
+}
+
+/** Visit Site Button **/
+.results-list .btn-default {
+    color: var(--color-text);
 }
 
 

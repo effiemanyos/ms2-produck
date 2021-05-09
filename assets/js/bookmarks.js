@@ -1,5 +1,5 @@
 // Listen for form submit when clicking on the button
-document.getElementById('myForm').addEventListener('submit', saveBookmark);
+document.getElementById('bookmarksForm').addEventListener('submit', saveBookmark);
 
 // Save each bookmark
 function saveBookmark(e){
@@ -43,7 +43,7 @@ function saveBookmark(e){
   }
 
   // Clear form
-  document.getElementById('myForm').reset();
+  document.getElementById('bookmarksForm').reset();
 
   // Re-fetch bookmarks
   fetchBookmarks();
@@ -58,7 +58,7 @@ function deleteBookmark(url){
   // Get bookmarks from localStorage
   var bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
 
-  // Loop through the bookmarks
+  // Loop through bookmarks
   for(var i =0;i < bookmarks.length;i++){
     if(bookmarks[i].url == url){
 
@@ -80,24 +80,24 @@ function fetchBookmarks(){
   var bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
 
   // Get output id
-  var bookmarksResults = document.getElementById('bookmarksResults');
+  var bookmarksList = document.getElementById('bookmarksList');
 
   // Build output
-  bookmarksResults.innerHTML = '';
+  bookmarksList.innerHTML = '';
   for(var i = 0; i < bookmarks.length; i++){
     var name = bookmarks[i].name;
     var url = bookmarks[i].url;
 
-    bookmarksResults.innerHTML += '<div class="results-list">'+
-                                  '<h3><i class="fa fa-bookmark"></i> '+name+
-                                  ' <a onclick="deleteBookmark(\''+url+'\')" class="btn bm-btn-danger" href="#">Delete</a> ' +
-                                  ' <a class="btn btn-default" target="_blank" href="'+addhttp(url)+'">Visit Site</a> ' +
-                                  '</h3>'+
-                                  '</div>';
+    bookmarksList.innerHTML += '<div class="results-list">'+
+                               '<h3><i class="fa fa-bookmark"></i> '+name+
+                               ' <a onclick="deleteBookmark(\''+url+'\')" class="btn bm-btn-danger" href="#">Delete</a> ' +
+                               ' <a class="btn btn-default" target="_blank" href="'+addhttp(url)+'">Visit Site</a> ' +
+                               '</h3>'+
+                               '</div>';
   }
 }
 
-// Validate Form
+// Validate form
 function validateForm(websiteName, websiteUrl){
   if(!websiteName || !websiteUrl){
     alert('Please fill in the form');

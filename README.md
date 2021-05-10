@@ -69,11 +69,11 @@ Professionals passionate about Technology, Products, Innovation, and solving cus
 
 **Age:** Not Specified 
 
-All under the constraints of a **tight/no budget for expensive bootcamps**.
+All under the constraints of a **tight/no budget for expensive bootcamps (e.g. Product School)**.
 
 ### **User Needs**
 
-These are some crucial **user pain points** worth mentioning:
+These are some crucial **user pain points / struggles** worth mentioning:
 
 1. **Lack of Trust** | Users do not how to differentiate high-quality content from poor/fake PM content on the internet as they do not have previus experience in the field.
 
@@ -99,83 +99,52 @@ These are some crucial **user pain points** worth mentioning:
 ### **What Are Users Looking For?**
 
 **Users are looking for ONE THING (Main Final Goal):**
-- Break Into Product Management - Get their first PM role and start their PM career from there!
+- Break Into Product Management | Get their first PM role and start their PM career from there!
 
 ### **User Goals**
 **Services Offered:**
-Our services and their goals from their point of view:
-- Use the mentoring and coaching sessions to break into Product Management (get their first PM role)
-- Access to up-to-date directory of the best Product Management resources (carefully selected) to learn from them
-- Attend to networking events to meet other aspiring Product Managers and people in the industry
-- Join a PM community to share their passion and strong interest for Product Management
-- Attend workshops and take online courses to develop key PM skills and gain some experience by doing 
-- Use productivity web-based applications to track thier reading habit and learn as much as possible from experts in the field(*)
-- Stay up-to-date 
+Produck's services and user goals from their POV:
+- Use the mentoring and coaching programmes to break into Product Management (get our first PM role)
+- Access to the up-to-date directory of the best Product Management resources (carefully selected) and industry experts/leaders to learn from them
+- Attend to Produck's networking events to meet other aspiring Product Managers and people already in the industry
+- Join the PM community to share our passion and strong interest for Product Management and Technology
+- Attend workshops and take online courses to develop key PM skills and gain some experience by doing (not just reading/listening/watching)
+- Use the Produck's **productivity web-based applications** to help us build a reading habit and learn as much as possible from book authors (experts in the field)(*)
+- Use the **bookmarks web-based application** to save our favourite sources of information about Product Management taken from the resources directory.
+- Stay up-to-date with bite-sized news and information on the latest trends, methods, frameworkds, tools, products, technology, etc.
+- Constantly check Produck's job board with entry-level PM roles located in Ireland (or remote worldwide) to start applying.
+- Watch Produck's weekly interviews with Q&As at the end to learn from other PMs working at Fortune 100 companies in Ireland.
+- Locate the best and most useful PM mock interviews to ace mine and get my dream job.
 
->(*) Currently, books are one of the most reliable sources of information about Product Management. This is the main reason why the owner has decided to create various web-based apps using Vanilla JS, jQuery, Local Storage to help users set objectives and track their reading milestones in the same platform where they can also learn more about Product Management through other carefully selected resources.
+>(*) Currently, books are one of the most reliable (cost-effective) source of information about Product Management. This is the main reason why Produck's owner has decided to create various web-based applications using Vanilla JavaScript, jQuery, and Local Storage to help Produck users set their own objectives and track their reading milestones in the same platform where they can also learn more about Product Management through other carefully selected external resources.
 
-These are assumptions from previus market research, but they still need to be validated once the website is launched.
+All these are **assumptions** from insights gathered during previus market research. However, they still need to be validated once the MVP is launched.
 
 ### **Business Goals**
 Site Owner's Goals:
 - Create an active Irish Product Management community
 - Incentivate women based in Ireland to pursue tech roles
-- Increase our client base for mentoring & training
+- Increase Produck's client base for mentoring & training
 - Build an audience of passionate PMs
 - Help aspiring PMs land their first PM role
-- Build brand awareness
+- Build brand awareness in Ireland & UK
 - Expand networking opportunities
-- Connect with industry experts/leaders
-- Become thought leaders in Ireland
-- Promote our key services 
+- Connect with industry experts & leaders
+- Become thought leaders in Ireland & UK
+- Promote their core services 
 - Develop a professional online presence
 - Increase collaborations & partnerships
-- Make our knowledge & experience profitable
+- Make their knowledge & experience profitable
 - Reduce the tech gap in Ireland (lack of professionals)
-- Reduce the gender gap in the tech industry
-- Support the Irish economy by helping boost product building
+- Reduce the gender gap in the tech industry (lack of women in tech)
+- Support the Irish economy by helping boost great product building
 
-**Business Principles:**
-- Bite-Sized Content
-- High-Quality Content
-- Up-To-Date Content
-- Free Top Resources
-- Connecting People 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### **User Goals**
-External User's Goals:
-- Find resources to learn and implement
-- Find help to grow my business
-- Find help to ideate and execute my business idea
-- Get more customers without investing too much money
-- Increase monthly sales and annual profit
-- Improve my ROI and reduce churn
-- Look for guidance and clarity for professional purposes
-- Stay up to date with the latest trends and resources
+Key Services:
+- ToReadList App 
+- ToBuyList App
+- ToRateList App
+- MyBookNotes App
+- Bookmarks App
 
 ### **User Stories**
 
@@ -218,33 +187,63 @@ These are just some of the user stories that were created for this project. Howe
 
 USPs or Core Differentiators:
 
-**Service:**
-- International experience working at tech startups, SMEs, and multinational corporations.
-- International studies in various fields such as Marketing, Advertising, Business, Entrepreneurship, Product Management, Software Development.
-- Vast experience working in multicultural teams both in English and Spanish.
-- Experience mentoring and training individuals and small groups of people from different age ranges. 
-- Speak fluently two of the most spoken languages in the world, Spanish and English.
-- Have a deep passion for helping others succeed while growing personally and professionally during that proccess.
-- Always up to date with the latest tools and methods in the mentioned fields.
-- Open-minded professional who can easily adapt to each individual or organization's way of doing things.
-- Data-driven, results-oriented, and customer-obssesed professional.
-- Always resourceful and creative, with a lovely sense of humor, loads of patience and positive energy.
+**Service Principles:**
+- Bite-Sized Content
+- High-Quality Content
+- Carefully Selected Content
+- Up-To-Date Content
+- Free Content & Resources
+- Recommended PM Content
+- Connecting Professionals 
+- Exclusive PM Content
+- Irish-Oriented (Irish Recruiting Information)
+- 1:1 Mentoring & Coaching Sessions
+- **Productivity Web-Based Apps** (Key Service)
+  - ToReadList App → Users are able to create a list of up to 10 books (per category) that they want to read in order of priority. They can also separte the books in categories (e.g. Product, Data Analytics, Software Development, Marketing, Business, etc.).
+  - ToBuyList App → Users are able to create a list of up to 10 books they are planning to buy. Once they have already bought them, they can remove them from the list.
+  - ToRateList App → Users are able to rate the top must-read PM books (already listed) depending on how much value they provided, or if they even liked them at all.
+  - MyBookNotes App → Users are able to create short notes of what they consider the most important concepts mentioned in the books they are reading. These notes will then be useful for them when starting their first role as APM.
+  - Bookmarks App → Users are able to save their favourite sources of information about PM in a simple but useful list. They just need the name and the URL of that source to save it.
 
 **Website Functionality:**
 - Immediate Response (Chatbot)
-- User-friendly
+- User-friendly (Intuitive)
+- Positive User Experience
 - 100% Responsive
-- Free Resources
 - Up-To-Date Content
+- High-Quality Content
 - Networking Opportunities
-- Recommended Partners Section
-- Connection to Slack Communities (NetCork & Huasi)
+- Connection to Slack Community
 - Notify Me by Email (Events, News, Resources, Courses)
-- Login/Logout
+- Login/Logout (Instead of Local Storage)
 - Membership Options (Monthly/Annual Subscription)
-- Exclusive Content
+- Fast Loading Platform
+- MVP w/Local Storage (Replace in 1nd Iteration)
+- Night Mode (Web-Based Applications)
 
 [Back to Content](#content)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## **Scope Plane** 
 ____

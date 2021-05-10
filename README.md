@@ -75,48 +75,65 @@ All under the constraints of a **tight/no budget for expensive bootcamps**.
 
 These are some crucial **user pain points** worth mentioning:
 
-1. **Lack of Trust**
-Users do not how to differentiate high-quality content from poor/fake PM content on the internet as they do not have previus experience in the field.
+1. **Lack of Trust** | Users do not how to differentiate high-quality content from poor/fake PM content on the internet as they do not have previus experience in the field.
 
-2. **Quantity Over Quality**
-There is too much information on the internet but most sources share superficial or inaccurate content about Product Management. 
+2. **Quantity Over Quality** | There is too much information on the internet but most sources share superficial or inaccurate content about Product Management. 
 
-3. **Overwhelming & Exhausting**
-It is overwhelming and exhausting for users to navigate through all those resources (too many options to choose from), while also trying to find the right information from the right source without having to ask friends or colleagues.
+3. **Overwhelming & Exhausting** | It is overwhelming and exhausting for users to navigate through all those resources (too many options to choose from), while also trying to find the right information from the right source without having to ask friends or colleagues.
 
-4. **Lack of Time**
-There is too much going on in their lives at the moment (esp. during the global pandemic) that they do not have the time to search for the information themselves because it takes a lot of time.
+4. **Lack of Time** | There is too much going on in their lives at the moment (esp. during the global pandemic) that they do not have the time to search for the information themselves because it takes a lot of time.
 
-5. **Fear of Missing Out (FOMO)**
-Users have also shared during the research that they constantly feel that they are missing out on great tips and valuable information from high-quality resources (esp. from Fortune 100 companies, authors, coaches, industry experts).
+5. **Fear of Missing Out (FOMO)** | Users have also shared during the research that they constantly feel that they are missing out on great tips and valuable information from high-quality resources (esp. from Fortune 100 companies, authors, coaches, industry experts).
 
-6. **Lack of Official Studies**
-There is a lack of official Product Management studies offered by universities and colleges. Users are looking for bootcamps, workshops, cohorts, mentors, and online courses to learn more about this relatively new field in the tech industry.
+6. **Lack of Official Studies** | There is a lack of official Product Management studies offered by universities and colleges. Users are looking for bootcamps, workshops, cohorts, mentors, and online courses to learn more about this relatively new field in the tech industry.
 
 
 ### **Business Opportunity**
 
 - Growth demand for Product Managers
 - Golden age of Product Management 
-- Gap in the Irish market
+- Tech gap in the Irish market
 - Boom in the tech industry worldwide
 - Product economy is increasing
 
-### **What Are These Users Looking For?**
+### **What Are Users Looking For?**
 
 **Users are looking for ONE THING (Main Final Goal):**
 - Break Into Product Management - Get their first PM role and start their PM career from there!
 
+### **User Goals**
 **Services Offered:**
-- Up-to-date directory of the best Product Management resources (carefully selected)
-- Networking events to meet other aspiring Product Managers and people in the industry
-- Join a community to share their passion and interest
-- Workshops and online courses for skills development 
-- Productivity web-based applications to start learning from books(*)
+Our services and their goals from their point of view:
+- Use the mentoring and coaching sessions to break into Product Management (get their first PM role)
+- Access to up-to-date directory of the best Product Management resources (carefully selected) to learn from them
+- Attend to networking events to meet other aspiring Product Managers and people in the industry
+- Join a PM community to share their passion and strong interest for Product Management
+- Attend workshops and take online courses to develop key PM skills and gain some experience by doing 
+- Use productivity web-based applications to track thier reading habit and learn as much as possible from experts in the field(*)
+- Stay up-to-date 
 
 >(*) Currently, books are one of the most reliable sources of information about Product Management. This is the main reason why the owner has decided to create various web-based apps using Vanilla JS, jQuery, Local Storage to help users set objectives and track their reading milestones in the same platform where they can also learn more about Product Management through other carefully selected resources.
 
 These are assumptions from previus market research, but they still need to be validated once the website is launched.
+
+### **Business Goals**
+Site Owner's Goals:
+- Create an active Irish Product Management community
+- Incentivate women based in Ireland to pursue tech roles
+- Increase our client base for mentoring & training
+- Build an audience of passionate PMs
+- Help aspiring PMs land their first PM role
+- Build brand awareness
+- Expand networking opportunities
+- Connect with industry experts/leaders
+- Become thought leaders in Ireland
+- Promote our key services 
+- Develop a professional online presence
+- Increase collaborations & partnerships
+- Make our knowledge & experience profitable
+- Reduce the tech gap in Ireland (lack of professionals)
+- Reduce the gender gap in the tech industry
+- Support the Irish economy by helping boost product building
 
 **Business Principles:**
 - Bite-Sized Content
@@ -125,7 +142,6 @@ These are assumptions from previus market research, but they still need to be va
 - Free Top Resources
 - Connecting People 
 
-### **User Goals**
 
 
 
@@ -137,21 +153,18 @@ These are assumptions from previus market research, but they still need to be va
 
 
 
-### **Business Goals**
-Site Owner's Goals:
-- Build my personal branding
-- Develop a professional online presence
-- Expand my networking opportunities
-- Promote my services
-- Showcase my work (portfolio)
-- Get more interesting side projects
-- Increase collaborations and partnerships
-- Make my knowledge profitable (sell my courses/workshops)
-- Increase my client base
-- Become thought leader in Cork, then Ireland
-- Help people grow their businesses
-- Support Irish economy by helping boost the # of Irish startups
-- Gain more professional experience in Ireland
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### **User Goals**
 External User's Goals:
@@ -700,11 +713,9 @@ All these snippets of code have been fully customized for this project's require
 # **ACKNOWLEDGEMENTS** 
 
 I would like to thank the following people for the constant support and guidance during my learning process: 
-- [Cormac Lawlor (Tutor)](https://www.linkedin.com/in/cormac-lawlor/)
 - [Adegbenga Adeye (Mentor)](https://www.linkedin.com/in/adegbenga-adeye-psm-i-14003635/)
 - [Code Institute Slack Community](https://code-institute-room.slack.com/)
 - [Igor Basuga (Tutor)](https://www.linkedin.com/in/igor-basuga-b2a123111/)
 - [Miklos Sarosi (Tutor)](https://www.linkedin.com/in/miklossarosi/) 
-- [Istvan Orosz (Classmate)](https://www.linkedin.com/in/istv%C3%A1n-orosz/) 
 
 [Back to Content](#content)

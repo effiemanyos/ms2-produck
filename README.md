@@ -550,8 +550,10 @@ https://wave.webaim.org/
 - Unicode Symbols → [Cool Symbol](https://coolsymbol.com/)
 - Illustrations → [UnDraw](https://undraw.co/)
 - Photography → [Unsplash](https://unsplash.com/)
-- Wireframing → [Balsamiq](https://balsamiq.com/) (*)
+- Low Fidelity Wireframing → [Balsamiq](https://balsamiq.com/) (*)
+- High Fidelity Prototyping → [Figma](https://balsamiq.com/)
 - Planning → [Miro](https://miro.com/)
+- Planning → [Trello](http://trello.com/)
 - Visuals → [Canva](https://www.canva.com/)
 - Colour Scheme → [Coolors](https://coolors.co/)
 - Shapes & Diagrams → [Google Drawing](https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme)
@@ -567,7 +569,7 @@ https://wave.webaim.org/
 The entire testing process, issues and bugs found during development, solutions, and final results can be found [here](https://github.com/effiemanyos/milestone-project-one/blob/master/testing.md).
 
 - Issues Solved During Development
-- HTML-CSS Validation Testing
+- HTML-CSS-JavaScript Validation Testing
 - Testing Performance
 - Testing Accessibility
 - Testing User Stories
@@ -612,11 +614,12 @@ Additionally, you can either **Clone** or **Fork** this repository ([Milestone-P
 # **CREDITS** 
 
 ### **Inspiration**
-- [Product School](https://sianhorn.com/) MODIFY THIS CONTENT TO THE RIGHT ONE
-- [Mind the Product](https://danafuelles.coach/)
-- [XXX](https://upsherises.ie/)
-- [XXX](https://wonsulting.com/)
-- [XXX](https://www.awwwards.com/)
+- [Product School](https://www.productschool.com/)
+- [Mind the Product](https://www.mindtheproduct.com/)
+- [The PM Library](https://thepmlibrary.com)
+- [Women in Product](https://www.womenpm.org/)
+- [Product Buds](https://productbuds.co/)
+- [Product People](https://getproductpeople.com/)
 
 ### **Code**
 
@@ -641,69 +644,55 @@ Additionally, you can either **Clone** or **Fork** this repository ([Milestone-P
 - Contact Information (Email Link) → [Tutorials Point](https://www.tutorialspoint.com/html/html_email_links.htm)
 - Footer Section (Layout) → [Divinector](https://www.youtube.com/watch?v=4jelwvPcS8w)
 
-All these snippets of code have been fully customized for this project's requirements and to match the look and feel of the brand.
+All these snippets of code have been fully customized for this project's requirements and to match the look and feel of the company.
 
 ### **Media**
 
-**'Hero Image' Section:**
-- [New York, USA](https://unsplash.com/photos/VIhBOwitqu8) by [James Ting](https://unsplash.com/@jamesting) taken from [Unsplash](https://unsplash.com/)
+**'Hero Image / Jumbotron' Section:**
+- [KW: Team Work | Photo 1](https://unsplash.com/photos/QckxruozjRg) by [Annie Spratt](https://unsplash.com/@anniespratt) taken from [Unsplash](https://unsplash.com/)
 
-**'About Me' Section:**
-- Effie's Original Portraits by Effie Manyos taken from [LinkedIn](https://www.linkedin.com/in/effiemanyos/) and [Instagram](https://www.instagram.com/effiemanyos/) (2)
+**'About Produck' Section:**
+- [KW: Diversity | Photo 2](https://unsplash.com/photos/98Elr-LIvD8) by [Zachary Nelson](https://unsplash.com/@zacharytnelson) taken from [Unsplash](https://unsplash.com/)
 
-**'Work Experience' Section:**
+**'What Is PM?' Section:**
+- [KW: Product Management | Photo 3](https://unsplash.com/photos/bzqU01v-G54) by [Leon](https://unsplash.com/@myleon) taken from [Unsplash](https://unsplash.com/)
 
-*Company Logos:*
-- [ArchHyve](https://archhyve.com/) Logo taken from Official Website
-- [Ardagh Agencies](https://www.ardaghagencies.ie/) Logo taken from Official Website
-- [ISG Contract](https://www.isgcontract.com/) Logo taken from Official Website
-- [PeggyRain](https://peggyrain.com/) Logo taken from Official Website
-- [Translit](https://translit.ie/) Logo taken from Official Website
-- [Keysight Technologies](https://www.keysight.com/) Logo taken from Official Website
-- [inbestMe](https://www.inbestme.com/en) Logo taken from Official Website
-- [The Crêpe Kitchen](https://www.thecrepekitchen.ca/) Logo taken from Official Website
-- [Citigroup](https://www.citigroup.com/citi/) Logo taken from Official Website
-- [Banco de Credito BCP](https://www.viabcp.com/) Logo taken from Official Website
-- [SocMark](https://www.linkedin.com/company/socmark/) Logo taken from Official Website
-- [Publicidad Causa](http://pi-ar.com.pe/el-reto-de-las-agencias-de-hoy-conseguir-clientes-al-mismo-costo/) Logo taken from Google Images
+**'Thought Leaders' Section:**
 
-*Location Images:*
-- [Barcelona, Spain](https://unsplash.com/photos/fwi8RCxfmY4) by [Shai Pal](https://unsplash.com/@shaipal) taken from [Unsplash](https://unsplash.com/)
-- [Toronto, Canada](https://unsplash.com/photos/_XYtu0lcVWo) by [Matthew Henry](https://unsplash.com/@matthewhenry) taken from [Unsplash](https://unsplash.com/)
-- [Lima, Peru](https://unsplash.com/photos/4hMET7vYTAQ) by [Willian Justen de Vasconcellos](https://unsplash.com/@willianjusten) taken from [Unsplash](https://unsplash.com/)
-- [New Jersey, USA](https://unsplash.com/photos/OWMN3ujgWBc) by [Gautam Krishnan](https://unsplash.com/@gautamkrishnan) taken from [Unsplash](https://unsplash.com/)
-- [New York, USA](https://unsplash.com/photos/SVVTZtTGyaU) by [Patrick Tomasso](https://unsplash.com/@impatrickt) taken from [Unsplash](https://unsplash.com/)
-- [Cork City, Ireland](https://unsplash.com/photos/NELRuCfHxxU) by [Mark de Jong](https://unsplash.com/@mrmarkdejong) taken from [Unsplash](https://unsplash.com/)
+- [Suzanne Abate](https://www.linkedin.com/in/suzanneabate/) → Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
+- [Carlos Gonzalez de Villaumbrosia](https://www.linkedin.com/in/villaumbrosia/) Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
+- [SC Moatti](https://www.linkedin.com/in/scmoatti/) → Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
+- [Dan Olsen](https://www.linkedin.com/in/danolsen98/) → Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
+- [Lewis C. Lin](https://www.linkedin.com/in/lewislin/) → Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
+- [Lena Haydt](https://www.linkedin.com/in/lenahaydt/) → Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
+- [Gibson Biddle](https://www.linkedin.com/in/gibsonbiddle/) → Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
+- [Janna Bastow](https://www.linkedin.com/in/jannabastow/) → Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
+- [Ryan Hoover](https://www.linkedin.com/in/ryanrhoover/) → Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
+- [Mirela Mus](https://www.linkedin.com/in/mirelamus/) → Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
+- [Martin Eriksson](https://www.linkedin.com/in/martineriksson/) → Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
+- [Melissa Perri](https://www.linkedin.com/in/melissajeanperri/) → Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
 
-**'Qualifications' Section:**
-- [Universitat de Barcelona](https://www.ub.edu/) Logo taken from Official Website
-- [Wharton School | University of Pennsylvania](https://www.wharton.upenn.edu/) Logo taken from Official Website
-- [University of Alberta](https://www.ualberta.ca/) Logo taken from Official Website
-- [Digital Marketing Institute](https://digitalmarketinginstitute.com/) Logo taken from Official Website
-- [Universidad de Lima](https://www.ulima.edu.pe/en) Logo taken from Official Website
-
-**'How Can I Help' Section:**
-- Illustration taken from [UnDraw](https://undraw.co/) and modified to match the brand and website color scheme.
-
-
-KEEP EDITING THIS
+**'The Perfect PM (Background)' Section:**
+- Illustration taken from [UnDraw](https://undraw.co/) and edited to match the brand and website color scheme.
 
 **'Must-Read Books' Section:**
-- [Hooked](https://www.pendo.io/) → Logo taken from Official Website
-- [Escaping the Build Trap](https://www.pendo.io/) → Image taken from Official Website
-- [The Product Book](https://www.pendo.io/) → Logo taken from Official Website
-- [Product Mindset](https://www.pendo.io/) → Logo taken from Official Website
-- [Measure What Matters](https://www.pendo.io/) → Logo taken from Official Website
-- [Crossing the Chasm](https://www.pendo.io/) → Logo taken from Official Website
-- [Shape Up](https://www.pendo.io/) → Logo taken from Official Website
-- [The Mom Test](https://www.pendo.io/) → Logo taken from Official Website
-- [Inspired](https://www.pendo.io/) → Logo taken from Official Website
-- [Range](https://www.pendo.io/) → Logo taken from Official Website
-- [Cracking the PM Interview](https://www.pendo.io/) → Logo taken from Official Website
-- [100 Things](https://www.pendo.io/) → Logo taken from Official Website
+- [Hooked by Nir Eyal](https://www.pendo.io/) → Book Cover taken from [Goodreads](https://www.goodreads.com/)
+- [Escaping the Build Trap by Melissa Perri](https://www.pendo.io/) → Book Cover taken from [Goodreads](https://www.goodreads.com/)
+- [The Product Book by Carlos Gonzalez](https://www.pendo.io/)→ Book Cover taken from [Goodreads](https://www.goodreads.com/)
+- [Product Mindset by Product School](https://www.pendo.io/) → Book Cover taken from [Goodreads](https://www.goodreads.com/)
+- [Measure What Matters by John E. Doerr](https://www.pendo.io/) → Book Cover taken from [Goodreads](https://www.goodreads.com/)
+- [Crossing the Chasm by Geoffrey A. Moore](https://www.pendo.io/) → Book Cover taken from [Goodreads](https://www.goodreads.com/)
+- [Shape Up by Ryan Singer](https://www.pendo.io/) → Book Cover taken from [Goodreads](https://www.goodreads.com/)
+- [The Mom Test by Rob Fitzpatrick](https://www.pendo.io/) → Book Cover taken from [Goodreads](https://www.goodreads.com/)
+- [Inspired by Marty Cagan](https://www.pendo.io/) → Book Cover taken from [Goodreads](https://www.goodreads.com/)
+- [Range by David Epstein](https://www.pendo.io/) → Book Cover taken from [Goodreads](https://www.goodreads.com/)
+- [Cracking the PM Interview by Gayle McDowell](https://www.pendo.io/) → Book Cover taken from [Goodreads](https://www.goodreads.com/)
+- [100 Things by Susan Weinschenk](https://www.pendo.io/) → Book Cover taken from [Goodreads](https://www.goodreads.com/)
+
+This section will contain a lot more books for aspiring PMs to read. These books will be related to various disciplines (leadership, business, technology, product management, design, analytics, among others).
 
 **'Resources' Section:**
-- [Pendo](https://www.pendo.io/) → Logo taken from Official Website
+- [Pendo](https://www.pendo.io/) → Logo and Founder(s) taken from Official Website
 - [Product School](https://www.productschool.com/) → Logo and Founder(s) taken from Official Website
 - [Product Love by Eric Boduch](https://www.pendo.io/) → Logo and Founder(s) taken from Official Website
 - [The Product Folks](https://www.theproductfolks.com/) → Logo and Founder(s) taken from Official Website
@@ -721,15 +710,6 @@ KEEP EDITING THIS
 - [Product Hunt Radio](https://www.producthunt.com) → Logo and Founder(s) taken from Official Website
 - [Mind the Product](https://www.mindtheproduct.com/) → Logo and Founder(s) taken from Official Website
 - [One Knight in Product](https://www.oneknightinproduct.com/) → Logo and Founder(s) taken from Official Website
-
-
-
-
-
-**'Testimonials' Section:**
-- [Portrait 1](https://unsplash.com/photos/TXxiFuQLBKQ) by [ThisisEngineering RAEng](https://unsplash.com/@thisisengineering) taken from [Unsplash](https://unsplash.com/)
-- [Portrait 2](https://unsplash.com/photos/iFgRcqHznqg) by [Joseph Gonzalez](https://unsplash.com/@miracletwentyone) taken from [Unsplash](https://unsplash.com/)
-- [Portrait 3](https://unsplash.com/photos/rriAI0nhcbc) by [Jack Finnigan](https://unsplash.com/@jackofallstreets) taken from [Unsplash](https://unsplash.com/)
 
 [Back to Content](#content)
 

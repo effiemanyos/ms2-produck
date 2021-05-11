@@ -345,36 +345,40 @@ ____
 
 ### **Website Structure**
 
-At the moment, the website consists in only **1 page containing 11 sections**, one after the other. The **current structure** of the website is the following:
+At the moment, the platform consists of only **10 pages and 11 sections**. The **current structure** of the website is the following:
 
-|HOME|ABOUT|SERVICES|TRAINING|TESTIMONIALS|CONTACT|
+|HOME|PM ROLE|LEADERS|PM BOOKS|RESOURCES|CONTACT|
 |--|----|-----|---|---|---|
-|Hero Image|About Me|How Can I Help|~~Learning Hub~~|Testimonials|Contact Me|
-||Work Experience|What I Do|Communities|||
-||Qualifications|||||
+|Produck|What Is PM?|Industry Experts|Must-Read Books|Key Resources||
+|Services|Career Path|Networking App|ToReadList App|Bookmarks App||
+|Contact|What PMs Do||ToBuyList App|Tech Companies||
+|Top Links|Background||ToRateListApp|||
+||Soft Skills||MyNotes App|||
 
-> Besides the 'Navigation' and 'Footer' section, which goes on top and after the 'Contact Me' section, respectively.
+**Sections:**
+- Navigation Bar
+- Jumbotron
+- About
+- Services
+- Contact
+- Footer
+- What Is PM?
+- Career Path
+- What PMs Do
+- Background
+- Soft Skills
 
-### **Planned Structure**
-
-The **intended structure** of the website for the **MVP** was the following:
-
-|HOME|ABOUT|SERVICES|TRAINING|RESOURCES|JOIN US|CONTACT|
-|---|---|---|---|---|---|---|
-|Hero Image |About Me|How Can I Help (*)|~~Learning Hub~~|Recommend Resources (^)|~~Memberships~~|Contact Me|
-|About Me|~~Expertise~~|What I Do (**)|~~Workshops & Webinars~~|~~Books & eBooks~~|~~Join Huasi~~|Footer|
-|How Can I Help (*)|Work Experience|Digital Marketing|~~Online Courses~~|~~Blogs & Newsletters~~|~~Join NetCork~~||
-|What I Do (**)|Qualifications|Product Management|~~1:1 & Group Sessions~~|~~Podcasts & Clubhouse~~|~~P&C~~||
-|Testimonials|Top Skills|~~Entrepreneurship~~|~~Podcast & YouTube~~|~~PPL/SM/YT Channels~~| ~~Contact Me~~||
-|~~Key Figures~~|Communities|~~Recommended Partners~~|~~Blog & Newsletter~~|~~Free/Cheap Tools~~|Footer||
-|Contact Me|Contact Me|Contact Me|~~Virtual Meetups~~|~~Other Resources~~||
-|Footer|Footer|Footer|Footer|Footer||
-
->(*) Services types  
-(**) Services fields  
-(^) Summary of all the recommended types of resources 
-
-Unfortunately, the **scope** had to be reduced and adjusted due to a lack of resources, which the most vital was **time**, and then **knowledge** to develop some sections and complex features.
+**Pages:**
+- Industry Experts
+- Networking App
+- Must-Read Books
+- ToReadList App
+- ToBuyList App
+- ToRateList App
+- MyNotes App
+- Key Resources
+- Bookmarks App
+- Tech Companies
 
 ### **Future Additions**
 
@@ -388,15 +392,6 @@ The sections that will be added in the near future are the following:
 |Instagram Feed|||Podcast & YouTube|PPL/SM/YT Channels|P&C||
 |Clients|||Blog & Newsletter|Free/Cheap Tools||
 ||||Virtual Meetups|Other Resources (^)||
-
-> (#) Welcome Video or Hero Video   
-(*) 'Featured In' or 'Partners' section  
-(**) [Calendly](https://calendly.com/) integration so that users can **book free consultations** without having to send an email or a message.     
-(^) Communities, White Papers, Toolkits, Guides, Templates, Frameworks, Networking, Volunteering, Cheat Sheets, Infographics, Events, etc.    
-
-Besides these sections, a **login/logout** feature will be implemented in the navigation bar so that users can access exclusive content provided to their chosen membership plan.    
-
-This will also require the implementation of a feature that allows users to make **payments online** for their prefered subscription plan on a monthly or annually basis.
 
 ## **Skeleton Plane** 
 ____
@@ -415,9 +410,8 @@ ____
 
 ### **Typography**
 
-Only two fonts were used for this project.
+Only one font was used for this project.
 
-- **[Neucha](https://fonts.google.com/specimen/Neucha?query=Neucha&preview.text_type=custom)**, designed by Jovanny Lemonad, for all titles and subtitles.  
 - **[Poppins](https://fonts.google.com/specimen/Poppins?query=Poppins&preview.text_type=custom)**, designed by Indian Type Foundry, Jonny Pinhorn, for all paragraphs.
 
 **Font Styling:**
@@ -478,31 +472,28 @@ Colour establishes **brand recognition** amongst consumers, therefore it is cruc
 
 The following are the colours used for this project:
 
-![the website and brand colour palette](./assets/images/color-scheme.png "the website and brand colour palette")
+![the website and brand colour palette](assets/images/color-scheme.png "the website and brand colour palette")
 
 **Primary Colours:**
-> - **Purple** → Associated with **wisdom, wealth, spirituality, imaginative, and sophistication**.
+> - **Purple** → Associated with **trust, loyalty, dependability, logic, security, serenity, and stimulates productivity**.
 > - **Black** → Associated with **sophistication, luxury, security, power, elegance, authority, and substance**.
-> - **Green** → Associated with **health, tranquility, growth, freshness, prosperity, hope, balance, harmony, and nature**.
-> - **Pink** → Associated with femininity. **Imaginative, passionate, caring, creativity, innovative, quirky**. 
+> - **Green** → Associated with **health, growth, freshness, prosperity, hope, encourages balance and harmony**.
+> - **White** → Associated with **innocence, purity, cleanliness, and simplistic**.
 
-At the end, only these colours were used throughout the entire website (MVP stage): 
-
-![the mvp color scheme](./assets/images/color-scheme-mvp.png "the mvp color scheme")
 
 ### **Imagery**
 
-Illustrations were taken from **[UnDraw](https://undraw.co/)** to improve the UX. These illustrations have been modified to match the website and brand colours.
+The illustration from the 'Background' section was taken from **[UnDraw](https://undraw.co/)** to improve the UX. The illustration has been edited to match the website and brand colours (branded).
 
-Professional photographies from **[Unsplash](https://unsplash.com/)** have been used for the Hero Image, Work Experience and Testimonials section of the website. 
+Professional photographies from **[Unsplash](https://unsplash.com/)** have been used for the 'Hero Image', 'About Produck' and 'About PM' sections of the website. 
 
 When ready, professional photos and videos will be added to the website in various sections. Some of the images and videos will come from:
-- Workshops
-- Events
-- Webinars
+- Live Workshops
+- Networking Events
+- Online Webinars
+- PM Conferences
 - Collaborations
-- Volunteering
-- Owner's Promotional Photos
+- Community Activities
 
 At the moment, the imagery used is for academic purposes only in order to meet the project deadline. These images will be replaced before the launch of the website.
 
@@ -510,12 +501,14 @@ At the moment, the imagery used is for academic purposes only in order to meet t
 
 # **TECHNOLOGIES USED** 
 
-The following technology was used during the development and testing of this project:
+The following technologies were used during the development and testing of this project:
 
 ### **Languages**
 
 - **HTML5** to structure each page.
 - **CSS3** to style the elements within each page.
+- **Vanilla JavaScript** ADD CONTENT HERE
+- **jQuery** ADD CONTENT HERE
 
 ### **Workspaces, Version Control, Respository Hosting**
 - Store Repositories → [GitHub](https://github.com/)
@@ -526,6 +519,8 @@ The following technology was used during the development and testing of this pro
 - Frameworks → [Bootstrap V4.6.0](https://getbootstrap.com/)
 - Fonts → [Google Fonts](https://fonts.google.com/)
 - Icons → [Font Awesome V4.7.0](https://fontawesome.com/v4.7.0/icons/)
+- jQuery → [Font Awesome V4.7.0](https://fontawesome.com/v4.7.0/icons/) ADD CONTENT HERE
+- jQuery UI → [Font Awesome V4.7.0](https://fontawesome.com/v4.7.0/icons/) ADD CONTENT HERE
 
 ### **Code Consultations**
 - Git Commit Messages → [Chris Beams | How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
@@ -617,11 +612,11 @@ Additionally, you can either **Clone** or **Fork** this repository ([Milestone-P
 # **CREDITS** 
 
 ### **Inspiration**
-- [Sian Horn | The Club](https://sianhorn.com/)
-- [Dana Fuelles](https://danafuelles.coach/)
-- [Virginia Foley | Up She Rises](https://upsherises.ie/)
-- [Wonsulting](https://wonsulting.com/)
-- [Awwwards.](https://www.awwwards.com/)
+- [Product School](https://sianhorn.com/) MODIFY THIS CONTENT TO THE RIGHT ONE
+- [Mind the Product](https://danafuelles.coach/)
+- [XXX](https://upsherises.ie/)
+- [XXX](https://wonsulting.com/)
+- [XXX](https://www.awwwards.com/)
 
 ### **Code**
 
@@ -690,17 +685,46 @@ All these snippets of code have been fully customized for this project's require
 **'How Can I Help' Section:**
 - Illustration taken from [UnDraw](https://undraw.co/) and modified to match the brand and website color scheme.
 
-**'Communities' Section:**
-- [JCI Ireland](https://www.jciireland.ie/) Logo taken from Official Website
-- [ThePowerMBA](https://thepowermba.com/) Logo taken from Official Website
-- [Growth Hacking Course](https://www.growthhackingcourse.io/) Logo taken from Official Website
-- [Sian Horn | The Club](https://sianhorn.com/) Logo taken from Official Website
-- [IPMG](https://www.linkedin.com/company/irish-product-management-group/) Logo taken from Official Website
-- [Product School](https://www.productschool.com/) Logo taken from Official Website
-- [Product Buds](https://productbuds.co/) Logo taken from Official Website
-- [Code Institute](https://codeinstitute.net/) Logo taken from Official Website
-- [Women in Tech](https://women-in-tech.net/) Logo taken from Official Website
-- [Up She Rises](https://upsherises.ie/) Logo taken from Official Website
+
+KEEP EDITING THIS
+
+**'Must-Read Books' Section:**
+- [Hooked](https://www.pendo.io/) → Logo taken from Official Website
+- [Escaping the Build Trap](https://www.pendo.io/) → Image taken from Official Website
+- [The Product Book](https://www.pendo.io/) → Logo taken from Official Website
+- [Product Mindset](https://www.pendo.io/) → Logo taken from Official Website
+- [Measure What Matters](https://www.pendo.io/) → Logo taken from Official Website
+- [Crossing the Chasm](https://www.pendo.io/) → Logo taken from Official Website
+- [Shape Up](https://www.pendo.io/) → Logo taken from Official Website
+- [The Mom Test](https://www.pendo.io/) → Logo taken from Official Website
+- [Inspired](https://www.pendo.io/) → Logo taken from Official Website
+- [Range](https://www.pendo.io/) → Logo taken from Official Website
+- [Cracking the PM Interview](https://www.pendo.io/) → Logo taken from Official Website
+- [100 Things](https://www.pendo.io/) → Logo taken from Official Website
+
+**'Resources' Section:**
+- [Pendo](https://www.pendo.io/) → Logo taken from Official Website
+- [Product School](https://www.productschool.com/) → Logo and Founder(s) taken from Official Website
+- [Product Love by Eric Boduch](https://www.pendo.io/) → Logo and Founder(s) taken from Official Website
+- [The Product Folks](https://www.theproductfolks.com/) → Logo and Founder(s) taken from Official Website
+- [Masters of Scale](https://mastersofscale.com/) → Logo and Founder(s) taken from Official Website
+- [Product People](https://getproductpeople.com/) → Logo and Founder(s) taken from Official Website
+- [Rocketship FM](https://rocketship.fm/) → Logo and Founder(s) taken from Official Website
+- [Women in Product](https://www.womenpm.org/) → Logo and Founder(s) taken from Official Website
+- [100 Product Managers](https://www.100productmanagers.com/) → Logo and Founder(s) taken from Official Website
+- [Productized](https://productized.co/) → Logo and Founder(s) taken from Official Website
+- [Silicon Valley Product Group](https://svpg.com/) → Logo and Founder(s) taken from Official Website
+- [Amplitude](https://amplitude.com/) → Logo and Founder(s) taken from Official Website
+- [Product Buds](https://productbuds.co/) → Logo and Founder(s) taken from Official Website
+- [Product Manager HQ](https://productmanagerhq.com/) → Logo and Founder(s) taken from Official Website
+- [280 Group](https://280group.com/) → Logo and Founder(s) taken from Official Website
+- [Product Hunt Radio](https://www.producthunt.com) → Logo and Founder(s) taken from Official Website
+- [Mind the Product](https://www.mindtheproduct.com/) → Logo and Founder(s) taken from Official Website
+- [One Knight in Product](https://www.oneknightinproduct.com/) → Logo and Founder(s) taken from Official Website
+
+
+
+
 
 **'Testimonials' Section:**
 - [Portrait 1](https://unsplash.com/photos/TXxiFuQLBKQ) by [ThisisEngineering RAEng](https://unsplash.com/@thisisengineering) taken from [Unsplash](https://unsplash.com/)

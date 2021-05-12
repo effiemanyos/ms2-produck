@@ -25,7 +25,6 @@
 </head>
 
 <body>
-
     <!-- Main Navigation Bar | Website Menu -->
     <header id="navigation-bar">
 
@@ -78,7 +77,8 @@
 
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <div class="dropdown menu-dropdown">
-                            <button class="dropbtn page-scroll menu-dropbtn active"><a class="nav-link" href="books.html"><i class="fa fa-book"></i>
+                            <button class="dropbtn page-scroll menu-dropbtn active"><a class="nav-link"
+                                    href="books.html"><i class="fa fa-book"></i>
                                     PM Books</a></button>
                             <div class="dropdown-content menu-dropdown-content">
                                 <a href="books.html">> Top PM Books</a>
@@ -91,8 +91,8 @@
 
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <div class="dropdown menu-dropdown">
-                            <button class="dropbtn page-scroll menu-dropbtn"><a class="nav-link" href="resources.html"><i
-                                        class="fa fa-folder-open"></i> Resources</a></button>
+                            <button class="dropbtn page-scroll menu-dropbtn"><a class="nav-link"
+                                    href="resources.html"><i class="fa fa-folder-open"></i> Resources</a></button>
                             <div class="dropdown-content menu-dropdown-content">
                                 <a href="resources.html">> Top Resources</a>
                                 <a href="bookmarks.html">> Bookmarks App</a>
@@ -111,8 +111,8 @@
         </nav>
     </header>
 
-    <!-- BooksToBuy App | Books To Buy List -->
-    <section id="tobuy-list-section">
+    <!-- Networking List App | Contacts List -->
+    <section id="networking-section">
 
         <!-- Dark Mode Button -->
         <div class="toggle-container">
@@ -120,57 +120,93 @@
             <label for="switch" class="toggle-label">Toggle</label>
         </div>
 
-        <!-- Main Application -->
-        <div class="container tobuy-cont-styling">
+        <div class="main-container">
 
             <!-- Intro Section -->
             <div class="section-main-intro tobuy-intro-styling">
-                <div class="section-subtitle black-subtitle">Buying Top PM Books</div>
-                <h2 class="section-main-title blue-title">My ToBuyList</h2>
+                <div class="section-subtitle black-subtitle">Connecting w/Industry Experts</div>
+                <h2 class="section-main-title blue-title">My NetworkingList</h2>
             </div>
 
-            <!-- App Form -->
-            <form id="book-form">
-                <div class="form-group">
-                    <label for="title"><i class="fa fa-book icon-styling"></i> Title</label>
-                    <input type="text" id="title" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="author"><i class="fa fa-user icon-styling"></i> Author</label>
-                    <input type="text" id="author" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="rating"><i class="fa fa-star icon-styling"></i> Rating</label>
-                    <input type="text" id="rating" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="price"><i class="fa fa-eur icon-styling"></i> Price</label>
-                    <input type="text" id="price" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="isbn"><i class="fa fa-hashtag icon-styling"></i> ISBN</label>
-                    <input type="text" id="isbn" class="form-control">
-                </div>
-                <input type="submit" value="Add Book" class="btn-styling btn-block">
-            </form>
+            <!-- Input Record -->
+            <div class="record-input">
+                <h2>Contact Details</h2>
+                <div class="entry-form">
+                    <form>
+                        <label for="name">Name </label>
+                        <input type="text" id="name">
 
-            <!-- App Table -->
-            <table class="table mt-5 table-styling">
-                <thead>
-                    <tr>
-                        <th class="title-styling th-title">Title</th>
-                        <th class="title-styling">Author</th>
-                        <th class="title-styling">Rating</th>
-                        <th class="title-styling">Price</th>
-                        <th class="title-styling">ISBN</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody id="book-list"></tbody>
-            </table>
+                        <label for="address">Address </label>
+                        <input type="text" id="address">
+
+                        <label for="contact-number">Contact Number </label>
+                        <input type="text" id="contact-number">
+                    </form>
+
+                    <!-- Alert Message -->
+                    <span class="message"></span>
+
+                    <div class="input-btns">
+                        <button type="submit" id="submit-btn">
+                            <span>
+                                <i class="fa fa-plus"></i>
+                            </span> Add Contact
+                        </button>
+
+                        <button type="button" id="cancel-btn">
+                            <span>
+                                <i class="fa fa-times"></i>
+                            </span> Cancel
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Display Record -->
+            <div class="record-display">
+                <h2>Available Contacts:</h2>
+
+                <!-- Reset Button -->
+                <button type="button" id="reset-btn">
+                    Reset
+                </button>
+
+                <div class="record-container">
+
+                    <!-- Single Record -->
+                    <div class="record-item">
+
+                        <div class="record-el">
+                            <span id="labelling">Contact ID:</span>
+                            <span id="contact-id-content">1</span>
+                        </div>
+
+                        <div class="record-el">
+                            <span id="labelling">Name:</span>
+                            <span id="name-content">John Doe</span>
+                        </div>
+
+                        <div class="record-el">
+                            <span id="labelling">Address:</span>
+                            <span id="address-content">Ohio</span>
+                        </div>
+
+                        <div class="record-el">
+                            <span id="labelling">Contact Number:</span>
+                            <span id="contact-number-content">85 255 9003</span>
+                        </div>
+
+                        <button type="button" id="delete-btn">
+                            <span>
+                                <i class="fa fa-trash"></i>
+                            </span> Delete
+                        </button>
+
+                    </div>
+                </div>
+            </div>
 
         </div>
-
     </section>
 
     <!-- Footer | Important Links -->
@@ -244,7 +280,7 @@
     </script>
 
     <!--JavaScript File-->
-    <script type="text/javascript" src="assets/js/tobuylist.js"></script>
+    <script type="text/javascript" src="assets/js/networkinglist.js"></script>
 
 </body>
 

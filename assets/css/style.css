@@ -2403,3 +2403,40 @@ form {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------[ NETWORKINGLIST APP SECTION √ ]-------------------------------------- */
+
+/** Section Styling **/
+#networking-section {
+    background: var(--bg);
+    padding: 100px 40px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** Container Styling **/
+.main-container {
+    width: 700px;
+    height: 1000px;
+    margin: 70px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    background: var(--bg-panel);
+    padding-top: 40px;
+}

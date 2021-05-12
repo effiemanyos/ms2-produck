@@ -2549,12 +2549,14 @@ form {
     visibility: visible !important;
 }
 
-/** Input Form Buttons **/
+/** Section Buttons Centered **/
 .input-btns {
     text-align: center;
 }
 
-.input-btns button {
+/** Section Buttons Styling **/
+.input-btns button,
+.record-display button {
     display: block;
     width: 160px;
     margin: 10px auto;
@@ -2572,7 +2574,72 @@ form {
     opacity: 1;
 }
 
+/** Section Buttons Hover **/
 .input-btns button:hover {
     opacity: 0.9;
 }
 
+/** Buttons Icon Spacing **/
+#submit-btn span,
+#cancel-btn span {
+    padding-right: 5px;
+}
+
+/** 'Reset' Button Position **/
+#reset-btn {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    width: 120px;
+}
+
+/** Display Results Content Position **/
+.record-display {
+    padding: 30px 65px;
+}
+
+/** Contacts Information **/
+.record-el {
+    display: block;
+    padding: 4px 0;
+    text-align: center;
+}
+
+/** Labelling Styling **/
+#labelling {
+    font-weight: 600;
+}
+
+/** Each Contacts Container **/
+.record-item {
+    color: var(--color-text);
+    border-radius: 30px;
+    padding: 15px 25px;
+    margin: 15px 0;
+    background: var(--bg-panel);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/** Buttons Icon Spacing **/
+#delete-btn span {
+    padding-right: 5px;
+}
+
+/** -----[ Section Responsiveness ]----- **/
+
+@media screen and (min-width:992px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: 90vw;
+        grid-column-gap: 30px;
+    }
+
+    .record-input {
+        height: 700px;
+    }
+
+    .record-container {
+        display: grid;
+    }
+}

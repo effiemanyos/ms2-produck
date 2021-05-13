@@ -25,9 +25,9 @@ class UI {
         row.innerHTML = `
       <td>${book.title}</td>
       <td>${book.author}</td>
-      <td>${book.rating}</td>
+      <td class="rating-mobile">${book.rating}</td>
       <td>${book.price}</td>
-      <td>${book.isbn}</td>
+      <td class="isbn-mobile">${book.isbn}</td>
       <td><a href="#" class="btn btn-danger btn-sm delete delete-styling">X</a></td>
     `;
 

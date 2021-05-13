@@ -1473,7 +1473,7 @@ ol li:hover {
 
 @media (max-width:960px) {}
 
-/* ------------------------------------[ BOOKSTOBUY APP SECTION √ ]-------------------------------------- */
+/* ------------------------------------[ TOBUYLIST APP SECTION √ ]-------------------------------------- */
 
 /** Section Styling **/
 #tobuy-list-section {
@@ -1585,6 +1585,51 @@ ol li:hover {
     color: #fff;
     border-radius: 4px !important;
     padding: 2px 8px !important;
+}
+
+/** -----[ Section Responsiveness ]----- **/
+
+@media (max-width:550px) {
+    #book-form label {
+        font-size: 14px;
+    }
+
+    .table-styling th,
+    .table-styling td {
+        font-size: 14px;
+    }
+
+    .tobuy-intro-styling h2 {
+        font-size: 35px;
+    }
+
+    .delete-styling {
+        font-size: 10px !important;
+        border-radius: 50% !important;
+        padding: 1px 5px !important;
+    }
+
+    .isbn-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .table-styling th,
+    .table-styling td {
+        font-size: 13px;
+    }
+
+    .delete-styling {
+        font-size: 8px !important;
+        border-radius: 50% !important;
+        padding: 1px 5px !important;
+    }
+
+    .rating-mobile {
+        display: none;
+    }
 }
 
 /* ------------------------------------[ TORATELIST APP √ ]-------------------------------------- */
@@ -2412,5 +2457,3 @@ form {
         grid-template-columns: repeat(1, 1fr);
     }
 }
-
-

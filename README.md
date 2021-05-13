@@ -624,6 +624,11 @@ Additionally, you can either **Clone** or **Fork** this repository ([Milestone-P
 ### **Code**
 
 - Preinstalled  Tools (Development) → [Code Institute Gitpod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+- ToBuyList App (Layout) → [Traversy Media](https://www.youtube.com/watch?v=JaMCxVWtW58) by [Brad Traversy](https://www.linkedin.com/in/bradtraversy/)
+
+
+
+
 - Favicon (UX) → [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/) 
 - Spacing (Responsiveness) → [Boostrap](https://getbootstrap.com/docs/4.0/utilities/spacing/)
 - Anchors (Fix Issue) → [Stack Overflow](https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header)
@@ -716,8 +721,8 @@ This section will contain a lot more books for aspiring PMs to read. These books
 # **ACKNOWLEDGEMENTS** 
 
 I would like to thank the following people for the constant support and guidance during my learning process: 
-- [Adegbenga Adeye (Mentor)](https://www.linkedin.com/in/adegbenga-adeye-psm-i-14003635/)
 - [Code Institute Slack Community](https://code-institute-room.slack.com/)
+- [Adegbenga Adeye (Mentor)](https://www.linkedin.com/in/adegbenga-adeye-psm-i-14003635/)
 - [Igor Basuga (Tutor)](https://www.linkedin.com/in/igor-basuga-b2a123111/)
 - [Miklos Sarosi (Tutor)](https://www.linkedin.com/in/miklossarosi/) 
 

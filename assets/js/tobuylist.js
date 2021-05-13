@@ -1,3 +1,5 @@
+// Credit: https://bit.ly/3bmXQG4
+
 // Book Class: Represents a Book
 class Book {
     constructor(title, author, rating, price, isbn) {
@@ -42,14 +44,14 @@ class UI {
         }
     }
 
-    // Display Action Messages
+    // Display Alert & Validation Messages
     static showAlert(message, className) {
         const div = document.createElement('div');
         div.className = `alert alert-${className}`;
         div.appendChild(document.createTextNode(message));
-        const container = document.querySelector('.container');
+        const container = document.querySelector('.tobuy-cont-styling');
         const form = document.querySelector('#buy-books-form');
-        container.insertBefore(div, form); // Insert the div before the form
+        container.insertBefore(div, form); // Insert DIV Before Form
 
         // Message Vanishes in 3 Seconds
         setTimeout(() => document.querySelector('.alert').remove(), 3000);
@@ -65,8 +67,11 @@ class UI {
     }
 }
 
+// Credit: https://bit.ly/2R8n44r
 // Store Class: Handles Local Storage
 class Store {
+
+    // Get a Book
     static getBooks() {
         let books;
         if (localStorage.getItem('books') === null) {
@@ -78,21 +83,26 @@ class Store {
         return books;
     }
 
+    // Credit: https://bit.ly/3bmn4EQ
+    // Add a Book
     static addBook(book) {
         const books = Store.getBooks();
         books.push(book);
         localStorage.setItem('books', JSON.stringify(books));
     }
 
+    // Credit: https://bit.ly/2SPb6Nx
+    // Remove a Book
     static removeBook(isbn) {
         const books = Store.getBooks();
-
         books.forEach((book, index) => {
             if (book.isbn === isbn) {
                 books.splice(index, 1);
             }
         });
 
+        // Credit: https://bit.ly/3bmn4EQ
+        // Reset Local Storage
         localStorage.setItem('books', JSON.stringify(books));
     }
 }
@@ -113,9 +123,10 @@ document.querySelector('#buy-books-form').addEventListener('submit', (e) => {
     const price = document.querySelector('#price').value;
     const isbn = document.querySelector('#isbn').value;
 
+    // Credit: https://bit.ly/3bkd7rp
     // Validate Input Has Text
     if (title === '' || author === '' || rating === '' || price === '' || isbn === '') {
-        UI.showAlert('Please fill in all fields', 'danger');
+        UI.showAlert('Please fill in all the fields below', 'danger');
     } else {
 
         // Instatiate Book
@@ -127,8 +138,9 @@ document.querySelector('#buy-books-form').addEventListener('submit', (e) => {
         // Add Book to Local Storage
         Store.addBook(book);
 
+        // Credit: https://bit.ly/3bkd7rp
         // Display Success Message
-        UI.showAlert('Book Added', 'success');
+        UI.showAlert('Your book has been added successfully', 'success');
 
         // Clear Fields
         UI.clearFields();
@@ -141,13 +153,17 @@ document.querySelector('#input-results').addEventListener('click', (e) => {
     // Remove Book From UI
     UI.deleteBook(e.target);
 
-    // Remove Book From Local Storage
+    // Credit: https://bit.ly/3fernmx
+    // Remove Book From Local Storage (Traversing DOM: https://bit.ly/3hpkG3G)
     Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
 
+    // Credit: https://bit.ly/3bkd7rp
     // Display Success Message
-    UI.showAlert('Book Removed', 'success');
+    UI.showAlert('Your book has been removed successfully', 'success');
 });
 
+// Visual Credit: https://bit.ly/33E0Dq7
+// Written Credit: https://bit.ly/33JNwnz
 // Dark Mode Toggle
 var checkbox = document.querySelector('input[name=theme]');
 
@@ -161,6 +177,7 @@ checkbox.addEventListener('change', function () {
     }
 });
 
+// Gradually Change Colours (Transition Property)
 let trans = () => {
     document.documentElement.classList.add('transition');
     window.setTimeout(() => {

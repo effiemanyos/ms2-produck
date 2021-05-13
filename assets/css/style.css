@@ -60,9 +60,9 @@ html {
 html[data-theme='dark'] {
     --bg: #000;
     --bg-panel: #4C4C4C;
-    --color-headings: #A5BAF2;
+    --color-headings: #6E91EA;
     --color-buttons: #000;
-    --color-hover: #9DDEE7;
+    --color-hover: #62CBD9;
     --color-danger: #ED9AA2;
     --color-dhover: #F1B6BB;
     --color-text: #fff;
@@ -1497,12 +1497,11 @@ ol li:hover {
 /** Container Styling **/
 .tobuy-cont-styling {
     width: 700px;
-    height: 1000px;
     margin: 70px;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     background: var(--bg-panel);
-    padding-top: 40px;
+    padding: 40px 0 30px;
 }
 
 /** Form Input Titles **/
@@ -1528,6 +1527,16 @@ ol li:hover {
     margin: auto;
 }
 
+/** Form Input Editing Styling **/
+#title:focus,
+#author:focus,
+#rating:focus,
+#price:focus,
+#isbn:focus {
+    color: var(--color-text);
+    background: var(--color-buttons);
+}
+
 /** 'Add Book' Button Styling **/
 .btn-styling {
     background: var(--color-headings);
@@ -1536,7 +1545,7 @@ ol li:hover {
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     font-size: 16px;
-    color: var(--color-buttons);
+    color: #fff;
     height: 43px;
     margin-top: 30px;
 }
@@ -1544,7 +1553,7 @@ ol li:hover {
 /** 'Add Book' Button Hover Over Effect **/
 .btn-styling:hover {
     background: var(--color-hover);
-    color: var(--color-buttons);
+    color: #fff;
 }
 
 /** Main Table Styling **/

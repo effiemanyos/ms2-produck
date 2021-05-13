@@ -1490,7 +1490,7 @@ ol li:hover {
 }
 
 /** Main Form Size **/
-#book-form {
+#buy-books-form {
     margin: 30px;
 }
 
@@ -1590,7 +1590,7 @@ ol li:hover {
 /** -----[ Section Responsiveness ]----- **/
 
 @media (max-width:550px) {
-    #book-form label {
+    #buy-books-form label {
         font-size: 14px;
     }
 

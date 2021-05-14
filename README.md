@@ -518,7 +518,7 @@ The following technologies were used during the development and testing of this 
 ### **Frameworks & Libraries**
 - Frameworks → [Bootstrap V4.6.0](https://getbootstrap.com/)
 - Fonts → [Google Fonts](https://fonts.google.com/)
-- Icons → [Font Awesome V4.7.0](https://fontawesome.com/v4.7.0/icons/)
+- Icons → [Font Awesome V4.7.0](https://fontawesome.com/v4.7.0/icons/) √
 - jQuery → [Font Awesome V4.7.0](https://fontawesome.com/v4.7.0/icons/) ADD CONTENT HERE
 - jQuery UI → [Font Awesome V4.7.0](https://fontawesome.com/v4.7.0/icons/) ADD CONTENT HERE
 
@@ -627,6 +627,7 @@ Additionally, you can either **Clone** or **Fork** this repository ([Milestone-P
 - Metadata (SEO Purposes) → [W3Schools](https://www.w3schools.com/tags/tag_meta.asp)
 - Favicon (Tiny Icon) → [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/) 
 - NavBar (Responsiveness) → [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/)
+- Hoverable Dropdown Menu (Layout) → [W3Schools](https://www.w3schools.com/howto/howto_css_dropdown.asp)
 - Anchors (Fixed Issue) → [Stack Overflow](https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header)
 - Hero Image Section → [W3Schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
 - About Section (Layout) → [Code Opacity](https://www.youtube.com/watch?v=TlKBoetaDsc)
@@ -640,9 +641,13 @@ Additionally, you can either **Clone** or **Fork** this repository ([Milestone-P
 - JavaScript Validation Messages (Bootstrap Alerts) → [Bootstrap](https://getbootstrap.com/docs/4.0/components/alerts/#dismissing)
 - JavaScript Arrays (splice() Method) → [JavaScript Tutorial](https://www.javascripttutorial.net/javascript-array-splice)
 - JavaScript HTML DOM (previousElementSibling Property) → [W3Schools](https://www.w3schools.com/jsref/prop_element_previouselementsibling.asp)
-- JavaScript DOM traversal (Traversing the DOM) → [Zellwk](https://zellwk.com/blog/dom-traversals/)
-- Dark Mode (Inspiration) → [DesignCourse](https://www.youtube.com/watch?v=ZKXv_ZHQ654) by [Gary Simon](https://www.linkedin.com/in/dreamache/)
+- JavaScript DOM traversal (Inspiration) → [Zellwk](https://zellwk.com/blog/dom-traversals/)
+- Dark Mode - Video (Inspiration) → [DesignCourse](https://www.youtube.com/watch?v=ZKXv_ZHQ654) by [Gary Simon](https://www.linkedin.com/in/dreamache/)
+- Dark Mode - Article (Inspiration) → [Marcin Wichary](https://mwichary.medium.com/dark-theme-in-a-day-3518dde2955a)
 - Top Resources Section (Layout) → [SoengSouy Webdesign](https://www.youtube.com/watch?v=8bZFNgVRY0w) by [Soeng Souy](https://www.linkedin.com/in/soeng-souy-b9b179193/)
+- Table Columns Width (Inspiration) → [Site Point Community](https://www.sitepoint.com/community/t/set-a-table-columns-width/12821)
+- Bootstrap Grid System (Responsive Columns) → [Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/)
+- Bootstrap Display Property (Responsiveness) → [Bootstrap](https://getbootstrap.com/docs/4.0/utilities/display/)
 - The Perfect PM Section (Inspiration) → [Code Institute Love Running Mini-Project](http://bit.ly/37M38Jz)
 - The Perfect PM Section (Layout) → [Subrata Saha](https://www.youtube.com/watch?v=ZRouuWvN-7A)
 - Soft Skills Section (Layout) → [CodingNepal](https://www.youtube.com/watch?v=0198ceyTVtg)
@@ -650,6 +655,7 @@ Additionally, you can either **Clone** or **Fork** this repository ([Milestone-P
 - Industry Experts Section (Layout) → [Master Website Tutorials](https://www.youtube.com/watch?v=HOHpKjddTdw)
 - Top PM Books Section (Inspiration) → [Red Stapler](https://www.youtube.com/watch?v=cwC1qdPWBKo)
 - Top PM Books Section (Layout) → [CSS Coder](https://www.youtube.com/watch?v=HR-Jg3xSQRc)
+- Link to Section of Another Page (Internal Linking) → [Stack Overflow](https://stackoverflow.com/questions/17687328/getting-a-link-to-go-to-a-specific-section-on-another-page)
 - Footer Section (Layout) → [Divinector](https://www.youtube.com/watch?v=4jelwvPcS8w)
 
 All these snippets of code have been fully customized for this project's requirements and to match the look and feel of the website.

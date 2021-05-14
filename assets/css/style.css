@@ -52,7 +52,7 @@ html {
     --color-buttons: #fff;
     --color-hover: #3CBED0;
     --color-danger: #DB3545;
-    --color-dhover: #DE4957;
+    --color-dhover: #C52F3E;
     --color-text: #000;
 }
 
@@ -63,8 +63,8 @@ html[data-theme='dark'] {
     --color-headings: #6E91EA;
     --color-buttons: #000;
     --color-hover: #62CBD9;
-    --color-danger: #ED9AA2;
-    --color-dhover: #F1B6BB;
+    --color-danger: #E25D6A;
+    --color-dhover: #DB3545;
     --color-text: #fff;
 }
 
@@ -1726,11 +1726,11 @@ ol li:hover {
 .bm-cont-styling {
     width: 700px;
     /* up to 10 websites */
-    height: 1080px;
     margin: 70px;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     background: var(--bg-panel);
+    padding-bottom: 30px;
 }
 
 /** Jumbotron Hidden Colour **/
@@ -1745,17 +1745,17 @@ ol li:hover {
     margin: auto !important;
 }
 
-/** Primary CTA Button **/
+/** 'Submit' Button **/
 .bm-btn-styling {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     border-radius: 30px !important;
-    color: var(--color-buttons) !important;
+    color: #fff !important;
     background: var(--color-headings) !important;
 }
 
-/** Primary CTA Button Hover Over Effect **/
+/** 'Submit' Button Hover Over Effect **/
 .bm-btn-styling:hover {
-    color: var(--color-buttons) !important;
+    color: #fff !important;
     background: var(--color-hover) !important;
 }
 
@@ -1767,7 +1767,7 @@ ol li:hover {
 
 /** 'Visit Site' Button **/
 .results-list .btn-default {
-    color: var(--color-buttons) !important;
+    color: #fff !important;
     background: var(--color-headings) !important;
     border-radius: 30px !important;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
@@ -1775,18 +1775,24 @@ ol li:hover {
     margin-right: 8px;
 }
 
-/** Secondary CTA Button **/
+/** 'Visit Site' Button Hover Over Effect **/
+.results-list .btn-default:hover {
+    color: #fff !important;
+    background: var(--color-hover) !important;
+}
+
+/** 'Delete' Button **/
 .bm-btn-danger {
-    color: var(--color-buttons) !important;
+    color: #fff !important;
     background: var(--color-danger) !important;
     border-radius: 30px !important;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     float: right;
 }
 
-/** Secondary CTA Button Hover Over Effect **/
+/** 'Delete' Button Hover Over Effect **/
 .bm-btn-danger:hover {
-    color: var(--color-buttons) !important;
+    color: #fff !important;
     background: var(--color-dhover) !important;
 }
 
@@ -1795,6 +1801,15 @@ ol li:hover {
     padding: 0 35px 0;
 }
 
+/** -----[ Section Responsiveness ]----- **/
+
+@media (max-width:960px) {
+    
+    .results-list h3 {
+    margin-bottom: 30px;
+    color: var(--color-headings);
+}
+}
 
 
 

@@ -76,17 +76,11 @@ All under the constraints of a **tight/no budget for expensive bootcamps (e.g. P
 These are some crucial **user pain points / struggles** worth mentioning:
 
 1. **Lack of Trust** | Users do not how to differentiate high-quality content from poor/fake PM content on the internet as they do not have previus experience in the field.
-
 2. **Quantity Over Quality** | There is too much information on the internet but most sources share superficial or inaccurate content about Product Management. 
-
 3. **Overwhelming & Exhausting** | It is overwhelming and exhausting for users to navigate through all those resources (too many options to choose from), while also trying to find the right information from the right source without having to ask friends or colleagues.
-
 4. **Lack of Time** | There is too much going on in their lives at the moment (esp. during the global pandemic) that they do not have the time to search for the information themselves because it takes a lot of time.
-
 5. **Fear of Missing Out (FOMO)** | Users have also shared during the research that they constantly feel that they are missing out on great tips and valuable information from high-quality resources (esp. from Fortune 100 companies, authors, coaches, industry experts).
-
 6. **Lack of Official Studies** | There is a lack of official Product Management studies offered by universities and colleges. Users are looking for bootcamps, workshops, cohorts, mentors, and online courses to learn more about this relatively new field in the tech industry.
-
 
 ### **Business Opportunity**
 
@@ -556,6 +550,7 @@ https://wave.webaim.org/
 - Planning → [Trello](http://trello.com/)
 - Visuals → [Canva](https://www.canva.com/)
 - Colour Scheme → [Coolors](https://coolors.co/)
+- Hex Color Codes (Variants) → [Color Hex](https://www.color-hex.com/)
 - Shapes & Diagrams → [Google Drawing](https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme)
 - Crop Portraits → [Crop Circle](https://crop-circle.imageonline.co/)
 - Image Compression → [TinyJPG](https://tinyjpg.com/)

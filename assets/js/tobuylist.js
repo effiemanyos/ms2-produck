@@ -57,7 +57,7 @@ class UI {
         setTimeout(() => document.querySelector('.alert').remove(), 3000);
     }
 
-    // Clear Fields
+    // Clear Fields Input Items
     static clearFields() {
         document.querySelector('#title').value = '';
         document.querySelector('#author').value = '';
@@ -67,7 +67,7 @@ class UI {
     }
 }
 
-// Credit: https://bit.ly/2R8n44r
+// Credit: https://bit.ly/3bmn4EQ
 // Store Class: Handles Local Storage
 class Store {
 

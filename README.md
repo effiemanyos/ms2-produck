@@ -621,35 +621,44 @@ Additionally, you can either **Clone** or **Fork** this repository ([Milestone-P
 - [Product Buds](https://productbuds.co/)
 - [Product People](https://getproductpeople.com/)
 
-### **Code**
+### **Code Snippets**
 
 - Preinstalled  Tools (Development) → [Code Institute Gitpod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
-- ToBuyList App (Layout) → [Traversy Media](https://www.youtube.com/watch?v=JaMCxVWtW58) by [Brad Traversy](https://www.linkedin.com/in/bradtraversy/)
-
-
-
-
-- Favicon (UX) → [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/) 
-- Spacing (Responsiveness) → [Boostrap](https://getbootstrap.com/docs/4.0/utilities/spacing/)
-- Anchors (Fix Issue) → [Stack Overflow](https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header)
 - Metadata (SEO Purposes) → [W3Schools](https://www.w3schools.com/tags/tag_meta.asp)
-- NavBar (Social Media Icons) → [CodeTime](https://www.youtube.com/watch?v=TT1faZ-g9U4) by Peter Medina and Trevor Greenleaf
+- Favicon (Tiny Icon) → [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/) 
 - NavBar (Responsiveness) → [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/)
-- Scrollspy → [Bootstrap](https://getbootstrap.com/docs/5.0/components/scrollspy/)
-- Hero Image → [W3Schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
-- About Me Section (Grid System) → [Boostrap](https://getbootstrap.com/docs/4.0/layout/grid/)
-- Work Eperience Section (Effect) → [How 2 Create](https://www.youtube.com/watch?v=uIADUUNJ4xg)
-- Qualifications Section (Inspiration) → [Code Institute Resume Mini-Project](http://bit.ly/381pWFx)
-- Qualifications Section (Timeline) → [DevPen](https://www.youtube.com/watch?v=TP4THzsAa3M)
-- How Can I Help Section (Inspiration) → [Code Institute Love Running Mini-Project](http://bit.ly/37M38Jz)
-- How Can I Help Section (Layout) → [Subrata Saha](https://www.youtube.com/watch?v=ZRouuWvN-7A)
-- What I Do Section (Layout) → [Easy Tutorials](https://www.youtube.com/watch?v=JGGhAzUmjAQ) by Vikash and Avinash Kumar
-- Testimonials Section (Layout) → [DarkCode](https://www.youtube.com/watch?v=zkyIVFoLxgY)
-- Contact Me Section (Inspiration) → [True Coder](https://www.youtube.com/watch?v=rpujWVkmiPE)
+- Anchors (Fixed Issue) → [Stack Overflow](https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header)
+- Hero Image Section → [W3Schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
+- About Section (Layout) → [Code Opacity](https://www.youtube.com/watch?v=TlKBoetaDsc)
+- Contact Us Section (Inspiration) → [True Coder](https://www.youtube.com/watch?v=rpujWVkmiPE)
 - Contact Information (Email Link) → [Tutorials Point](https://www.tutorialspoint.com/html/html_email_links.htm)
+- ToBuyList App (Layout) → [Traversy Media](https://www.youtube.com/watch?v=JaMCxVWtW58) by [Brad Traversy](https://www.linkedin.com/in/bradtraversy/)
+- Bookmarks App (Layout) → [Traversy Media](https://www.youtube.com/watch?v=DIVfDZZeGxM) by [Brad Traversy](https://www.linkedin.com/in/bradtraversy/)
+- Local Storage (Array of Objects) → [Stack Overflow](https://stackoverflow.com/questions/43762363/how-to-store-an-array-of-objects-in-local-storage)
+- Local Storage (Inspiration for Apps) → [LogRocket](https://blog.logrocket.com/localstorage-javascript-complete-guide/)
+- Window.localStorage (Inspiration for Apps) → [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+- JavaScript Validation Messages (Bootstrap Alerts) → [Bootstrap](https://getbootstrap.com/docs/4.0/components/alerts/#dismissing)
+- JavaScript Arrays (splice() Method) → [JavaScript Tutorial](https://www.javascripttutorial.net/javascript-array-splice)
+- JavaScript HTML DOM (previousElementSibling Property) → [W3Schools](https://www.w3schools.com/jsref/prop_element_previouselementsibling.asp)
+- JavaScript DOM traversal (Traversing the DOM) → [Zellwk](https://zellwk.com/blog/dom-traversals/)
+- Dark Mode (Inspiration) → [DesignCourse](https://www.youtube.com/watch?v=ZKXv_ZHQ654) by [Gary Simon](https://www.linkedin.com/in/dreamache/)
+- Top Resources Section (Layout) → [SoengSouy Webdesign](https://www.youtube.com/watch?v=8bZFNgVRY0w) by [Soeng Souy](https://www.linkedin.com/in/soeng-souy-b9b179193/)
+- The Perfect PM Section (Inspiration) → [Code Institute Love Running Mini-Project](http://bit.ly/37M38Jz)
+- The Perfect PM Section (Layout) → [Subrata Saha](https://www.youtube.com/watch?v=ZRouuWvN-7A)
+- Soft Skills Section (Layout) → [CodingNepal](https://www.youtube.com/watch?v=0198ceyTVtg)
+- What PMs Do Section (Layout) → [Zen-Dev](https://www.youtube.com/watch?v=iJSgQ7N4qa0)
+- Industry Experts Section (Layout) → [Master Website Tutorials](https://www.youtube.com/watch?v=HOHpKjddTdw)
+- Top PM Books Section (Inspiration) → [Red Stapler](https://www.youtube.com/watch?v=cwC1qdPWBKo)
+- Top PM Books Section (Layout) → [CSS Coder](https://www.youtube.com/watch?v=HR-Jg3xSQRc)
 - Footer Section (Layout) → [Divinector](https://www.youtube.com/watch?v=4jelwvPcS8w)
 
-All these snippets of code have been fully customized for this project's requirements and to match the look and feel of the company.
+All these snippets of code have been fully customized for this project's requirements and to match the look and feel of the website.
+
+
+
+
+
+- Scrollspy → [Bootstrap](https://getbootstrap.com/docs/5.0/components/scrollspy/)
 
 ### **Media**
 

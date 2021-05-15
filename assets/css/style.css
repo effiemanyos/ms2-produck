@@ -64,7 +64,7 @@ html[data-theme='dark'] {
     --color-buttons: #000;
     --color-hover: #62CBD9;
     --color-danger: #E25D6A;
-    --color-dhover: #DB3545;
+    --color-dhover: #DE4957;
     --color-text: #fff;
 }
 
@@ -1765,14 +1765,18 @@ ol li:hover {
     color: var(--color-headings);
 }
 
+/** Bookmark Icon **/
+.fa-bookmark {
+    margin-right: 5px;
+}
+
 /** 'Visit Site' Button **/
 .results-list .btn-default {
-    color: #fff !important;
-    background: var(--color-headings) !important;
-    border-radius: 30px !important;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-    float: right;
-    margin-right: 8px;
+    color: #fff;
+    background: var(--color-headings);
+    border-radius: 30px;
+    margin-left: 10px;
+    padding: 4px 13px;
 }
 
 /** 'Visit Site' Button Hover Over Effect **/
@@ -1786,8 +1790,7 @@ ol li:hover {
     color: #fff !important;
     background: var(--color-danger) !important;
     border-radius: 30px !important;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-    float: right;
+    padding: 4px 13px !important;
 }
 
 /** 'Delete' Button Hover Over Effect **/
@@ -1803,12 +1806,35 @@ ol li:hover {
 
 /** -----[ Section Responsiveness ]----- **/
 
-@media (max-width:960px) {
-    
+@media (max-width:650px) {
+
     .results-list h3 {
-    margin-bottom: 30px;
-    color: var(--color-headings);
+        font-size: 25px;
+    }
+
+    .bookmarks-intro-styling h2 {
+        font-size: 35px;
+    }
 }
+
+@media (max-width:450px) {
+
+    .results-list h3 {
+        font-size: 23px;
+    }
+
+    .results-list .btn-default {
+        margin-top: 8px;
+    }
+
+    .bm-btn-danger {
+        margin-top: 8px;
+    }
+
+    .bm-results {
+        padding: 0 20px 0;
+    }
+
 }
 
 

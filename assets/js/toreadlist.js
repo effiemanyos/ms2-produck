@@ -58,7 +58,11 @@ $(document).ready(function () {
                     // Refresh App Widget (Refresh Method)
                     $("#projects").tabs("refresh");
 
+                    // Get Currently Active Tab Value
                     var activeTab = $("#projects").tabs("option", "active");
+
+                    // Credit: https://bit.ly/3eNxkI8
+                    // Get href Value (ul > li) & Add to Corresponding Category (ol > id)
                     var title = $("#main > li:nth-child(" + (activeTab + 1) + ") > a").attr("href");
 
                     // Adding a New Item to a Selected Category
@@ -98,13 +102,13 @@ $(document).ready(function () {
                     // Get Value Entered in Text Box
                     var projectName = $("#new-category").val();
                     
-                    // Allows Having Spaces in Project Pame + Adding New Tasks in Those Projects
+                    // Allows Having Spaces in Project Name & Adding New Books in Those Projects
                     var replaceName = projectName.split(" ").join("_");
                     
                     // Create New <li> Element & Append to Unordered List Element With ID 'Main'
                     $("<li><a href='#" + replaceName + "'>" + projectName + "</a><span class='ui-icon ui-icon-close'></span></li>").appendTo("#main");
 
-                    // Adding a Corresponding Ordered List for Categories Tab Value
+                    // Adding a Corresponding Ordered List for Categories Tab Value (Sortable Items)
                     $("<ol id='" + replaceName + "'></ol>").appendTo("#projects").sortable();
                     
                     // Refresh App Widget to Include New Item in Tabs Section (Refresh Method)
@@ -139,8 +143,6 @@ $(document).ready(function () {
             }
         });
     });
-
-
 });
 
 // Visual Credit: https://bit.ly/33E0Dq7

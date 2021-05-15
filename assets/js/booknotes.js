@@ -8,7 +8,7 @@ let addText = document.getElementById("note-text");
 // Add New Note on Click
 addBtn.addEventListener("click", (e) => {
 
-    // Validation & Alert Message
+    // Validation & Display Alert Message
     if (addTitle.value == "" || addText.value == "") {
         return alert("Please add note title and text");
     }
@@ -24,7 +24,8 @@ addBtn.addEventListener("click", (e) => {
         notesObj = JSON.parse(notes);
     }
 
-    // Putting Title & Text Into Object
+    // Credit: https://bit.ly/3eQP3hK
+    // Adding Title & Text to JavaScript Object
     let myObj = {
         title: addTitle.value,
         text: addText.value
@@ -70,8 +71,11 @@ function displayNotes() {
 
     // Targeting Notes ID
     let noteElm = document.getElementById("notes");
+
+    // If There Are No Notes in Results Area
     if (notesObj.length != 0) {
         noteElm.innerHTML = html;
+    // Display Message to Indicate User What to Do
     } else {
         noteElm.innerHTML = "There are no notes yet! Add a new note by using the form above.";
     }
@@ -80,7 +84,7 @@ function displayNotes() {
 // Delete Submitted Notes by Index
 function deleteNote(index) {
 
-    // Confirm User Wants to Delete Note
+    // Confirm User Wants to Delete Selected Note
     let confirmDel = confirm("Watch out! You are about to delete this note!");
 
     // If User Agrees to Delete Note
@@ -97,6 +101,7 @@ function deleteNote(index) {
             notesObj = JSON.parse(notes);
         }
 
+        // If Note is Valid
         // Splice() Method to Delete Item Inside Array
         notesObj.splice(index, 1);
 
@@ -115,7 +120,7 @@ function editNote(index) {
     let notes = localStorage.getItem("notes");
 
     // Verify Input Form Is Empty Before Editing Submitted Notes
-    // Validation & Alert Message
+    // Validate & Display Alert Message
     if (addTitle.value !== "" || addText.value !== "") {
         return alert("Please clear the form above to be able to edit the selected note");
     }
@@ -128,13 +133,14 @@ function editNote(index) {
         notesObj = JSON.parse(notes);
     }
 
-    // Collects Element & Index From Note to Edit
+    // Credit: https://mzl.la/3ybz9WZ
+    // Collect Element & Index From Note to Edit
     notesObj.findIndex((element, index) => {
         addTitle.value = element.title;
         addText.value = element.text;
     });
 
-    // Remove From Results Area
+    // Remove Note From Results Area to Edit Area
     notesObj.splice(index, 1);
 
     // Saves Everything Back to Local Storage (Back to String)

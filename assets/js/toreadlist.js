@@ -54,17 +54,28 @@ $(document).ready(function () {
 
                 // 'Add New Book' Button Functionality (Inner)
                 "Add New Book": function () {
+
+                    // Refresh App Widget (Refresh Method)
                     $("#projects").tabs("refresh");
+
                     var activeTab = $("#projects").tabs("option", "active");
                     var title = $("#main > li:nth-child(" + (activeTab + 1) + ") > a").attr("href");
+
+                    // Adding a New Item to a Selected Category
                     $("#projects " + title).append("<li> <input class='checkbox' type='checkbox'>" + "<span class='task-text'><i class='book-icon fa fa-book'></i>" + $("#new-book").val() + "</span>" + "<span><button class='tasks-delete'><i class='fa fa-trash'></i></button></span></li>");
+                    
+                    // Clear Value in Text Box
+                    // Credit: https://bit.ly/3tT1KwS
                     $("#new-book").val("");
+                    // Close Popup Window When Adding New Book
                     $(this).dialog("close");
                 },
 
                 // 'Cancel' Button Functionality (Inner)
                 "Cancel": function () {
+                    // Clear Value in Text Box
                     $("#new-book").val("");
+                    // Close Popup Window When Clicking Cancel
                     $(this).dialog("close");
                 }
             }
@@ -84,26 +95,31 @@ $(document).ready(function () {
                 // 'Add New Category' Button Functionality (Inner)
                 "Add New Category": function () {
                     
-                    // Value of Text Box
+                    // Get Value Entered in Text Box
                     var projectName = $("#new-category").val();
                     
                     // Allows Having Spaces in Project Pame + Adding New Tasks in Those Projects
                     var replaceName = projectName.split(" ").join("_");
                     
-                    // Create List Element & Append to Unordered List With ID 'Main'
+                    // Create New <li> Element & Append to Unordered List Element With ID 'Main'
                     $("<li><a href='#" + replaceName + "'>" + projectName + "</a><span class='ui-icon ui-icon-close'></span></li>").appendTo("#main");
 
-                    // Adding a Corresponding Order List for Categories Tab Value
+                    // Adding a Corresponding Ordered List for Categories Tab Value
                     $("<ol id='" + replaceName + "'></ol>").appendTo("#projects").sortable();
                     
-                    // Refresh App Widget (Refresh Method)
+                    // Refresh App Widget to Include New Item in Tabs Section (Refresh Method)
                     $("#projects").tabs("refresh");
+
+                    // Tab Count Categories Section
                     var tabCount = $("#projects .ui-tabs-nav li").length;
+
+                    // Make New Entered Category an Active Tab
                     $("#projects").tabs("option", "active", tabCount - 1);
 
-                    // Clear Value in Text Box & Close Popup Window When Creating New Category
+                    // Clear Value in Text Box
                     // Credit: https://bit.ly/3tT1KwS
                     $("#new-category").val("");
+                    // Close Popup Window When Adding New Category
                     $(this).dialog("close");
 
                     // Validation & Display Alert Message
@@ -115,7 +131,9 @@ $(document).ready(function () {
 
                 // 'Cancel' Button Functionality (Inner)
                 "Cancel": function () {
+                    // Clear Value in Text Box
                     $("#new-category").val("");
+                    // Close Popup Window When Clicking Cancel
                     $(this).dialog("close");
                 }
             }

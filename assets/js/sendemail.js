@@ -1,4 +1,5 @@
 // Credit: https://bit.ly/3tNilSN
+// Credit: https://www.emailjs.com/
 
 // Create sendEmail() Function
 function sendEmail(contactForm) {
@@ -10,14 +11,14 @@ function sendEmail(contactForm) {
         .then(
             // Alert Sent When Email Is Successful
             function () {
-                alert("Your email has been sent successfully. We will get back to you as soon as possible!");
+                alert("Your email has been sent. We'll get back to you as soon as possible!");
                 window.location.reload(true);
                 // Credit: https://bit.ly/3uLAoKt
             },
 
             // Alert Sent When Email Fails
             function () {
-                alert("Sorry! Your email was not sent. Please try again, thank you.");
+                alert("Sorry! Your email could not be sent. Please try again, thank you.");
                 window.location.reload(true);
                 // Credit: https://bit.ly/3uLAoKt
             });

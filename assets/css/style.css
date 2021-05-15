@@ -1419,16 +1419,6 @@ ol li:hover {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------------[ TOBUYLIST APP SECTION √ ]-------------------------------------- */
 
 /** Section Styling **/
@@ -1958,33 +1948,6 @@ ol li:hover {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------------[ CONTACT SECTION ]-------------------------------------- */
 
 /* Section Styling */
@@ -2099,7 +2062,7 @@ ol li:hover {
 
 /* Inner Form */
 .form-control {
-    margin: 8px;
+    margin: 8px 8px 12px;
     font-size: 12px;
     border-radius: 5px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);

@@ -638,6 +638,8 @@ Additionally, you can either **Clone** or **Fork** this repository ([Milestone-P
 *Contact Section*
 - Contact Section (Inspiration) → [True Coder](https://www.youtube.com/watch?v=rpujWVkmiPE)
 - Contact Information (Email Link) → [Tutorials Point](https://www.tutorialspoint.com/html/html_email_links.htm)
+- Email JS API → [Code with Voran](https://www.youtube.com/watch?v=x7Ewtay0Q78)
+- Reload Page After OK Click → [Stack Overflow](https://stackoverflow.com/questions/16955019/how-to-reload-a-page-after-the-ok-click-on-the-alert-page)
 
 *Bookmarks App*
 - Bookmarks App (Layout) → [Traversy Media](https://www.youtube.com/watch?v=DIVfDZZeGxM) by [Brad Traversy](https://www.linkedin.com/in/bradtraversy/)
@@ -669,10 +671,6 @@ Additionally, you can either **Clone** or **Fork** this repository ([Milestone-P
 
 *ToReadList App*
 - ToReadList App (Layout) → [Crypters Infotech](https://www.youtube.com/watch?v=5sQMEc5jZXg)
-
-
-
-
 
 *Dark Mode Feature*
 - Dark Mode - Video (Inspiration) → [DesignCourse](https://www.youtube.com/watch?v=ZKXv_ZHQ654) by [Gary Simon](https://www.linkedin.com/in/dreamache/)

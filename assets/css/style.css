@@ -1725,7 +1725,6 @@ ol li:hover {
 /** Container Styling **/
 .bm-cont-styling {
     width: 700px;
-    /* up to 10 websites */
     margin: 70px;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
@@ -1736,6 +1735,7 @@ ol li:hover {
 /** Jumbotron Hidden Colour **/
 .jumbo-styling {
     background: transparent !important;
+    padding-bottom: 5px;
 }
 
 /** Form Input Styling **/
@@ -1849,7 +1849,7 @@ ol li:hover {
 
     /** Website Title **/
     .results-list h3 {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     /** 'Open Link' Button **/

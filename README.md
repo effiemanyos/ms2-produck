@@ -628,8 +628,12 @@ Additionally, you can either **Clone** or **Fork** this repository ([Milestone-P
 - About Section (Layout) → [Code Opacity](https://www.youtube.com/watch?v=TlKBoetaDsc)
 - Contact Us Section (Inspiration) → [True Coder](https://www.youtube.com/watch?v=rpujWVkmiPE)
 - Contact Information (Email Link) → [Tutorials Point](https://www.tutorialspoint.com/html/html_email_links.htm)
-- ToBuyList App (Layout) → [Traversy Media](https://www.youtube.com/watch?v=JaMCxVWtW58) by [Brad Traversy](https://www.linkedin.com/in/bradtraversy/)
 - Bookmarks App (Layout) → [Traversy Media](https://www.youtube.com/watch?v=DIVfDZZeGxM) by [Brad Traversy](https://www.linkedin.com/in/bradtraversy/)
+- Parse JSON Into String (JSON.stringify()) → [W3Schools](https://www.w3schools.com/js/js_json_stringify.asp)
+
+
+
+- ToBuyList App (Layout) → [Traversy Media](https://www.youtube.com/watch?v=JaMCxVWtW58) by [Brad Traversy](https://www.linkedin.com/in/bradtraversy/)
 - Local Storage (Array of Objects) → [Stack Overflow](https://stackoverflow.com/questions/43762363/how-to-store-an-array-of-objects-in-local-storage)
 - Local Storage (Inspiration for Apps) → [LogRocket](https://blog.logrocket.com/localstorage-javascript-complete-guide/)
 - Window.localStorage (Inspiration for Apps) → [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)

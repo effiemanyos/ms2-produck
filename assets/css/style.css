@@ -735,7 +735,7 @@ html.transition *:after {
 /** -----[ Bars Percentage (Width) ]----- **/
 
 .progress-line.skill-1 span {
-    width: 90%;
+    width: 100%;
 }
 
 .progress-line.skill-2 span {
@@ -743,59 +743,35 @@ html.transition *:after {
 }
 
 .progress-line.skill-3 span {
-    width: 90%;
+    width: 80%;
 }
 
 .progress-line.skill-4 span {
-    width: 90%;
+    width: 70%;
 }
 
 .progress-line.skill-5 span {
-    width: 90%;
+    width: 60%;
 }
 
 .progress-line.skill-6 span {
-    width: 90%;
+    width: 50%;
 }
 
 .progress-line.skill-7 span {
-    width: 90%;
+    width: 40%;
 }
 
 .progress-line.skill-8 span {
-    width: 90%;
+    width: 30%;
 }
 
 .progress-line.skill-9 span {
-    width: 90%;
+    width: 20%;
 }
 
 .progress-line.skill-10 span {
-    width: 90%;
-}
-
-.progress-line.skill-11 span {
-    width: 90%;
-}
-
-.progress-line.skill-12 span {
-    width: 90%;
-}
-
-.progress-line.skill-13 span {
-    width: 90%;
-}
-
-.progress-line.skill-14 span {
-    width: 90%;
-}
-
-.progress-line.skill-15 span {
-    width: 90%;
-}
-
-.progress-line.skill-16 span {
-    width: 90%;
+    width: 10%;
 }
 
 /** Tiny Indicators Tail Styling **/
@@ -839,7 +815,7 @@ html.transition *:after {
 /** -----[ Indicators Percentage (Number) ]----- **/
 
 .progress-line.skill-1 span::after {
-    content: "90%";
+    content: "100%";
 }
 
 .progress-line.skill-2 span::after {
@@ -847,58 +823,38 @@ html.transition *:after {
 }
 
 .progress-line.skill-3 span::after {
-    content: "90%";
+    content: "80%";
 }
 
 .progress-line.skill-4 span::after {
-    content: "90%";
+    content: "70%";
 }
 
 .progress-line.skill-5 span::after {
-    content: "90%";
+    content: "60%";
 }
 
 .progress-line.skill-6 span::after {
-    content: "90%";
+    content: "50%";
 }
 
 .progress-line.skill-7 span::after {
-    content: "90%";
+    content: "40%";
 }
 
 .progress-line.skill-8 span::after {
-    content: "90%";
+    content: "30%";
 }
 
 .progress-line.skill-9 span::after {
-    content: "90%";
+    content: "20%";
 }
 
 .progress-line.skill-10 span::after {
-    content: "90%";
+    content: "10%";
 }
 
 .progress-line.skill-11 span::after {
-    content: "90%";
-}
-
-.progress-line.skill-12 span::after {
-    content: "90%";
-}
-
-.progress-line.skill-13 span::after {
-    content: "90%";
-}
-
-.progress-line.skill-14 span::after {
-    content: "90%";
-}
-
-.progress-line.skill-15 span::after {
-    content: "90%";
-}
-
-.progress-line.skill-16 span::after {
     content: "90%";
 }
 

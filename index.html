@@ -24,6 +24,13 @@
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
+    <!-- Email JS -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("user_6Zl1ZpTMYsVeyBL2LgS61");
+        })();
+    </script>
 </head>
 
 <body>
@@ -352,7 +359,7 @@
 
                     <!-- Main Form -->
                     <div class="center-form">
-                        <form>
+                        <form onsubmit="return sendEmail(this);" id="contactForm">
                             <!-- Name -->
                             <label class="hidden-label" for="fullname">Full Name</label>
                             <input type="text" name="name" id="fullname" class="form-control" placeholder="Full Name"
@@ -361,10 +368,6 @@
                             <label class="hidden-label" for="emailaddress">Email Address</label>
                             <input type="email" name="email" id="emailaddress" class="form-control"
                                 placeholder="Email Address" required />
-                            <!-- Subject -->
-                            <label class="hidden-label" for="subjectline">Subject Line</label>
-                            <input type="text" name="subject" id="subjectline" class="form-control"
-                                placeholder="Subject Line" required />
                             <!-- Message -->
                             <label class="hidden-label" for="message">Main Message</label>
                             <textarea rows="5" name="message" id="message" class="form-control"
@@ -443,11 +446,14 @@
         <p class="footer-bottom-text">All Rights Reserved | &copy; Produck.ie 2021</p>
     </footer>
 
-    <!--Bootstrap: Responsive Navigation Bar-->
+    <!-- Bootstrap: Responsive Navigation Bar -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
+
+    <!-- JavaScript File -->
+    <script type="text/javascript" src="assets/js/sendemail.js"></script>
 
 </body>
 

@@ -1,3 +1,5 @@
+// Credit: https://bit.ly/33JjNuL
+
 $("input[type=checkbox]").removeAttr("checked"); // Removes checks from checkboxes
 $("#projects").tabs();
 $("ul").sortable({
@@ -43,7 +45,7 @@ $(document).ready(function () {
                     $("#projects").tabs("refresh");
                     var activeTab = $("#projects").tabs("option", "active");
                     var title = $("#main > li:nth-child(" + (activeTab + 1) + ") > a").attr("href");
-                    $("#projects " + title).append("<li> <input class='checkbox' type='checkbox'>" + "<span class='task-text'><i class='book-icon fa fa-book'></i>" + $("#new-task").val() + "</span>" + "<span><button class='tasks-delete'><i class='fa fa-trash'></i></button><button class='tasks-edit'><i class='fa fa-pencil'></i></button></span></li>");
+                    $("#projects " + title).append("<li> <input class='checkbox' type='checkbox'>" + "<span class='task-text'><i class='book-icon fa fa-book'></i>" + $("#new-task").val() + "</span>" + "<span><button class='tasks-delete'><i class='fa fa-trash'></i></button></span></li>");
                     $("#new-task").val("");
                     $(this).dialog("close");
 
@@ -94,3 +96,25 @@ $(document).ready(function () {
 
 
 });
+
+// Visual Credit: https://bit.ly/33E0Dq7
+// Written Credit: https://bit.ly/33JNwnz
+// Dark Mode Toggle
+var checkbox = document.querySelector('input[name=theme]');
+checkbox.addEventListener('change', function () {
+    if (this.checked) {
+        trans()
+        document.documentElement.setAttribute('data-theme', 'dark')
+    } else {
+        trans()
+        document.documentElement.setAttribute('data-theme', 'light')
+    }
+});
+
+// Gradually Change Colours (Transition Property)
+let trans = () => {
+    document.documentElement.classList.add('transition');
+    window.setTimeout(() => {
+        document.documentElement.classList.remove('transition')
+    }, 1000)
+};

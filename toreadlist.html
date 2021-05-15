@@ -1,36 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- https://www.w3schools.com/tags/tag_meta.asp -->
+    <!-- Credit: https://bit.ly/3fdADaF -->
     <meta name="description"
-        content="Product Management services for aspiring product managers and product enthusiasts based in Ireland">
+        content="Web-based platform for aspiring Product Managers based in Ireland">
     <meta name="keywords"
-        content="Product Management, Product Leader, Product Owner, PM, APM, Product Manager, PM Intern, Ireland">
+        content="Product Management, Product Leader, Product Owner, PM, APM, Product Manager, Ireland">
     <meta name="author" content="Produck">
 
     <!-- Main Website Title -->
     <title>ToReadList</title>
     <!-- Website Favicon -->
     <link rel="icon" href="assets/images/produck-favicon.png" type="image/icon">
-
     <!-- Styling File-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <!-- Bootstrap (HTML, CSS, JS Library) -->
+    <!-- Bootstrap Framework -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         type="text/css" />
-    <!-- JQuery UI -->
+    <!-- jQuery UI -->
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-    <!-- Font Awesome (Icons) -->
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
 </head>
 
-<body data-spy="scroll" data-target="#navbar" data-offset="0">
+<body>
 
     <!-- Main Navigation Bar | Website Menu -->
     <header id="navigation-bar">
@@ -84,7 +83,8 @@
 
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <div class="dropdown menu-dropdown">
-                            <button class="dropbtn page-scroll menu-dropbtn active"><a class="nav-link" href="books.html"><i class="fa fa-book"></i>
+                            <button class="dropbtn page-scroll menu-dropbtn active"><a class="nav-link"
+                                    href="books.html"><i class="fa fa-book"></i>
                                     PM Books</a></button>
                             <div class="dropdown-content menu-dropdown-content">
                                 <a href="books.html">> Top PM Books</a>
@@ -97,8 +97,8 @@
 
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <div class="dropdown menu-dropdown">
-                            <button class="dropbtn page-scroll menu-dropbtn"><a class="nav-link" href="resources.html"><i
-                                        class="fa fa-folder-open"></i> Resources</a></button>
+                            <button class="dropbtn page-scroll menu-dropbtn"><a class="nav-link"
+                                    href="resources.html"><i class="fa fa-folder-open"></i> Resources</a></button>
                             <div class="dropdown-content menu-dropdown-content">
                                 <a href="resources.html">> Top Resources</a>
                                 <a href="bookmarks.html">> Bookmarks App</a>
@@ -117,13 +117,20 @@
         </nav>
     </header>
 
-    <!-- ToReadList App | Which One Is Next? -->
+    <!-- ToReadList App | To-Read Next -->
     <section id="read-list-section">
 
+        <!-- Dark Mode Button -->
+        <div class="toggle-container">
+            <input type="checkbox" id="switch" name="theme" class="toggle-input">
+            <label for="switch" class="toggle-label">Toggle</label>
+        </div>
+
+        <!-- Main App -->
         <div id="todo-container">
 
-            <div class="section-main-intro">
-                <div class="section-subtitle">Reading Top PM Books</div>
+            <div class="section-main-intro toread-intro-styling">
+                <div class="section-subtitle black-subtitle">Books To Read</div>
                 <h2 class="section-main-title blue-title">My ToReadList</h2>
             </div>
 
@@ -141,34 +148,14 @@
 
                 <!-- Default Category 1: Product Management -->
                 <ol id="product">
-                    <li><input class="checkbox" type="checkbox"><span class="task-text"><i
-                                class="book-icon fa fa-book"></i>The Product Book — Carlos González</span><span><button
-                                class="tasks-delete"><i class="fa fa-trash"></i></button><button class="tasks-edit"><i
-                                    class="fa fa-pencil"></i></button></span></li>
-                    <li><input class="checkbox" type="checkbox"><span class="task-text"><i
-                                class="book-icon fa fa-book"></i>Hooked — Nir Eyal</span><span><button
-                                class="tasks-delete"><i class="fa fa-trash"></i></button><button class="tasks-edit"><i
-                                    class="fa fa-pencil"></i></button></span></li>
-                    <li><input class="checkbox" type="checkbox"><span class="task-text"><i
-                                class="book-icon fa fa-book"></i>Inspired — Marty Cagan</span><span><button
-                                class="tasks-delete"><i class="fa fa-trash"></i></button><button class="tasks-edit"><i
-                                    class="fa fa-pencil"></i></button></span></li>
+                    <li><input class="checkbox" type="checkbox"><span class="task-text"><i class="book-icon fa fa-book"></i>Sprint — Jake Knapp</span><span><button class="tasks-delete"><i class="fa fa-trash"></i></button></span></li>
+                    <li><input class="checkbox" type="checkbox"><span class="task-text"><i class="book-icon fa fa-book"></i>Hooked — Nir Eyal</span><span><button class="tasks-delete"><i class="fa fa-trash"></i></button></span></li>
                 </ol>
 
                 <!-- Default Category 2: UX Design -->
                 <ol id="design">
-                    <li><input class="checkbox" type="checkbox"><span class="task-text"><i
-                                class="book-icon fa fa-book"></i>The Design of Everyday Things — Don
-                            Norman</span><span><button class="tasks-delete"><i class="fa fa-trash"></i></button><button
-                                class="tasks-edit"><i class="fa fa-pencil"></i></button></span></li>
-                    <li><input class="checkbox" type="checkbox"><span class="task-text"><i
-                                class="book-icon fa fa-book"></i>Don't Make Me Think — Steve Krug</span><span><button
-                                class="tasks-delete"><i class="fa fa-trash"></i></button><button class="tasks-edit"><i
-                                    class="fa fa-pencil"></i></button></span></li>
-                    <li><input class="checkbox" type="checkbox"><span class="task-text"><i
-                                class="book-icon fa fa-book"></i>Sprint — Jake Knapp</span><span><button
-                                class="tasks-delete"><i class="fa fa-trash"></i></button><button class="tasks-edit"><i
-                                    class="fa fa-pencil"></i></button></span></li>
+                    <li><input class="checkbox" type="checkbox"><span class="task-text"><i class="book-icon fa fa-book"></i>Design of Everyday Things — Don Norman</span><span><button class="tasks-delete"><i class="fa fa-trash"></i></button></span></li>
+                    <li><input class="checkbox" type="checkbox"><span class="task-text"><i class="book-icon fa fa-book"></i>Don't Make Me Think — Steve Krug</span><span><button class="tasks-delete"><i class="fa fa-trash"></i></button></span></li>
                 </ol>
 
             </div>
@@ -176,16 +163,16 @@
             <!-- Add New Book Button -->
             <button id="btnAddTask">Add New Book</button>
 
-            <!-- Category Name: -->
+            <!-- Category Name -->
             <div id="category-dialog" title="Add New Category" style="display: none;">
                 <label class="replace-this-name" for="new-project">Category Name:</label>
-                <input id="new-project" type="text" placeholder="Category" required>
+                <input id="new-project" type="text" placeholder="Category">
             </div>
 
-            <!-- Book Name: -->
+            <!-- Book Name -->
             <div id="book-dialog" title="Add New Book" style="display: none;">
                 <label class="replace-this-name" for="new-task">Book Name:</label>
-                <input id="new-task" type="text" placeholder="Book Title" required>
+                <input id="new-task" type="text" placeholder="Book Title">
             </div>
 
         </div>
@@ -257,11 +244,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
-    </script>
-    <script>
-        $('body').scrollspy({
-            target: '#navbar'
-        })
     </script>
 
     <!-- JavaScript File -->

@@ -667,6 +667,13 @@ Additionally, you can either **Clone** or **Fork** this repository ([Milestone-P
 - JavaScript HTML DOM (previousElementSibling Property) → [W3Schools](https://www.w3schools.com/jsref/prop_element_previouselementsibling.asp)
 - JavaScript DOM traversal (Inspiration) → [Zellwk](https://zellwk.com/blog/dom-traversals/)
 
+*ToReadList App*
+- ToReadList App (Layout) → [Crypters Infotech](https://www.youtube.com/watch?v=5sQMEc5jZXg)
+
+
+
+
+
 *Dark Mode Feature*
 - Dark Mode - Video (Inspiration) → [DesignCourse](https://www.youtube.com/watch?v=ZKXv_ZHQ654) by [Gary Simon](https://www.linkedin.com/in/dreamache/)
 - Dark Mode - Article (Inspiration) → [Marcin Wichary](https://mwichary.medium.com/dark-theme-in-a-day-3518dde2955a)

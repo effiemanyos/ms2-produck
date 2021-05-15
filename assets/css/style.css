@@ -55,6 +55,7 @@ html {
     --color-danger: #DB3545;
     --color-dhover: #C52F3E;
     --color-text: #000;
+    --bg-hover: #eeeeee;
 }
 
 /** Colour Variables (Dark Mode) **/
@@ -67,6 +68,7 @@ html[data-theme='dark'] {
     --color-danger: #E25D6A;
     --color-dhover: #DE4957;
     --color-text: #fff;
+    --bg-hover: #000;
 }
 
 /** Toggle Input Hidden **/
@@ -1220,8 +1222,8 @@ table.table td .text-wth-link:hover {
 
 /** Section Styling **/
 #read-list-section {
-    background: #f3f2ef;
-    padding: 100px 20px 60px;
+    background: var(--bg);
+    padding: 100px 20px 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1229,12 +1231,12 @@ table.table td .text-wth-link:hover {
 
 /** Container Styling **/
 #todo-container {
-    width: 1139px;
+    width: 1150px;
     /* up to 10 books */
-    height: 800px;
-    margin: 70px;
+    height: 820px;
+    margin: 70px 20px 0;
     border-radius: 30px;
-    background: #fff;
+    background: var(--bg-panel);
     box-shadow: 0 4px 10px 0 rgba(36, 32, 32, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     padding-top: 50px;
     font-size: 15px;
@@ -1247,11 +1249,13 @@ table.table td .text-wth-link:hover {
     /* up to 10 books */
     height: 470px;
     margin: 0px auto;
+    background: var(--bg-panel);
 }
 
 /** Order List Styling **/
 ol {
     margin-left: 15px;
+    color: var(--color-text) !important;
 }
 
 /** Order List Items Styling **/
@@ -1265,16 +1269,15 @@ ol li {
 
 /** Order List Items Hover Over Effect **/
 ol li:hover {
-    background: #eeeeee;
+    background: var(--bg-hover);
     transform: scale(1.02);
 }
 
 /** 'Add New Category' CTA Button **/
 #btnAddProject {
-    /* FIX THIS POSITIONING (BOTH BUTTONS) */
-    margin-left: 81%;
+    margin-left: 5.5%;
     margin-bottom: 25px;
-    background-color: #4B76E5;
+    background: var(--color-headings);
     border: none;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
@@ -1285,15 +1288,14 @@ ol li:hover {
 
 /** 'Add New Category' CTA Button Hover Over Effect **/
 #btnAddProject:hover {
-    background: #3CBED0;
+    background: var(--color-hover);
 }
 
 /** 'Add New Book' CTA Button **/
 #btnAddTask {
-    /* FIX THIS POSITIONING (BOTH BUTTONS) */
-    margin-left: 84%;
+    margin-left: 5%;
     margin-top: 25px;
-    background-color: #4B76E5;
+    background: var(--color-headings);
     border: none;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
@@ -1304,12 +1306,12 @@ ol li:hover {
 
 /** 'Add New Book' CTA Button Hover Over Effect **/
 #btnAddTask:hover {
-    background: #3caea3;
+    background: var(--color-hover);
 }
 
 /** ToReadList Categories Bar **/
 .ui-widget-header {
-    background: #4B76E5 !important;
+    background: var(--color-headings) !important;
     border: none !important;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     height: 48px;
@@ -1325,8 +1327,7 @@ ol li:hover {
 /** Category Tabs Close (X) Symbol **/
 .ui-icon-close {
     transform: scale(1.2) !important;
-    margin-right: 15px !important;
-    margin-top: 10px !important;
+    margin: 10px 15px 0 0 !important;
     cursor: pointer !important;
 }
 
@@ -1335,7 +1336,7 @@ ol li:hover {
     /* Fix all these !important messages */
     font-size: 13px !important;
     color: #fff !important;
-    background: #4B76E5 !important;
+    background: var(--color-headings) !important;
     border: none !important;
     border-radius: 30px !important;
     padding: 11px 17px 10px !important;
@@ -1348,7 +1349,7 @@ ol li:hover {
 /** All Internal CTA Buttons (Pop-Ups) Hover Over Effect **/
 .ui-dialog-buttonpane button:hover {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-    background: #3CBED0 !important;
+    background: var(--color-hover) !important;
 }
 
 /** Category Name + Input Section **/
@@ -1415,41 +1416,31 @@ ol li:hover {
     border-bottom-right-radius: 20px !important;
 }
 
-/** List Items | Edit & Remove Icons **/
-.tasks-edit,
+/** List Items | Remove Icons **/
 .tasks-delete {
     border: none;
     outline: none;
     background: none;
     margin-right: 7px;
     float: right;
-    color: #4B76E5;
-}
-
-/** Edit Icon (Pencil) Hover Over Colour **/
-.tasks-edit:hover {
-    color: #3CBED0;
+    color: var(--color-headings);
 }
 
 /** Remove Icon (Trash) Hover Over Colour **/
 .tasks-delete:hover {
-    color: #A90710;
+    color: var(--color-danger);
 }
 
 /** Book Icon Colour **/
 .book-icon {
-    color: #4B76E5;
-}
-
-/** Book Icon Hover Over Colour **/
-.book-icon:hover {
-    color: #3CBED0;
+    color: var(--color-headings);
 }
 
 /** List Items (Book Names) Before & After Space (Sides) **/
 .task-text {
     margin-left: 4px;
     margin-right: 20px;
+    color: var(--color-text);
 }
 
 /** Book Icon Before & After Space (Sides) **/
@@ -1466,7 +1457,19 @@ ol li:hover {
 
 /** -----[ Section Responsiveness ]----- **/
 
-@media (max-width:960px) {}
+@media (max-width:550px) {
+    .toread-intro-styling h2 {
+        font-size: 32px;
+    }
+}
+
+
+
+
+
+
+
+
 
 /* ------------------------------------[ TOBUYLIST APP SECTION √ ]-------------------------------------- */
 

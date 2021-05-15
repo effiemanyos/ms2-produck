@@ -71,7 +71,7 @@ function displayNotes() {
     }
 }
 
-// Delete Submitted Notes
+// Delete Submitted Notes by Index
 function deleteNote(index) {
 
     // Confirm User Wants to Delete Note
@@ -92,32 +92,44 @@ function deleteNote(index) {
         // Convert Object Into String for Local Storage
         localStorage.setItem("notes", JSON.stringify(notesObj));
 
-        // Call 'Display Notes' Function After Deleting Note
+    // Call 'Display Notes' Function After Clicking on Delete Note
         displayNotes();
     }
 }
 
+// Edit Submitted Notes by Index
+function editNote(index) {
+    let notes = localStorage.getItem("notes");
+
+    // Verify Input Form Is Empty Before Editing Submitted Notes
+    if (addTitle.value !== "" || addText.value !== "") {
+        return alert("Please clear the form above to be able to edit the selected note");
+    }
+
+    if (notes == null) {
+        notesObj = [];
+    } else {
+        notesObj = JSON.parse(notes);
+    }
+
+    // Collects Element & Index From Note to Edit
+    notesObj.findIndex((element, index) => {
+        addTitle.value = element.title;
+        addText.value = element.text;
+    });
+
+    // Remove From Results Area
+    notesObj.splice(index, 1);
+
+    // Saves Everything Back to Local Storage (Back to String)
+    localStorage.setItem("notes", JSON.stringify(notesObj));
+
+    // Call 'Display Notes' Function After Clicking on Edit Note
+    displayNotes();
+}
+
 // Call 'Display Notes' Function
 displayNotes();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Visual Credit: https://bit.ly/33E0Dq7
 // Written Credit: https://bit.ly/33JNwnz

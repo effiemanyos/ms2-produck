@@ -1898,7 +1898,7 @@ ol li:hover {
 /** Note Title Input Styling **/
 #note-title {
     border-radius: 5px;
-    border: 1px solid #434343;
+    border: 1px solid #ced4da;
     margin-bottom: 7px;
     padding: 5px;
 }
@@ -1906,7 +1906,7 @@ ol li:hover {
 /** Note Text Input Styling **/
 #note-text {
     border-radius: 6px;
-    border: 1px solid #434343;
+    border: 1px solid #ced4da;
     padding: 5px;
 }
 
@@ -1987,6 +1987,14 @@ ol li:hover {
 /** 'Delete' Button Hover Over Effect **/
 .dlt-note-btn:hover {
     background: var(--color-dhover);
+}
+
+/** -----[ Section Responsiveness ]----- **/
+
+@media (max-width:550px) {
+    .bn-intro-styling h2 {
+        font-size: 35px;
+    }
 }
 
 

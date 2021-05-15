@@ -1274,7 +1274,7 @@ ol li:hover {
 }
 
 /** 'Add New Category' CTA Button **/
-#btnAddProject {
+#btnAddCategory {
     margin-left: 5.5%;
     margin-bottom: 25px;
     background: var(--color-headings);
@@ -1287,12 +1287,12 @@ ol li:hover {
 }
 
 /** 'Add New Category' CTA Button Hover Over Effect **/
-#btnAddProject:hover {
+#btnAddCategory:hover {
     background: var(--color-hover);
 }
 
 /** 'Add New Book' CTA Button **/
-#btnAddTask {
+#btnAddBook {
     margin-left: 5%;
     margin-top: 25px;
     background: var(--color-headings);
@@ -1305,7 +1305,7 @@ ol li:hover {
 }
 
 /** 'Add New Book' CTA Button Hover Over Effect **/
-#btnAddTask:hover {
+#btnAddBook:hover {
     background: var(--color-hover);
 }
 
@@ -1378,7 +1378,7 @@ ol li:hover {
 }
 
 /** Popup 'Category Name' Input Box **/
-#new-project {
+#new-category {
     border-radius: 30px;
     /* up to 5 categories */
     width: 130px;
@@ -1388,7 +1388,7 @@ ol li:hover {
 }
 
 /** Popup 'Book Name' Input Box **/
-#new-task {
+#new-book {
     border-radius: 30px;
     width: 250px;
     height: 20px;
@@ -1462,6 +1462,8 @@ ol li:hover {
         font-size: 32px;
     }
 }
+
+
 
 
 

@@ -1770,16 +1770,16 @@ ol li:hover {
     margin-right: 5px;
 }
 
-/** 'Visit Site' Button **/
+/** 'Open Link' Button **/
 .results-list .btn-default {
     color: #fff;
     background: var(--color-headings);
     border-radius: 30px;
     margin-left: 10px;
-    padding: 4px 13px;
+    padding: 4px 10px;
 }
 
-/** 'Visit Site' Button Hover Over Effect **/
+/** 'Open Link' Button Hover Over Effect **/
 .results-list .btn-default:hover {
     color: #fff !important;
     background: var(--color-hover) !important;
@@ -1790,7 +1790,7 @@ ol li:hover {
     color: #fff !important;
     background: var(--color-danger) !important;
     border-radius: 30px !important;
-    padding: 4px 13px !important;
+    padding: 4px 10px !important;
 }
 
 /** 'Delete' Button Hover Over Effect **/
@@ -1808,33 +1808,62 @@ ol li:hover {
 
 @media (max-width:650px) {
 
+    /** Intro Title **/
+    .bookmarks-intro-styling h2 {
+        font-size: 35px;
+    }
+
+    /** Website Title **/
     .results-list h3 {
         font-size: 25px;
     }
 
-    .bookmarks-intro-styling h2 {
-        font-size: 35px;
+    /** 'Open Link' Button **/
+    .results-list .btn-default {
+        font-size: 11px;
+        padding: 4px 7px;
+        margin-left: 3px;
+    }
+
+    /** 'Delete' Button **/
+    .bm-btn-danger {
+        font-size: 11px !important;
+        padding: 4px 7px !important;
+    }
+}
+
+@media (max-width:540px) {
+
+    /** Results Section Padding **/
+    .bm-results {
+        padding: 0 20px 0;
+    }
+
+    /** Website Title **/
+    .results-list h3 {
+        font-size: 20px;
     }
 }
 
 @media (max-width:450px) {
 
+    /** Website Title **/
     .results-list h3 {
-        font-size: 23px;
+        font-size: 14px;
     }
 
+    /** 'Open Link' Button **/
     .results-list .btn-default {
-        margin-top: 8px;
+        font-size: 8px;
+        padding: 2px 4px 1px;
+        margin-left: 3px;
     }
 
+    /** 'Delete' Button **/
     .bm-btn-danger {
-        margin-top: 8px;
+        font-size: 8px !important;
+        padding: 2px 4px 1px !important;
     }
-
-    .bm-results {
-        padding: 0 20px 0;
-    }
-
 }
 
 

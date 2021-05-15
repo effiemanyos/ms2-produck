@@ -90,8 +90,8 @@ function fetchBookmarks(){
 
     bookmarksList.innerHTML += '<div class="results-list">'+
                                '<h3><i class="fa fa-bookmark"></i> '+name+
-                               ' <a class="btn btn-default" target="_blank" href="'+addhttp(url)+'">Visit</a> ' +
-                               ' <a onclick="deleteBookmark(\''+url+'\')" class="btn bm-btn-danger" href="#">Delete</a> ' +
+                               ' <a class="btn btn-default" target="_blank" href="'+addhttp(url)+'"><i class="fa fa-external-link-square"></i></a> ' +
+                               ' <a onclick="deleteBookmark(\''+url+'\')" class="btn bm-btn-danger" href="#"><i class="fa fa-trash"></i></a> ' +
                                '</h3>'+
                                '</div>';
   }

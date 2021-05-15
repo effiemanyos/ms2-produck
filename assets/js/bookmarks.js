@@ -12,6 +12,7 @@ function saveBookmark(e) {
     var websiteName = document.getElementById('websiteName').value;
     var websiteUrl = document.getElementById('websiteUrl').value;
 
+    // Form Validation
     if (!validateForm(websiteName, websiteUrl)) {
         return false;
     }
@@ -108,24 +109,32 @@ function fetchBookmarks() {
     }
 }
 
-// Validate form
+// Credit: https://bit.ly/3hFLXPR
+// Validate Form
 function validateForm(websiteName, websiteUrl) {
+
+    // Empty Input Submitted
     if (!websiteName || !websiteUrl) {
         alert('Please fill in the form');
         return false;
     }
 
+    // Credit: https://bit.ly/3btJGmO
+    // Validating Submitted URLs (URL Regular Expression (Regex) - Formatted w/HTTP)
     var expression = /[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?/gi;
     var regex = new RegExp(expression);
 
+    // Alert Message If Input Doesn't Match
     if (!websiteUrl.match(regex)) {
         alert('Please use a valid URL');
         return false;
     }
 
+    // If Passes Validation
     return true;
 }
 
+// HTTP in URL
 function addhttp(url) {
     if (!/^(?:f|ht)tps?\:\/\//.test(url)) {
         url = "http://" + url;
@@ -133,7 +142,9 @@ function addhttp(url) {
     return url;
 }
 
-// Dark mode toggle
+// Visual Credit: https://bit.ly/33E0Dq7
+// Written Credit: https://bit.ly/33JNwnz
+// Dark Mode Toggle
 var checkbox = document.querySelector('input[name=theme]');
 
 checkbox.addEventListener('change', function () {
@@ -146,6 +157,7 @@ checkbox.addEventListener('change', function () {
     }
 });
 
+// Gradually Change Colours (Transition Property)
 let trans = () => {
     document.documentElement.classList.add('transition');
     window.setTimeout(() => {

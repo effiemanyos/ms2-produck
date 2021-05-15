@@ -1937,12 +1937,8 @@ ol li:hover {
 }
 
 /** Main Notes Section **/
-#main-notes {
-    background: var(--bg);
-    border-radius: 30px;
-    padding: 20px;
-    margin: 15px 0;
-    width: 210px;
+#notes {
+    padding-top: 10px;
 }
 
 /** Main Notes Title **/
@@ -1950,8 +1946,16 @@ ol li:hover {
     font-size: 25px;
 }
 
+/** Notes Individual Styling **/
+#note {
+    margin-bottom: 20px;
+    background: var(--bg);
+    border-radius: 30px;
+    padding: 20px;
+}
+
 /** Main Notes Paragraphs **/
-#one-note p {
+#note p {
     font-size: 15px;
 }
 

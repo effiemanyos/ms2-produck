@@ -52,7 +52,7 @@ function displayNotes() {
     let html = "";
     notesObj.forEach(function (element, index) {
         html += `
-                <div id="one-note">
+                <div id="note">
                 <p class="note-counter">Note ${index + 1}</p>
                 <h3 class="note-title">${element.title}</h3>
                 <p class="note-text">${element.text}</p>

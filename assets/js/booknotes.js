@@ -1,6 +1,6 @@
 // Credit: https://bit.ly/3uQED7C
 
-// Variables
+// Key Variables for Button, Title, Text
 let addBtn = document.getElementById("add-note-btn");
 let addTitle = document.getElementById("note-title");
 let addText = document.getElementById("note-text");
@@ -15,10 +15,13 @@ addBtn.addEventListener("click", (e) => {
 
     // Get Notes From Local Storage (Access Value From Notes)
     let notes = localStorage.getItem("notes");
-    if (notes == null) { // If Note Is Invalid
+    // Credit: https://mzl.la/3bru9Uk
+    // If Note Is Invalid
+    if (notes == null) {
         notesObj = [];
+    // Convert String Back to Object
     } else {
-        notesObj = JSON.parse(notes); // Convert String Back to Object
+        notesObj = JSON.parse(notes);
     }
 
     // Putting Title & Text Into Object
@@ -42,8 +45,11 @@ function displayNotes() {
 
     // Get Items From Local Storage
     let notes = localStorage.getItem("notes");
+
+    // If Note Is Invalid
     if (notes == null) {
         notesObj = [];
+    // Convert String Back to Object
     } else {
         notesObj = JSON.parse(notes);
     }
@@ -79,9 +85,14 @@ function deleteNote(index) {
 
     // If User Agrees to Delete Note
     if (confirmDel == true) {
+
+        // Get Items From Local Storage
         let notes = localStorage.getItem("notes");
+
+        // If Note Is Invalid
         if (notes == null) {
             notesObj = [];
+        // Convert String Back to Object
         } else {
             notesObj = JSON.parse(notes);
         }
@@ -92,22 +103,27 @@ function deleteNote(index) {
         // Convert Object Into String for Local Storage
         localStorage.setItem("notes", JSON.stringify(notesObj));
 
-    // Call 'Display Notes' Function After Clicking on Delete Note
+        // Call 'Display Notes' Function After Clicking on Delete Note
         displayNotes();
     }
 }
 
 // Edit Submitted Notes by Index
 function editNote(index) {
+
+    // Get Items From Local Storage
     let notes = localStorage.getItem("notes");
 
     // Verify Input Form Is Empty Before Editing Submitted Notes
+    // Validation & Alert Message
     if (addTitle.value !== "" || addText.value !== "") {
         return alert("Please clear the form above to be able to edit the selected note");
     }
 
+    // If Note Is Invalid
     if (notes == null) {
         notesObj = [];
+    // Convert String Back to Object
     } else {
         notesObj = JSON.parse(notes);
     }

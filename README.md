@@ -653,6 +653,9 @@ Additionally, you can either **Clone** or **Fork** this repository ([Milestone-P
 
 *BookNotes App*
 - BookNotes App (Layout) → [ZinoTrust Tutorials](https://www.youtube.com/watch?v=unrmB4H7Wmw)
+- JavaScript Conditionals (If/Else Statement) → [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+
+
 
 *ToBuyList App*
 - ToBuyList App (Layout) → [Traversy Media](https://www.youtube.com/watch?v=JaMCxVWtW58) by [Brad Traversy](https://www.linkedin.com/in/bradtraversy/)

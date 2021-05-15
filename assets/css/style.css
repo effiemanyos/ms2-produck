@@ -1867,7 +1867,6 @@ ol li:hover {
 #booknotes-section {
     background: var(--bg);
     padding: 100px 40px 60px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -1879,15 +1878,112 @@ ol li:hover {
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     background: var(--bg-panel);
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
+/** Intro Title **/
+.bn-intro-styling {
+    margin-bottom: 50px;
+    padding-top: 65px;
+}
 
+/** Form Styling**/
+.bn-form-styling {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto 40px;
+}
 
+/** Note Title Input Styling **/
+#note-title {
+    border-radius: 5px;
+    border: 1px solid #434343;
+    margin-bottom: 7px;
+    padding: 5px;
+}
 
+/** Note Text Input Styling **/
+#note-text {
+    border-radius: 6px;
+    border: 1px solid #434343;
+    padding: 5px;
+}
 
+/** 'Add Note' Button Styling **/
+#add-note-btn {
+    margin-top: 10px;
+    border-radius: 30px;
+    border: none;
+    background: var(--color-headings);
+    font-size: 16px;
+    color: #fff;
+    height: 43px;
+}
 
+/** 'Add Note' Button Hover Over Effect **/
+#add-note-btn:hover {
+    background: var(--color-hover);
+}
 
+/** Text Dark Mode **/
+.bn-cont2-styling {
+    color: var(--color-text);
+}
+
+/** Results Section Styling **/
+.bn-cont2-styling h2 {
+    color: var(--color-headings);
+}
+
+/** Main Notes Section **/
+#main-notes {
+    background: var(--bg);
+    border-radius: 30px;
+    padding: 20px;
+    margin: 15px 0;
+    width: 230px;
+}
+
+/** Main Notes Title **/
+.note-title {
+    font-size: 25px;
+}
+
+/** Main Notes Paragraphs **/
+#one-note p {
+    font-size: 15px;
+}
+
+/** 'Edit' Button Styling **/
+.edt-note-btn {
+    border-radius: 30px;
+    border: none;
+    background: var(--color-headings);
+    font-size: 15px;
+    color: #fff;
+    padding: 5px 12px;
+}
+
+/** 'Edit' Button Hover Over Effect **/
+.edt-note-btn:hover {
+    background: var(--color-hover);
+}
+
+/** 'Delete' Button Styling **/
+.dlt-note-btn {
+    border-radius: 30px;
+    border: none;
+    background: var(--color-danger);
+    font-size: 15px;
+    color: #fff;
+    padding: 5px 12px;
+}
+
+/** 'Delete' Button Hover Over Effect **/
+.dlt-note-btn:hover {
+    background: var(--color-dhover);
+}
 
 
 

@@ -519,13 +519,12 @@ The following technologies were used during the development and testing of this 
 ### **Code Consultations**
 - Git Commit Messages → [Chris Beams | How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 - CSS Tricks → [CSS Tricks](https://css-tricks.com/)
-- HTML/CSS → [W3Schools](www.w3schools.com)
-- HTML/CSS → [Stack Overflow](https://stackoverflow.com/questions/10422949/css-background-opacity)
-- Beautify HTML → [Web Formatter](https://webformatter.com/html)
-- Beautify CSS → [Free Formatter](https://www.freeformatter.com/css-beautifier.html)
+- HTML/CSS/JAVASCRIPT → [W3Schools](www.w3schools.com)
+- HTML/CSS/JAVASCRIPT → [Stack Overflow](https://stackoverflow.com/questions/10422949/css-background-opacity)
+- Validate, Beautify, Format HTML/CSS/JS → [Free Formatter](https://www.freeformatter.com/css-beautifier.html)
 - Hex to RGB → [RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html)
 - Rem to PX → [nekoCalc](https://nekocalc.com/rem-to-px-converter)
-- Hover Effects → [Hover.css](https://ianlunn.github.io/Hover/)
+- Hover Over Effects → [Hover.css](https://ianlunn.github.io/Hover/)
 - Website Icon → [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/) 
 - Favicon → [W3C](https://www.w3.org/2005/10/howto-favicon) 
 
@@ -535,17 +534,15 @@ The following technologies were used during the development and testing of this 
 - Website Performance → [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 - Validate HTML → [W3C HTML Validator](https://validator.w3.org/)
 - Validate CSS → [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-
-https://wave.webaim.org/ 
+- Web Accessibility Evaluation → [WAVE](https://wave.webaim.org/)
 
 ### **Other Technologies**
-- Mockup → [Responsive Design](http://ami.responsivedesign.is/)
+- Responsive Design → [Responsive Design](http://ami.responsivedesign.is/)
 - Mockup → [Techsini Mockup Generator](http://techsini.com/multi-mockup/)
 - Unicode Symbols → [Cool Symbol](https://coolsymbol.com/)
 - Illustrations → [UnDraw](https://undraw.co/)
 - Photography → [Unsplash](https://unsplash.com/)
 - Low Fidelity Wireframing → [Balsamiq](https://balsamiq.com/) (*)
-- High Fidelity Prototyping → [Figma](https://balsamiq.com/)
 - Planning → [Miro](https://miro.com/)
 - Planning → [Trello](http://trello.com/)
 - Visuals → [Canva](https://www.canva.com/)
@@ -555,7 +552,7 @@ https://wave.webaim.org/
 - Crop Portraits → [Crop Circle](https://crop-circle.imageonline.co/)
 - Image Compression → [TinyJPG](https://tinyjpg.com/)
 
->(*) This tool was used to create the first version of wireframes. However, the structure and the design of the website had to be modified to meet the project deadline.
+>(*) This tool was used to create the first version of wireframes (first draft during brainstorming session). Nonetheless, the structure and the design of the website was modified afterwards to meet the project deadline.
 
 [Back to Content](#content)
 
@@ -615,69 +612,102 @@ Additionally, you can either **Clone** or **Fork** this repository ([Milestone-P
 - [Women in Product](https://www.womenpm.org/)
 - [Product Buds](https://productbuds.co/)
 - [Product People](https://getproductpeople.com/)
+- [Product Hustle Stack](https://producthustlestack.co/)
 
 ### **Code Snippets**
 
+*Predefined Code*
 - Preinstalled  Tools (Development) → [Code Institute Gitpod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+*Head Section*
 - Metadata (SEO Purposes) → [W3Schools](https://www.w3schools.com/tags/tag_meta.asp)
 - Favicon (Tiny Icon) → [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/) 
+
+*Navigation Bar Section*
 - NavBar (Responsiveness) → [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/)
 - Hoverable Dropdown Menu (Layout) → [W3Schools](https://www.w3schools.com/howto/howto_css_dropdown.asp)
 - Anchors (Fixed Issue) → [Stack Overflow](https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header)
-- Hero Image Section → [W3Schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
+- Link to Section of Another Page (Internal Linking) → [Stack Overflow](https://stackoverflow.com/questions/17687328/getting-a-link-to-go-to-a-specific-section-on-another-page)
+
+*Hero Image Section*
+- Hero Image Section (Layout) → [W3Schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
+
+*About Section*
 - About Section (Layout) → [Code Opacity](https://www.youtube.com/watch?v=TlKBoetaDsc)
-- Contact Us Section (Inspiration) → [True Coder](https://www.youtube.com/watch?v=rpujWVkmiPE)
+
+*Contact Section*
+- Contact Section (Inspiration) → [True Coder](https://www.youtube.com/watch?v=rpujWVkmiPE)
 - Contact Information (Email Link) → [Tutorials Point](https://www.tutorialspoint.com/html/html_email_links.htm)
+
+*Bookmarks App*
 - Bookmarks App (Layout) → [Traversy Media](https://www.youtube.com/watch?v=DIVfDZZeGxM) by [Brad Traversy](https://www.linkedin.com/in/bradtraversy/)
+- JavaScript HTML DOM (addEventListener() method) → [W3Schools](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+- JavaScript ES5 Features → [W3Schools](https://www.w3schools.com/js/js_es5.asp)
+- Data Structures: Objects & Arrays → [Eloquent JavaScript](https://eloquentjavascript.net/04_data.html) by Marijn Haverbeke
+- Local Storage: Why Only Stores String Values → [PixelsTech](https://www.pixelstech.net/article/1586062871-Why-localStorage-only-allows-to-store-string-values)
 - Parse JSON Into String (JSON.stringify()) → [W3Schools](https://www.w3schools.com/js/js_json_stringify.asp)
+- JavaScript Loops (For Loop) → [W3Schools](https://www.w3schools.com/js/js_loop_for.asp)
+- Alter HTML Code w/JavaScript → [Stack Overflow](https://stackoverflow.com/questions/17650776/add-remove-html-inside-div-using-javascript)
+- JavaScript Form Validation → [W3Schools](https://www.w3schools.com/js/js_validation.asp)
+- URL Regular Expression (Regex) → [Stack Overflow](https://stackoverflow.com/questions/3809401/what-is-a-good-regular-expression-to-match-a-url)
 
+*BookNotes App*
+- BookNotes App (Layout) → [ZinoTrust Tutorials](https://www.youtube.com/watch?v=unrmB4H7Wmw)
 
-
+*ToBuyList App*
 - ToBuyList App (Layout) → [Traversy Media](https://www.youtube.com/watch?v=JaMCxVWtW58) by [Brad Traversy](https://www.linkedin.com/in/bradtraversy/)
 - Local Storage (Array of Objects) → [Stack Overflow](https://stackoverflow.com/questions/43762363/how-to-store-an-array-of-objects-in-local-storage)
-- Local Storage (Inspiration for Apps) → [LogRocket](https://blog.logrocket.com/localstorage-javascript-complete-guide/)
-- Window.localStorage (Inspiration for Apps) → [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+- Local Storage (Inspiration) → [LogRocket](https://blog.logrocket.com/localstorage-javascript-complete-guide/)
+- Window.localStorage (Inspiration) → [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 - JavaScript Validation Messages (Bootstrap Alerts) → [Bootstrap](https://getbootstrap.com/docs/4.0/components/alerts/#dismissing)
 - JavaScript Arrays (splice() Method) → [JavaScript Tutorial](https://www.javascripttutorial.net/javascript-array-splice)
 - JavaScript HTML DOM (previousElementSibling Property) → [W3Schools](https://www.w3schools.com/jsref/prop_element_previouselementsibling.asp)
 - JavaScript DOM traversal (Inspiration) → [Zellwk](https://zellwk.com/blog/dom-traversals/)
+
+*Dark Mode Feature*
 - Dark Mode - Video (Inspiration) → [DesignCourse](https://www.youtube.com/watch?v=ZKXv_ZHQ654) by [Gary Simon](https://www.linkedin.com/in/dreamache/)
 - Dark Mode - Article (Inspiration) → [Marcin Wichary](https://mwichary.medium.com/dark-theme-in-a-day-3518dde2955a)
+
+*Resources Page*
 - Top Resources Section (Layout) → [SoengSouy Webdesign](https://www.youtube.com/watch?v=8bZFNgVRY0w) by [Soeng Souy](https://www.linkedin.com/in/soeng-souy-b9b179193/)
 - Table Columns Width (Inspiration) → [Site Point Community](https://www.sitepoint.com/community/t/set-a-table-columns-width/12821)
+
+*Leaders Page*
+- Industry Experts Section (Layout) → [Master Website Tutorials](https://www.youtube.com/watch?v=HOHpKjddTdw)
+
+*Responsibilities Section*
+- What PMs Do Section (Layout) → [Zen-Dev](https://www.youtube.com/watch?v=iJSgQ7N4qa0)
+
+*Key Soft Skills Section*
+- Soft Skills Section (Layout) → [CodingNepal](https://www.youtube.com/watch?v=0198ceyTVtg)
 - Bootstrap Grid System (Responsive Columns) → [Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/)
 - Bootstrap Display Property (Responsiveness) → [Bootstrap](https://getbootstrap.com/docs/4.0/utilities/display/)
+
+*Background Section*
 - The Perfect PM Section (Inspiration) → [Code Institute Love Running Mini-Project](http://bit.ly/37M38Jz)
 - The Perfect PM Section (Layout) → [Subrata Saha](https://www.youtube.com/watch?v=ZRouuWvN-7A)
-- Soft Skills Section (Layout) → [CodingNepal](https://www.youtube.com/watch?v=0198ceyTVtg)
-- What PMs Do Section (Layout) → [Zen-Dev](https://www.youtube.com/watch?v=iJSgQ7N4qa0)
-- Industry Experts Section (Layout) → [Master Website Tutorials](https://www.youtube.com/watch?v=HOHpKjddTdw)
+
+*Top PM Books Page*
 - Top PM Books Section (Inspiration) → [Red Stapler](https://www.youtube.com/watch?v=cwC1qdPWBKo)
 - Top PM Books Section (Layout) → [CSS Coder](https://www.youtube.com/watch?v=HR-Jg3xSQRc)
-- Link to Section of Another Page (Internal Linking) → [Stack Overflow](https://stackoverflow.com/questions/17687328/getting-a-link-to-go-to-a-specific-section-on-another-page)
+
+*Footer Section*
 - Footer Section (Layout) → [Divinector](https://www.youtube.com/watch?v=4jelwvPcS8w)
 
 All these snippets of code have been fully customized for this project's requirements and to match the look and feel of the website.
 
-
-
-
-
-- Scrollspy → [Bootstrap](https://getbootstrap.com/docs/5.0/components/scrollspy/)
-
 ### **Media**
 
-**'Hero Image / Jumbotron' Section:**
+*'Hero Image' Section:*
 - [KW: Team Work | Photo 1](https://unsplash.com/photos/QckxruozjRg) by [Annie Spratt](https://unsplash.com/@anniespratt) taken from [Unsplash](https://unsplash.com/)
 
-**'About Produck' Section:**
+*'About Produck' Section:*
 - [KW: Diversity | Photo 2](https://unsplash.com/photos/98Elr-LIvD8) by [Zachary Nelson](https://unsplash.com/@zacharytnelson) taken from [Unsplash](https://unsplash.com/)
 
-**'What Is PM?' Section:**
+*'What Is PM?' Section:*
 - [KW: Product Management | Photo 3](https://unsplash.com/photos/bzqU01v-G54) by [Leon](https://unsplash.com/@myleon) taken from [Unsplash](https://unsplash.com/)
 
-**'Thought Leaders' Section:**
-
+*'Leaders' Page:*
 - [Suzanne Abate](https://www.linkedin.com/in/suzanneabate/) → Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
 - [Carlos Gonzalez de Villaumbrosia](https://www.linkedin.com/in/villaumbrosia/) Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
 - [SC Moatti](https://www.linkedin.com/in/scmoatti/) → Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
@@ -691,10 +721,10 @@ All these snippets of code have been fully customized for this project's require
 - [Martin Eriksson](https://www.linkedin.com/in/martineriksson/) → Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
 - [Melissa Perri](https://www.linkedin.com/in/melissajeanperri/) → Portrait Image taken from [LinkedIn](https://www.linkedin.com/)
 
-**'The Perfect PM (Background)' Section:**
+*'Background (The Perfect PM)' Section:*
 - Illustration taken from [UnDraw](https://undraw.co/) and edited to match the brand and website color scheme.
 
-**'Must-Read Books' Section:**
+*'Top PM Books (Must-Read Books)' Page:*
 - [Hooked by Nir Eyal](https://www.pendo.io/) → Book Cover taken from [Goodreads](https://www.goodreads.com/)
 - [Escaping the Build Trap by Melissa Perri](https://www.pendo.io/) → Book Cover taken from [Goodreads](https://www.goodreads.com/)
 - [The Product Book by Carlos Gonzalez](https://www.pendo.io/)→ Book Cover taken from [Goodreads](https://www.goodreads.com/)
@@ -708,9 +738,9 @@ All these snippets of code have been fully customized for this project's require
 - [Cracking the PM Interview by Gayle McDowell](https://www.pendo.io/) → Book Cover taken from [Goodreads](https://www.goodreads.com/)
 - [100 Things by Susan Weinschenk](https://www.pendo.io/) → Book Cover taken from [Goodreads](https://www.goodreads.com/)
 
-This section will contain a lot more books for aspiring PMs to read. These books will be related to various disciplines (leadership, business, technology, product management, design, analytics, among others).
+This section will contain a lot more books for aspiring PMs to read. These books will be related to various disciplines (leadership, business, technology, product management, design, analytics, among others). However, this will be implemented in the next iteration.
 
-**'Resources' Section:**
+*'Top Resources' Page:*
 - [Pendo](https://www.pendo.io/) → Logo and Founder(s) taken from Official Website
 - [Product School](https://www.productschool.com/) → Logo and Founder(s) taken from Official Website
 - [Product Love by Eric Boduch](https://www.pendo.io/) → Logo and Founder(s) taken from Official Website
@@ -730,14 +760,14 @@ This section will contain a lot more books for aspiring PMs to read. These books
 - [Mind the Product](https://www.mindtheproduct.com/) → Logo and Founder(s) taken from Official Website
 - [One Knight in Product](https://www.oneknightinproduct.com/) → Logo and Founder(s) taken from Official Website
 
+This section will contain a lot more resources for aspiring PMs to access. However, this will be implemented in the next iteration.
+
 [Back to Content](#content)
 
 # **ACKNOWLEDGEMENTS** 
 
-I would like to thank the following people for the constant support and guidance during my learning process: 
+I would like to thank the following people for their constant support and guidance during my learning process: 
 - [Code Institute Slack Community](https://code-institute-room.slack.com/)
 - [Adegbenga Adeye (Mentor)](https://www.linkedin.com/in/adegbenga-adeye-psm-i-14003635/)
-- [Igor Basuga (Tutor)](https://www.linkedin.com/in/igor-basuga-b2a123111/)
-- [Miklos Sarosi (Tutor)](https://www.linkedin.com/in/miklossarosi/) 
 
 [Back to Content](#content)

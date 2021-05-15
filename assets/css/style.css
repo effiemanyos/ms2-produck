@@ -32,6 +32,7 @@
 .section-subtitle {
     font-size: 20px;
     font-weight: 500;
+    margin-bottom: 5px;
 }
 
 /** -----[ Dark Mode Toggle ]----- **/

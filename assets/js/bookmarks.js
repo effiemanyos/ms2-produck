@@ -14,7 +14,7 @@ function saveBookmark(e) {
 
     // Form Validation
     if (!validateForm(websiteName, websiteUrl)) {
-        // Stop The Execution
+        // Stop Execution
         return false;
     }
 
@@ -118,7 +118,7 @@ function validateForm(websiteName, websiteUrl) {
     if (!websiteName || !websiteUrl) {
         // Alert Message
         alert('Please fill in the form');
-        // Stop The Execution
+        // Stop Execution
         return false;
     }
 
@@ -131,7 +131,7 @@ function validateForm(websiteName, websiteUrl) {
     if (!websiteUrl.match(regex)) {
         // Alert Message
         alert('Please use a valid URL with https://');
-        // Stop The Execution
+        // Stop Execution
         return false;
     }
 
@@ -151,7 +151,6 @@ function addhttp(url) {
 // Written Credit: https://bit.ly/33JNwnz
 // Dark Mode Toggle
 var checkbox = document.querySelector('input[name=theme]');
-
 checkbox.addEventListener('change', function () {
     if (this.checked) {
         trans()

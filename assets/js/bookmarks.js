@@ -14,6 +14,7 @@ function saveBookmark(e) {
 
     // Form Validation
     if (!validateForm(websiteName, websiteUrl)) {
+        // Stop The Execution
         return false;
     }
 
@@ -99,7 +100,7 @@ function fetchBookmarks() {
         var url = bookmarks[i].url;
 
         // Credit: https://bit.ly/3fo1q40
-        // Enter Content to HTML Through JavaScript
+        // Insert Content to HTML Through JavaScript
         bookmarksList.innerHTML += '<div class="results-list">' +
             '<h3><i class="fa fa-bookmark"></i> ' + name +
             ' <a class="btn btn-default" target="_blank" href="' + addhttp(url) + '"><i class="fa fa-external-link-square"></i></a> ' +
@@ -115,7 +116,9 @@ function validateForm(websiteName, websiteUrl) {
 
     // Empty Input Submitted
     if (!websiteName || !websiteUrl) {
+        // Alert Message
         alert('Please fill in the form');
+        // Stop The Execution
         return false;
     }
 
@@ -126,7 +129,9 @@ function validateForm(websiteName, websiteUrl) {
 
     // Alert Message If Input Doesn't Match
     if (!websiteUrl.match(regex)) {
-        alert('Please use a valid URL');
+        // Alert Message
+        alert('Please use a valid URL with https://');
+        // Stop The Execution
         return false;
     }
 

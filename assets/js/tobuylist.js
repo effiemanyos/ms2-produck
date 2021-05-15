@@ -15,13 +15,11 @@ class Book {
 class UI {
     static showBooks() {
         const books = Store.getBooks();
-
         books.forEach((book) => UI.addBookToList(book));
     }
 
     static addBookToList(book) {
         const list = document.querySelector('#input-results');
-
         const row = document.createElement('tr');
 
         row.innerHTML = `
@@ -80,6 +78,7 @@ class Store {
             books = JSON.parse(localStorage.getItem('books'));
         }
 
+        // Return Books
         return books;
     }
 
@@ -127,8 +126,8 @@ document.querySelector('#buy-books-form').addEventListener('submit', (e) => {
     // Validate Input Has Text
     if (title === '' || author === '' || rating === '' || price === '' || isbn === '') {
         UI.showAlert('Please fill in all the fields below', 'danger');
-    } else {
 
+    } else {
         // Instatiate Book
         const book = new Book(title, author, rating, price, isbn);
 
@@ -149,7 +148,6 @@ document.querySelector('#buy-books-form').addEventListener('submit', (e) => {
 
 // Event 3: Remove a Book (Using Event Propagation)
 document.querySelector('#input-results').addEventListener('click', (e) => {
-
     // Remove Book From UI
     UI.deleteBook(e.target);
 
@@ -166,7 +164,6 @@ document.querySelector('#input-results').addEventListener('click', (e) => {
 // Written Credit: https://bit.ly/33JNwnz
 // Dark Mode Toggle
 var checkbox = document.querySelector('input[name=theme]');
-
 checkbox.addEventListener('change', function () {
     if (this.checked) {
         trans()

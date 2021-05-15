@@ -479,7 +479,7 @@ html.transition *:after {
 /** Card Styling **/
 .resp-card-styling {
     text-align: center;
-    padding: 40px 30px 25px;
+    padding: 40px 30px 35px;
     line-height: 1.5;
     background-color: #fff !important;
     border-radius: 30px !important;
@@ -491,12 +491,6 @@ html.transition *:after {
 .resp-card-styling h3 {
     font-size: 20px;
     margin-top: 20px;
-}
-
-/** Section Paragraphs **/
-.resp-card-styling p {
-    margin-top: 10px;
-    font-size: 15px;
 }
 
 /** Card Hover Over Effect **/

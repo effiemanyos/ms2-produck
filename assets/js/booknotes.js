@@ -56,20 +56,48 @@ function displayNotes() {
                 <p class="note-counter">Note ${index + 1}</p>
                 <h3 class="note-title">${element.title}</h3>
                 <p class="note-text">${element.text}</p>
-                <button id="${index}" onclick="deleteNote(this.id)" class="edt-note-btn"><i class="fa fa-pencil"></i> Edit</button>
-                <button id="${index}" onclick="editNote(this.id)" class="dlt-note-btn"><i class="fa fa-trash"></i> Delete</button>
+                <button id="${index}" onclick="editNote(this.id)" class="edt-note-btn"><i class="fa fa-pencil"></i> Edit</button>
+                <button id="${index}" onclick="deleteNote(this.id)" class="dlt-note-btn"><i class="fa fa-trash"></i> Delete</button>
                 </div>
         `;
     });
 
+    // Targeting Notes ID
     let noteElm = document.getElementById("notes");
-    if (notesObj.length !=0) {
+    if (notesObj.length != 0) {
         noteElm.innerHTML = html;
     } else {
-        noteElm.innerHTML = "Not Notes Yet! Add a note using the form above";
+        noteElm.innerHTML = "There are no notes yet! Add a new note by using the form above.";
     }
 }
 
+// Delete Submitted Notes
+function deleteNote(index) {
+
+    // Confirm User Wants to Delete Note
+    let confirmDel = confirm("Watch out! You are about to delete this note!");
+
+    // If User Agrees to Delete Note
+    if (confirmDel == true) {
+        let notes = localStorage.getItem("notes");
+        if (notes == null) {
+            notesObj = [];
+        } else {
+            notesObj = JSON.parse(notes);
+        }
+
+        // Splice() Method to Delete Item Inside Array
+        notesObj.splice(index, 1);
+
+        // Convert Object Into String for Local Storage
+        localStorage.setItem("notes", JSON.stringify(notesObj));
+
+        // Call 'Display Notes' Function After Deleting Note
+        displayNotes();
+    }
+}
+
+// Call 'Display Notes' Function
 displayNotes();
 
 

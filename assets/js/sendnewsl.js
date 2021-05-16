@@ -3,9 +3,9 @@
 let emailjs;
 
 // Create sendEmail() Function
-function sendEmail(contactForm) {
+function sendEmail(newsletterForm) {
     emailjs.send('gmail', 'produck', {
-        "from_email": contactForm.email.value,
+        "from_email": newsletterForm.email.value,
     })
         .then(
             // Alert Sent When Email Is Successful

@@ -1,4 +1,4 @@
-# **[Produck | Productivity Apps](https://effiemanyos.github.io/ms2-produck/)**
+# **[Produck | PM & Productivity Apps](https://effiemanyos.github.io/ms2-produck/)**
 
 ![the webpage on different devices](assets/images/mockup-img.png "the webpage on different devices")
 

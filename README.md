@@ -1,10 +1,10 @@
 # **[Produck | Productivity Apps](https://effiemanyos.github.io/ms2-produck/)**
 
-![the webpage on different devices](./assets/images/mockup-img.png "the webpage on different devices")
+![the webpage on different devices](assets/images/mockup-img.png "the webpage on different devices")
 
 **[VIEW WEBSITE LIVE](https://effiemanyos.github.io/ms2-produck/)**
 
-![the logo of the website](./assets/images/effie-manyos-logo.png "the logo of the website") 
+![logo variations of the brand](assets/images/logo-variations.png "logo variations of the brand") 
 
 ## **Interactive Front-End Development Milestone Project 2**
 
@@ -92,27 +92,53 @@ These are some crucial **user pain points or struggles** worth mentioning:
 
 ### **What Are Users Looking For?**
 
-Users are looking for ONE THING (Main Goal):
+Users are looking for **ONE THING** (their main goal):
 - **Break Into Product Management**, which means getting their first PM role and start their PM career from there!
 
 ### **User Goals**
 
-*Produck's services and user goals from their POV:*
-- Use the mentoring and coaching programmes to break into Product Management (get our first PM role).
-- Access to the up-to-date directory of the best Product Management online resources (professionally selected) and thought leaders (industry experts) to learn from the best.
-- Attend to Produck's networking events to meet other aspiring Product Managers, as well as people already in the industry to learn from their experiences.
-- Join Produck's PM community to share our passion and strong interest for Product Management and Technology with other product enthusiasts.
-- Attend Produck's group workshops and take their online courses to develop key PM skills and gain some practical experience by working on small projects (not just reading, listening, or watching content).
-- Use the Produck's **productivity web-based applications** to help us build a reading habit and learn as much as possible from book authors (experts in the field)(*)
-- Use the **bookmarks web-based application** to save our favourite sources of information about Product Management taken from the resources directory.
-- Stay up-to-date with bite-sized news and information on the latest trends, methods, frameworkds, tools, products, technology, etc.
-- Constantly check Produck's job board with entry-level PM roles located in Ireland (or remote worldwide) to start applying.
-- Watch Produck's weekly interviews with Q&As at the end to learn from other PMs working at Fortune 100 companies in Ireland.
-- Locate the best and most useful PM mock interviews to ace mine and get my dream job.
+*Produck's Services & User Goals From Their POV:*
+- Use the mentoring and coaching programmes to break into Product Managemen, which means getting my first PM role in a tech company.
+- Access the up-to-date directory of the best Product Management online resources (professionally selected by Produck) and thought leaders (international industry experts) to learn from the best.
+- Attend to Produck's networking events to meet other aspiring Product Managers, as well as people already in the industry to learn from their past experiences.
+- Join Produck's PM community to share my passion and strong interest for Product Management and Technology with other product enthusiasts.
+- Attend Produck's group workshops and take their online courses to develop key PM skills and gain some practical knowledge by working on small side projects, not just by reading, listening, or watching content.
+- Stay up-to-date with bite-sized news and information on the latest trends, methods, frameworkds, tools, products, technology by clicking on the website's Social Media icons to follow Produck's social channels.
+- Constantly check Produck's job board with entry-level PM roles based in Ireland (or remote worldwide) to start applying to the ones I like the most.(**)
+- Watch Produck's weekly live interviews with Q&As at the end to learn from other PMs working at Fortune 100 companies in Ireland or other countries.
+- Locate the best and most useful PM mock interviews recommended by Produck to ace mine and get my dream job in Product Management.
 
->(*) Currently, books are one of the most reliable (cost-effective) source of information about Product Management. This is the main reason why Produck's owner has decided to create various web-based applications using Vanilla JavaScript, jQuery, and Local Storage to help Produck users set their own objectives and track their reading milestones in the same platform where they can also learn more about Product Management through other carefully selected external resources.
+*Important Features:*
+- Use the Produck's **productivity web-based applications** to help me build a reading habit to learn as much as possible from book authors, which are experts in the field(*)
+- Use the **tobuylist web-based application** to keep track of the books I am planning to buy within the next six months and be mindful of the budget I will be allocating or investing in this. 
+- Use the **toreadlist web-based application**
+- Use the **booknotes web-based application**
+- Use the **toratelist web-based application**
+- Use the **bookmarks web-based application** to save my favourite online sources of information about Product Management taken from Produck's resources directory.
 
-All these are **assumptions** from insights gathered during previus market research. However, they still need to be validated once the MVP is launched.
+
+
+
+
+
+
+
+>(*) Currently, books are one of the most reliable (cost-effective) source of information about Product Management. This is the main reason why Produck's owner has decided to create various web-based applications using Vanilla JavaScript, jQuery, and Local Storage to help Produck users set their own objectives and track their reading milestones in the same platform where they can also learn more about Product Management through other carefully selected external resources.          
+(**) This is not part of the MVP features but Produck will do have a job board.
+
+All these are **assumptions** from insights gathered during previus user research. However, they still need to be validated once the MVP is launched.
+
+**In summary, the users' main goals are the following:**
+- Get my first PM role
+- Learn from the best
+- Network with other PMs
+- Save time and money
+- Build relationships
+- Be part of a community
+- Get involved in Ireland
+- Develop key PM skills
+- Gain PM experience
+- Always be up-to-date
 
 ### **Business Goals**
 Site Owner's Goals:
@@ -125,22 +151,38 @@ Site Owner's Goals:
 - Expand networking opportunities
 - Connect with industry experts & leaders
 - Become thought leaders in Ireland & UK
-- Promote their core services 
+- Promote Produck's core services 
 - Develop a professional online presence
 - Increase collaborations & partnerships
-- Make their knowledge & experience profitable
-- Reduce the tech gap in Ireland (lack of professionals)
+- Make team's knowledge & experience profitable
+- Reduce the tech gap in Ireland (lack of tech professionals)
 - Reduce the gender gap in the tech industry (lack of women in tech)
-- Support the Irish economy by helping boost great product building
-
-Key Services:
-- ToReadList App 
-- ToBuyList App
-- ToRateList App
-- MyBookNotes App
-- Bookmarks App
+- Support the Irish economy by helping boost great building and innovation
 
 ### **User Stories**
+
+**Key Produck's Features:**
+- ToBuyList App
+- ToReadList App
+- BookNotes App
+- ToRateList App
+- Bookmarks App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **Target Audience:**
 - As an **Entrepreneur/Solopreneur**, I want to **register** to Effie's **online workshop** so that I can boost my business' monthly sales.

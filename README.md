@@ -1,18 +1,18 @@
-# **[Effie Manyos | Personal Website](https://effiemanyos.github.io/milestone-project-one/)**
+# **[Produck | Productivity Apps](https://effiemanyos.github.io/ms2-produck/)**
 
 ![the webpage on different devices](./assets/images/mockup-img.png "the webpage on different devices")
 
-**[VIEW WEBSITE LIVE](https://effiemanyos.github.io/milestone-project-one/)**
+**[VIEW WEBSITE LIVE](https://effiemanyos.github.io/ms2-produck/)**
 
 ![the logo of the website](./assets/images/effie-manyos-logo.png "the logo of the website") 
 
-## **User Centric Front-End Development Milestone Project 1**
+## **Interactive Front-End Development Milestone Project 2**
 
 ### **Project Overview**
 
-This project consists of a **static front-end website** built to help **Entrepreneurs, Tech Startups, Small Businesses, Non-Profits, Entry-Level Professionals, Recent Graduates, Professional Expats** achieve their professional goals by providing them with the right tools. From a business perspective, this project is to **build a strategic professional online presence for the owner, promote and sell her services and online courses, build a community around the fields of interest, become an Irish thought leader, and build a solid personal branding resulting in a profitable business**. 
+This project consists of a **interactive front-end platform** built to help **aspiring PMs** break into Product Management despite having a non-technical background, by providing them with professionally selected external resources and **[Produck](https://effiemanyos.github.io/ms2-produck/)**'s productivity tools so that they can land their first PM job and properly excel in the role. From a business perspective, this project's main purpose is to **strategically build a strong community of product professionals within Ireland, a way to network and build relationships with international industry experts, promote and sell Produck's membership, workshops, and online courses, become an important Irish thought leader**. 
 
-This project is the first milestone in obtaining a **[Full-Stack Web Development](https://codeinstitute.net/full-stack-software-development-diploma/) University-Rated Professional Diploma** from **[Code Institute](https://codeinstitute.net/)**. Only **HTML** and **CSS** were required for this project (**Bootstrap** was optional); however, other technologies were slightly used to improve the overall quality and user experience.
+This is the **second milestone project** in obtaining a **[Full-Stack Web Development](https://codeinstitute.net/full-stack-software-development-diploma/) University-Rated Professional Diploma** from **[Code Institute](https://codeinstitute.net/)**. Regarding the technologies used, **HTML**, **CSS**, and **JavaScript** were required for this project (**jQuery**, **jQuery UI**, **Bootstrap**, and **APIs** were optional); however, as observed, other technologies were also slightly used to improve the overall quality and user experience.
 
 -------
 
@@ -54,33 +54,33 @@ ______
 ____
 
 ### **Target Audience**
-- Recent Graduates (esp. Business & Computer Science)
-- Entry-Level Product Managers
+- Recent Graduates (Tech/Non-Tech Background)
+- Product Enthusiasts (Curious & Passionate)
 - Aspiring Product Managers
-- Product Enthusiasts
-- APM (Associate Product Managers)
+- Entry-Level Product Managers
+- APMs (Associate Product Managers)
 - Non-Tech Background Professionals
-- Entrepreneurs
+- Entrepreneurs (Founders & Co-Founders)
 - Professionals Transitioning Into PM
 
-Professionals passionate about Technology, Products, Innovation, and solving customers' pain-points/struggles by leveraging technology.
+**Produck** is targeting professionals passionate about Technology, Products, Innovation; people constantly looking to solve customers' pain-points and struggles by leveraging the use of technology.
 
-**Countries:** Ireland & UK (Main Markets)
+**Targeted Countries:** Ireland & UK (Main Markets)
 
-**Age:** Not Specified 
+**Targeted Age:** Not Specified
 
-All under the constraints of a **tight/no budget for expensive bootcamps (e.g. Product School)**.
+All under the constraints of a **tight/no budget to spend on expensive bootcamps** (e.g. Product School or Kellogg School of Management).
 
 ### **User Needs**
 
-These are some crucial **user pain points / struggles** worth mentioning:
+These are some crucial **user pain points or struggles** worth mentioning:
 
-1. **Lack of Trust** | Users do not how to differentiate high-quality content from poor/fake PM content on the internet as they do not have previus experience in the field.
-2. **Quantity Over Quality** | There is too much information on the internet but most sources share superficial or inaccurate content about Product Management. 
-3. **Overwhelming & Exhausting** | It is overwhelming and exhausting for users to navigate through all those resources (too many options to choose from), while also trying to find the right information from the right source without having to ask friends or colleagues.
-4. **Lack of Time** | There is too much going on in their lives at the moment (esp. during the global pandemic) that they do not have the time to search for the information themselves because it takes a lot of time.
-5. **Fear of Missing Out (FOMO)** | Users have also shared during the research that they constantly feel that they are missing out on great tips and valuable information from high-quality resources (esp. from Fortune 100 companies, authors, coaches, industry experts).
-6. **Lack of Official Studies** | There is a lack of official Product Management studies offered by universities and colleges. Users are looking for bootcamps, workshops, cohorts, mentors, and online courses to learn more about this relatively new field in the tech industry.
+1. **Lack of Trust** | Users do not know how to differentiate between high-quality content and poor or fake PM content on the internet, as they do not have previus professional experience in the field.
+2. **Quantity Over Quality** | There is too much information all over the internet, but most sources share vague, superficial or inaccurate content about Product Management. 
+3. **Overwhelming & Exhausting** | It is overwhelming and exhausting for users to navigate through all those online resources (too many options to choose from), while also trying to find the right information from the right source without having to consult friends or colleagues.
+4. **Lack of Time** | There is too much going on in users' lives at the moment (esp. during the global pandemic) that they do not have the time to search for the information themselves because it is proven that it takes a lot of time to do the research every time.
+5. **Fear of Missing Out (FOMO)** | Users have also shared during the user research that they constantly feel that they are missing out on great tips and valuable content from high-quality resources (esp. from Fortune 100 companies, book authors, mentors, industry experts).
+6. **Lack of Official Studies** | There is a lack of official Product Management studies offered by universities and colleges. Users are looking for cost-effective bootcamps, workshops, cohorts, mentors, and online courses to learn more about this relatively new field in the tech industry.
 
 ### **Business Opportunity**
 
@@ -92,17 +92,17 @@ These are some crucial **user pain points / struggles** worth mentioning:
 
 ### **What Are Users Looking For?**
 
-**Users are looking for ONE THING (Main Final Goal):**
-- Break Into Product Management | Get their first PM role and start their PM career from there!
+Users are looking for ONE THING (Main Goal):
+- **Break Into Product Management**, which means getting their first PM role and start their PM career from there!
 
 ### **User Goals**
-**Services Offered:**
-Produck's services and user goals from their POV:
-- Use the mentoring and coaching programmes to break into Product Management (get our first PM role)
-- Access to the up-to-date directory of the best Product Management resources (carefully selected) and industry experts/leaders to learn from them
-- Attend to Produck's networking events to meet other aspiring Product Managers and people already in the industry
-- Join the PM community to share our passion and strong interest for Product Management and Technology
-- Attend workshops and take online courses to develop key PM skills and gain some experience by doing (not just reading/listening/watching)
+
+*Produck's services and user goals from their POV:*
+- Use the mentoring and coaching programmes to break into Product Management (get our first PM role).
+- Access to the up-to-date directory of the best Product Management online resources (professionally selected) and thought leaders (industry experts) to learn from the best.
+- Attend to Produck's networking events to meet other aspiring Product Managers, as well as people already in the industry to learn from their experiences.
+- Join Produck's PM community to share our passion and strong interest for Product Management and Technology with other product enthusiasts.
+- Attend Produck's group workshops and take their online courses to develop key PM skills and gain some practical experience by working on small projects (not just reading, listening, or watching content).
 - Use the Produck's **productivity web-based applications** to help us build a reading habit and learn as much as possible from book authors (experts in the field)(*)
 - Use the **bookmarks web-based application** to save our favourite sources of information about Product Management taken from the resources directory.
 - Stay up-to-date with bite-sized news and information on the latest trends, methods, frameworkds, tools, products, technology, etc.

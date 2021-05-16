@@ -21,36 +21,36 @@ function saveBookmark(e) {
     // Credit: https://bit.ly/3fem1I4
     // Object Submit to Local Storage (To Create Array of Objects)
     var bookmark = {
-        name: websiteName,
-        url: websiteUrl
-    }
+            name: websiteName,
+            url: websiteUrl
+        },
 
-    // Test If Bookmarks Is Null
-    if (localStorage.getItem('bookmarks') === null) {
+        // Test If Bookmarks Is Null
+        if (localStorage.getItem('bookmarks') === null) {
 
-        // Initialize Array
-        var bookmarks = [];
+            // Initialize Array
+            var bookmarks = [];
 
-        // Add Bookmarks to Array
-        bookmarks.push(bookmark);
+            // Add Bookmarks to Array
+            bookmarks.push(bookmark);
 
-        // Credit 1: https://bit.ly/33HSG3v
-        // Credit 2: https://bit.ly/33LU5pK
-        // Set to Local Storage (Turn JSON Array Into String Before It's Saved)
-        localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
+            // Credit 1: https://bit.ly/33HSG3v
+            // Credit 2: https://bit.ly/33LU5pK
+            // Set to Local Storage (Turn JSON Array Into String Before It's Saved)
+            localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
 
-    // If Bookmarks Has Item(s) 
-    } else {
+            // If Bookmarks Has Item(s) 
+        } else {
 
-        // Get Bookmarks From Local Storage (Turn String Back Into JSON)
-        var bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
+            // Get Bookmarks From Local Storage (Turn String Back Into JSON)
+            var bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
 
-        // Add Submitted Bookmark to Array
-        bookmarks.push(bookmark);
+            // Add Submitted Bookmark to Array
+            bookmarks.push(bookmark);
 
-        // Re-Set Back to Local Storage
-        localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
-    }
+            // Re-Set Back to Local Storage
+            localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
+        }
 
     // Clear Form Input Boxes
     document.getElementById('bookmarksForm').reset();
@@ -153,11 +153,11 @@ function addhttp(url) {
 var checkbox = document.querySelector('input[name=theme]');
 checkbox.addEventListener('change', function () {
     if (this.checked) {
-        trans()
-        document.documentElement.setAttribute('data-theme', 'dark')
+        trans();
+        document.documentElement.setAttribute('data-theme', 'dark');
     } else {
-        trans()
-        document.documentElement.setAttribute('data-theme', 'light')
+        trans();
+        document.documentElement.setAttribute('data-theme', 'light');
     }
 });
 
@@ -165,6 +165,6 @@ checkbox.addEventListener('change', function () {
 let trans = () => {
     document.documentElement.classList.add('transition');
     window.setTimeout(() => {
-        document.documentElement.classList.remove('transition')
-    }, 1000)
+        document.documentElement.classList.remove('transition');
+    }, 1000);
 };

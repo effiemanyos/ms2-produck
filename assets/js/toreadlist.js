@@ -67,7 +67,7 @@ $(document).ready(function () {
 
                     // Adding a New Item to a Selected Category
                     $("#projects " + title).append("<li> <input class='checkbox' type='checkbox'>" + "<span class='task-text'><i class='book-icon fa fa-book'></i>" + $("#new-book").val() + "</span>" + "<span><button class='tasks-delete'><i class='fa fa-trash'></i></button></span></li>");
-                    
+
                     // Clear Value in Text Box
                     // Credit: https://bit.ly/3tT1KwS
                     $("#new-book").val("");
@@ -98,19 +98,19 @@ $(document).ready(function () {
 
                 // 'Add New Category' Button Functionality (Inner)
                 "Add New Category": function () {
-                    
+
                     // Get Value Entered in Text Box
                     var projectName = $("#new-category").val();
-                    
+
                     // Allows Having Spaces in Project Name & Adding New Books in Those Projects
                     var replaceName = projectName.split(" ").join("_");
-                    
+
                     // Create New <li> Element & Append to Unordered List Element With ID 'Main'
                     $("<li><a href='#" + replaceName + "'>" + projectName + "</a><span class='ui-icon ui-icon-close'></span></li>").appendTo("#main");
 
                     // Adding a Corresponding Ordered List for Categories Tab Value (Sortable Items)
                     $("<ol id='" + replaceName + "'></ol>").appendTo("#projects").sortable();
-                    
+
                     // Refresh App Widget to Include New Item in Tabs Section (Refresh Method)
                     $("#projects").tabs("refresh");
 
@@ -151,11 +151,11 @@ $(document).ready(function () {
 var checkbox = document.querySelector('input[name=theme]');
 checkbox.addEventListener('change', function () {
     if (this.checked) {
-        trans()
-        document.documentElement.setAttribute('data-theme', 'dark')
+        trans();
+        document.documentElement.setAttribute('data-theme', 'dark');
     } else {
-        trans()
-        document.documentElement.setAttribute('data-theme', 'light')
+        trans();
+        document.documentElement.setAttribute('data-theme', 'light');
     }
 });
 
@@ -163,6 +163,6 @@ checkbox.addEventListener('change', function () {
 let trans = () => {
     document.documentElement.classList.add('transition');
     window.setTimeout(() => {
-        document.documentElement.classList.remove('transition')
-    }, 1000)
+        document.documentElement.classList.remove('transition');
+    }, 1000);
 };

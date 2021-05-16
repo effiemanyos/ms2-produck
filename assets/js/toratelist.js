@@ -5,7 +5,7 @@ const ratings = {
     mindset: 1,
     measure: 1,
     crossing: 1
-}
+};
 
 // Total Stars
 const starsTotal = 5;
@@ -59,24 +59,24 @@ function getRatings() {
         // Add number rating
         document.querySelector(`.${rating} .number-rating`).innerHTML = ratings[rating];
     }
-};
+}
 
 // Dark mode toggle
 var checkbox = document.querySelector('input[name=theme]');
 
 checkbox.addEventListener('change', function () {
     if (this.checked) {
-        trans()
-        document.documentElement.setAttribute('data-theme', 'dark')
+        trans();
+        document.documentElement.setAttribute('data-theme', 'dark');
     } else {
-        trans()
-        document.documentElement.setAttribute('data-theme', 'light')
+        trans();
+        document.documentElement.setAttribute('data-theme', 'light');
     }
 });
 
 let trans = () => {
     document.documentElement.classList.add('transition');
     window.setTimeout(() => {
-        document.documentElement.classList.remove('transition')
-    }, 1000)
+        document.documentElement.classList.remove('transition');
+    }, 1000);
 };

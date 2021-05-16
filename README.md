@@ -4,8 +4,6 @@
 
 **[VIEW WEBSITE LIVE](https://effiemanyos.github.io/ms2-produck/)**
 
-![logo variations of the brand](assets/images/logo-variations.png "logo variations of the brand") 
-
 ## **Interactive Front-End Development Milestone Project 2**
 
 ### **Project Overview**
@@ -466,40 +464,6 @@ The following styling has been used for consistency and alignment throughout the
 }
 ```
 
-- **Subtitles (h3, h4):**
-
-```CSS
-/* Subtitles Styling */
-.subtitles {
-    font-family: Neucha, Helvetica, sans-serif;
-    font-size: 25px;
-    letter-spacing: 1px;
-}
-```
-
-- **Paragraphs (p):**
-
-```CSS
-/* Paragraphs Styling */
-.paragraphs {
-    font-family: Poppins, Helvetica, sans-serif;
-    font-size: 16px;
-}
-```
-
-- **CTA Buttons Text:**
-
-```CSS
-/* CTA Buttons Text Styling */
-.cta-buttons {
-    font-family: Poppins, Helvetica, sans-serif;
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 1px;
-    font-weight: 600;
-}
-```
-
 ### **Color Scheme**
 
 According to an article on **[The Science of Colour Persuasion](https://idealogicbrandlab.com/color-persuasion/)** by **IDealogic® Brand Lab**:
@@ -516,6 +480,9 @@ The following are the colours used for this project:
 > - **Green** → Associated with **health, growth, freshness, prosperity, hope, encourages balance and harmony**.
 > - **White** → Associated with **innocence, purity, cleanliness, and simplistic**.
 
+### **Logo Variations**
+
+![logo variations of the brand](assets/images/logo-variations.png "logo variations of the brand") 
 
 ### **Imagery**
 
@@ -543,8 +510,9 @@ The following technologies were used during the development and testing of this 
 
 - **HTML5** to structure each page.
 - **CSS3** to style the elements within each page.
-- **Vanilla JavaScript** ADD CONTENT HERE
-- **jQuery** ADD CONTENT HERE
+- **Vanilla JavaScript** to make the website interactive.
+- **jQuery** to make the website interactive.
+- **API** to allow the user to send a message or subscribe.
 
 ### **Workspaces, Version Control, Respository Hosting**
 - Store Repositories → [GitHub](https://github.com/)
@@ -554,9 +522,9 @@ The following technologies were used during the development and testing of this 
 ### **Frameworks & Libraries**
 - Frameworks → [Bootstrap V4.6.0](https://getbootstrap.com/)
 - Fonts → [Google Fonts](https://fonts.google.com/)
-- Icons → [Font Awesome V4.7.0](https://fontawesome.com/v4.7.0/icons/) √
-- jQuery → [Font Awesome V4.7.0](https://fontawesome.com/v4.7.0/icons/) ADD CONTENT HERE
-- jQuery UI → [Font Awesome V4.7.0](https://fontawesome.com/v4.7.0/icons/) ADD CONTENT HERE
+- Icons → [Font Awesome V4.7.0](https://fontawesome.com/v4.7.0/icons/)
+- jQuery → [jQuery V3.6.0](https://blog.jquery.com/2021/03/02/jquery-3-6-0-released/)
+- jQuery UI → [jQuery UI V1.12.1](https://jqueryui.com/download/all/)
 
 ### **Code Consultations**
 - Git Commit Messages → [Chris Beams | How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
@@ -576,6 +544,11 @@ The following technologies were used during the development and testing of this 
 - Website Performance → [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 - Validate HTML → [W3C HTML Validator](https://validator.w3.org/)
 - Validate CSS → [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- Validare JS → 
+
+
+
+
 - Web Accessibility Evaluation → [WAVE](https://wave.webaim.org/)
 
 ### **Other Technologies**

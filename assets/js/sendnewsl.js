@@ -1,5 +1,6 @@
 // Credit: https://bit.ly/3tNilSN
 // Credit: https://www.emailjs.com/
+let emailjs;
 
 // Create sendEmail() Function
 function sendEmail(contactForm) {

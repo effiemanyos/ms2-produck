@@ -5,6 +5,8 @@ let addBtn = document.getElementById("add-note-btn");
 let addTitle = document.getElementById("note-title");
 let addText = document.getElementById("note-text");
 
+let notesObj;
+
 // Add New Note on Click
 addBtn.addEventListener("click", (e) => {
 
@@ -19,7 +21,7 @@ addBtn.addEventListener("click", (e) => {
     // If Note Is Invalid
     if (notes == null) {
         notesObj = [];
-    // Convert String Back to Object
+        // Convert String Back to Object
     } else {
         notesObj = JSON.parse(notes);
     }
@@ -29,7 +31,7 @@ addBtn.addEventListener("click", (e) => {
     let myObj = {
         title: addTitle.value,
         text: addText.value
-    }
+    };
 
     // Save Notes to Local Storage
     notesObj.push(myObj);
@@ -50,7 +52,7 @@ function displayNotes() {
     // If Note Is Invalid
     if (notes == null) {
         notesObj = [];
-    // Convert String Back to Object
+        // Convert String Back to Object
     } else {
         notesObj = JSON.parse(notes);
     }
@@ -75,7 +77,7 @@ function displayNotes() {
     // If There Are No Notes in Results Area
     if (notesObj.length != 0) {
         noteElm.innerHTML = html;
-    // Display Message to Indicate User What to Do
+        // Display Message to Indicate User What to Do
     } else {
         noteElm.innerHTML = "There are no notes yet! Add a new note by using the form above.";
     }
@@ -96,7 +98,7 @@ function deleteNote(index) {
         // If Note Is Invalid
         if (notes == null) {
             notesObj = [];
-        // Convert String Back to Object
+            // Convert String Back to Object
         } else {
             notesObj = JSON.parse(notes);
         }
@@ -128,7 +130,7 @@ function editNote(index) {
     // If Note Is Invalid
     if (notes == null) {
         notesObj = [];
-    // Convert String Back to Object
+        // Convert String Back to Object
     } else {
         notesObj = JSON.parse(notes);
     }
@@ -159,11 +161,11 @@ displayNotes();
 var checkbox = document.querySelector('input[name=theme]');
 checkbox.addEventListener('change', function () {
     if (this.checked) {
-        trans()
-        document.documentElement.setAttribute('data-theme', 'dark')
+        trans();
+        document.documentElement.setAttribute('data-theme', 'dark');
     } else {
-        trans()
-        document.documentElement.setAttribute('data-theme', 'light')
+        trans();
+        document.documentElement.setAttribute('data-theme', 'light');
     }
 });
 
@@ -171,6 +173,6 @@ checkbox.addEventListener('change', function () {
 let trans = () => {
     document.documentElement.classList.add('transition');
     window.setTimeout(() => {
-        document.documentElement.classList.remove('transition')
-    }, 1000)
+        document.documentElement.classList.remove('transition');
+    }, 1000);
 };

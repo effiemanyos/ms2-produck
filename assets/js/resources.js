@@ -2,6 +2,8 @@
 
 // Filters Management
 $(document).ready(function() {
+
+    // On Click Rows Fade/Display Based on Data Status
     $(".btn-group .btn").click(function() {
 
         // Filters Besides 'All' Functionality

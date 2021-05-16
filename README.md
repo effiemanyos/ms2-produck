@@ -387,22 +387,6 @@ Only one font was used for this project.
 
 - **[Poppins](https://fonts.google.com/specimen/Poppins?query=Poppins&preview.text_type=custom)**, designed by Indian Type Foundry, Jonny Pinhorn, for all paragraphs.
 
-**Font Styling:**
-
-The following styling has been used for consistency and alignment throughout the entire website:
-- **Titles (h1, h2):** 
-
-```CSS
-/* Main Titles Styling */
-.titles {
-    font-family: Neucha, Helvetica, sans-serif;
-    font-size: 40px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    text-align: center;
-}
-```
-
 ### **Color Scheme**
 
 According to an article on **[The Science of Colour Persuasion](https://idealogicbrandlab.com/color-persuasion/)** by **IDealogic® Brand Lab**:
@@ -483,11 +467,7 @@ The following technologies were used during the development and testing of this 
 - Website Performance → [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 - Validate HTML → [W3C HTML Validator](https://validator.w3.org/)
 - Validate CSS → [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-- Validare JS → 
-
-
-
-
+- Validare JS → [JS Hint V2.12.0](https://jshint.com/)
 - Web Accessibility Evaluation → [WAVE](https://wave.webaim.org/)
 
 ### **Other Technologies**

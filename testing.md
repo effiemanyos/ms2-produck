@@ -44,52 +44,6 @@ Finally, it was tested in the following **devices**:
 
 The website had an great performance and could be used perfectly, no funcional issues were found during the testing. However, the layout was not exactly the same (or the intended design) in all systems and devices but the users could interact with ease and achieve their goals successfully.
 
-## **Issues During Development**
------
-
-The most important issues that were found during development that took a considered amount to time to solve are the following:
-
-### **ToReadList App**
-
-**1. Issue:** XXXX
-
-![screenshot of the issue with the anchors and the navbar](./assets/images/anchors-navbar.png "screenshot of the issue with the anchors and the navbar")
-
-- **Fixes:** XXXX
-
-### **ToBuyList App**
-
-**2. Issue:** XXXX
-
-![screenshots of how the additional space on the footer section was fixed](./assets/images/footer-fix.png "screenshots of how the additional space on the footer section was fixed")
-
-- **Fixes:** XXXX
-
-### **Bookmarks App**
-
-**3. Issue:** XXXX
-
-![screenshots of how the services types section was fixed](./assets/images/services-types-fix.png "screenshots of how the services types section was fixed")
-
-- **Fixes:** XXXX
-
-### **BookNotes App**
-
-**4. Issue:** XXXX
-
-![screenshots of what issues the contact section had and final results](./assets/images/contact-fix.png "screenshots of what issues the contact section had and final results")
-
-- **Fixes:** XXXX
-
-[Back to Content](#content)
-
-
-
-
-
-
-
-
 ## **HTML, CSS, JAVASCRIPT Validation Testing**
 -----
 
@@ -181,55 +135,45 @@ The tool used for this code validation was the [JS Hint V2.12.0](https://jshint.
 
 **bookmarks.js**
 
-![w3c html validation service one error results](assets/images/bookmarks-validation.png "w3c css validation service one error results") 
+![JS Hint JavaScript validation initial results](assets/images/bookmarks-validation.png "JS Hint JavaScript validation initial results") 
 
 ***Date:*** Tuesday, May 11th, 2021
 
 **booknotes.js**
 
-![w3c html validation service one error results](assets/images/booknotes-validation.png "w3c css validation service one error results") 
+![JS Hint JavaScript validation initial results](assets/images/booknotes-validation.png "JS Hint JavaScript validation initial results") 
 
 ***Date:*** Tuesday, May 11th, 2021
 
 **resources.js**
 
-![w3c html validation service one error results](assets/images/resources-validation.png "w3c css validation service one error results") 
+![JS Hint JavaScript validation initial results](assets/images/resources-validation.png "JS Hint JavaScript validation initial results") 
 
 ***Date:*** Tuesday, May 11th, 2021
 
 **sendemail.js**
 
-![w3c html validation service one error results](assets/images/sendemail-validation.png "w3c css validation service one error results") 
+![JS Hint JavaScript validation initial results](assets/images/sendemail-validation.png "JS Hint JavaScript validation initial results") 
 
 ***Date:*** Tuesday, May 11th, 2021
 
 **sendnewsl.js**
 
-![w3c html validation service one error results](assets/images/sendnewsl-validation.png "w3c css validation service one error results") 
+![JS Hint JavaScript validation initial results](assets/images/sendnewsl-validation.png "JS Hint JavaScript validation initial results") 
 
 ***Date:*** Tuesday, May 11th, 2021
 
 **tobuylist.js**
 
-![w3c html validation service one error results](assets/images/tobuylist-validation.png "w3c css validation service one error results") 
+![JS Hint JavaScript validation initial results](assets/images/tobuylist-validation.png "JS Hint JavaScript validation initial results") 
 
 ***Date:*** Tuesday, May 11th, 2021
 
 **toreadlist.js**
 
-![w3c html validation service one error results](assets/images/toreadlist-validation.png "w3c css validation service one error results") 
+![JS Hint JavaScript validation initial results](assets/images/toreadlist-validation.png "JS Hint JavaScript validation initial results") 
 
 ***Date:*** Tuesday, May 11th, 2021
-
-
-
-
-
-
--------------
--------------
--------------
--------------
 
 ## **Testing Performance**
 -----
@@ -240,170 +184,33 @@ In order to test the website's performance on **desktop** and **mobile**, [Googl
 
 The **initial results** were the following:
 
-![google lighthouse results](./assets/images/lighthouse-p1.png "google lighthouse results") 
+![google lighthouse results](assets/images/lighthouse-p1.png "google lighthouse results") 
 
-![google lighthouse results](./assets/images/lighthouse-p2.png "google lighthouse results") 
+![google lighthouse results](assets/images/lighthouse-p2.png "google lighthouse results") 
 
-![google lighthouse accessibility results](./assets/images/lighthouse-accessibility.png "google lighthouse accessibility results") 
+![google lighthouse accessibility results](assets/images/lighthouse-p3.png "google lighthouse accessibility results") 
 
-![google lighthouse best practices results](./assets/images/lighthouse-bestpractices.png "google lighthouse best practices results") 
+![google lighthouse best practices results](assets/images/lighthouse-p4.png "google lighthouse best practices results") 
 
-![google lighthouse runtime settings](./assets/images/runtime-settings.png "google lighthouse runtime settings") 
+![google lighthouse runtime settings](assets/images/lighthouse-p5.png "google lighthouse runtime settings") 
 
-***Date:*** Thursday, Feb 25th, 2021
-
-The following actions were taken to improve the performance of the website, especially the accessibility:
-
-**Urgent Issues:**
-
-**1. Issue:** Properly size images / Avoid enourmous network payloads
-
-- **Fixes:** Unfortunatly, due to the lack of time this issue could not be solved before the project deadline. However, all the images used on the website will be converted from PNG to formats like JPEG 2000 or WebP to provide better compression for faster downloads and less data consumption. The tools that will be used for this are the following: [Convertio (PNG to WebP)](https://convertio.co/png-webp/) and [TinyPNG (Image Compression)](https://tinypng.com/). **Goal:** Less than 550KB per image.
-
-**2. Issue:** Links to cross-origin destinations are unsafe
-
-- **Fixes:** This issue was simply fixed by adding `rel="noopener"` to all external links to prevent security vulnerabilities.
-
-```HTML
-<li>
-    <img src="assets/images/ah-logo.png" alt="ArchHyve logo">
-    <a href="https://archhyve.com/" target="_blank" rel="noopener"><img src="assets/images/ah-img.png" alt="ArchHyve"></a>
-</li>
-```
-
-**3. Issue:** Image elements do not have explicit widh and height
-
-- **Fixes:** Unfortunatly, due to the lack of time this issue could not be solved before the project deadline. However, explicit `width` and `height` (size attributes) will be set on image and video elements to reduce layout shifts and improve CLS (Cumulative Layout Shift) like explained in [Optimize Cumulative Layout Shift](https://web.dev/optimize-cls/?utm_source=lighthouse&utm_medium=devtools#images-without-dimensions).
-
-*Example:*
-```HTML
-<img src="community-logo.jpg" width="640" height="360" alt="the club community official logo"/>
-```
-
-**4. Issue:** Background and foreground colors do not have a sufficient contrast ratio √
-
-- **Fixes:** This issue was simply fixed by increasing the contrast of the colors in the background and foreground.
-
-```CSS
-#new-bgfg-colors {
-    background: #e7e8ef;
-    color: #434343;
-}
-```
-*Final Result:*
-![background and foreground new colors](./assets/images/increased-contrast.png "background and foreground new colors") 
-
-**5. Issue:** Ensure text ramains visible during webfont load
-
-- **Fixes:**
-
-**6. Issue:** Form elements do not have associated labels
-
-- **Fixes:** This issue was simply fixed by adding the associated labels to all form elements.
-
-```HTML
-<!-- Name -->
-<label for="fullname">Full Name</label>
-<input type="text" name="name" id="fullname" class="form-control" placeholder="Full Name" required/>
-```
-
-```CSS
-/* Invisible Form Labels */
-label {
-    display: none;
-}
-```
-
-*Final Result:*
-
-![background and foreground new colors](./assets/images/form-labels.png "background and foreground new colors")
-
-*Final Results:*
-
-![google lighthouse final results](./assets/images/lighthouse-finalresults.png "google lighthouse final results")
+***Date:*** Friday, May 14th, 2021
 
 [Back to Content](#content)
-
-
--------------
--------------
--------------
--------------
-
-
-
-
-
-
 
 ## **Testing Accessibility**
 -----
 
 To test the website accessibility [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/) was used. The obtained results are the following:
 
-![wave accessibility results](./assets/images/wave-accessibility-results.png "wave accessibility results") 
+![wave accessibility results](assets/images/wave-accessibility-results.png "wave accessibility results") 
 
-![wave accessibility errors and alerts results](./assets/images/wave-accessibility-errorsalerts.png "wave accessibility errors and alerts results")
-
-All "errors" and "alerts" were analysed in detail and the **conclusions** were the following: 
-
-- All the **alerts** were actually made on purpose for academic reasons only as the external links used in the development of this project are not the real ones (e.g.: social media links) or they have been duplicated as the information shared on the site requires:
-
-![wave accessibility alerts results](./assets/images/wave-accessibility-redundantlinks1.png "wave accessibility errors and alerts results")
-
-![wave accessibility alerts results](./assets/images/wave-accessibility-redundantlinks2.png "wave accessibility errors and alerts results")
-
-- All these **errors** on the site are the same, the `<a>` tag doesn't contain any text: 
-
-![wave accessibility errors results](./assets/images/wave-accessibility-errors.png "wave accessibility errors and alerts results")
-
-In order to fix this to improve the accessibility of the website, `alt text` was added to all social media icons so that the text can be detected by screen readers only:
-
-```HTML
-<!-- Hidden Text Social Media Icons | SR Only -->
-<a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fa fa-linkedin"><span class="sr-only">LinkedIn</span></i></a>
-<a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa fa-facebook"><span class="sr-only">Facebook</span></i></a>
-<a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa fa-instagram"><span class="sr-only">Instagram</span></i></a>
-<a href="https://twitter.com/" target="_blank" rel="noopener"><i class="fa fa-twitter"><span class="sr-only">Twitter</span></i></a>
-```
-
-```CSS
-/* Hidden Text Social Media Icons | SR Only */
-.sr-only {
-    font-size: 0;
-    height: 1px;
-    overflow: hidden;
-    display: block;
-}
-```
-
-> Credit: ["Add Text Alternate to Social Media Icons" by Sylvia Pellicore](https://github.com/girldevelopit/gdi-website/issues/344)
-
-*Final Results:*
-
-![wave accessibwaveility errors results](./assets/images/wave-accessibility-finalresults.png "wave accessibility errors and alerts results")
+***Date:*** Saturday, May 15th, 2021
 
 [Back to Content](#content)
 
-
-
--------------
--------------
--------------
--------------
-
-
-
-
 ## **Testing User Stories**
 -----
-
-![screenshot of the welcome section of the website](./assets/images/welcome-screenshot.png "screenshot of the welcome section of the website")
-![screenshot of the about me section of the website](./assets/images/about-screenshot.png "screenshot of the about me section of the website")
-![screenshot of the services section of the website](./assets/images/services-screenshot.png "screenshot of the services section of the website")
-![screenshot of the testimonials section of the website](./assets/images/testimonials-screenshot.png "screenshot of the testimonials section of the website")
-![screenshot of the contact section of the website](./assets/images/contact-screenshot.png "screenshot of the contact section of the website")
-![screenshot of the footer section of the website](./assets/images/footer-screenshot.png "screenshot of the footer section of the website")
 
 *Crucial User Stories to Test MVP & Validate Hypothesis:*
 

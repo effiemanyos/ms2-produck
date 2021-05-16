@@ -532,6 +532,9 @@ html.transition *:after {
     #resp-section {
         padding: 0 25px;
     }
+    .resp-intro-styling {
+        padding-top: 70px;
+    }
 }
 
 /* ------------------------------------[ PERFECT PM SECTION √ ]-------------------------------------- */
@@ -542,7 +545,7 @@ html.transition *:after {
     line-height: 1.5;
     background-color: #fff;
     color: #000;
-    padding: 80px 20px 80px 20px;
+    padding: 80px 20px 60px 20px;
 }
 
 /** Space Between Intro & Main Areas **/
@@ -557,7 +560,7 @@ html.transition *:after {
 
 /** Space Between Areas **/
 .pm-areas-box:not(:first-child) {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 /** Section Titles **/
@@ -566,12 +569,6 @@ html.transition *:after {
     letter-spacing: 0.5px;
     margin-bottom: 5px;
     color: #4B76E5;
-}
-
-/** Section Paragraphs **/
-.pm-areas-content p {
-    font-size: 16px;
-    margin: 0;
 }
 
 /** Section Icons **/
@@ -599,38 +596,7 @@ html.transition *:after {
 /** Section Illustration Styling **/
 .pm-areas-img img {
     max-width: 80%;
-    margin: 25px 0;
-}
-
-/** Section CTA Button Alignment **/
-.areas-cta-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-
-/** Section CTA Button Styling **/
-.areas-cta-btn a {
-    text-decoration: none !important;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    background: #4B76E5;
-    color: #fff;
-    padding: 12px 25px 10px 25px;
-    border-radius: 30px;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
-    transition: all 0.5s;
-    cursor: pointer;
-}
-
-/** Section CTA Button Hover Over Effect **/
-.areas-cta-btn a:hover {
-    background: linear-gradient(to right, #4B76E5, #3CBED0);
-    color: #fff;
+    padding-bottom: 40px;
 }
 
 /* ------------------------------------[ SOFT SKILLS SECTION √ ]-------------------------------------- */

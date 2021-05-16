@@ -1,5 +1,10 @@
+// Credit: https://bit.ly/3hqfeha
+
+// Filters Management
 $(document).ready(function() {
     $(".btn-group .btn").click(function() {
+
+        // Filters Besides 'All' Functionality
         var inputValue = $(this).find("input").val();
         if(inputValue != 'all') {
             var target = $('table tr[data-status="' + inputValue + '"]');
@@ -10,6 +15,7 @@ $(document).ready(function() {
         }
     });
 
+    // Changing Class of Status Label to Support Bootstrap 4
     var bs = $.fn.tooltip.Constructor.VERSION;
     var support = bs.split(".");
     if (str[0] == 4) {

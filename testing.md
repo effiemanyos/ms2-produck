@@ -4,7 +4,6 @@
   - [HTML, CSS, JAVASCRIPT Validation Testing](#html-css-validation-testing "HTML, CSS, JAVASCRIPT Validation Testing")
   - [Testing Performance](#testing-performance "Testing Performance")
   - [Testing Accessibility](#testing-accessibility "Testing Accessibility")
-  - [Testing User Stories](#testing-user-stories "Testing User Stories")
 
   [Return to README.md Document](https://github.com/effiemanyos/ms2-produck/blob/master/README.md)
 
@@ -204,24 +203,6 @@ To test the website accessibility [Wave Web Accessibility Evaluation Tool](https
 ![wave accessibility results](assets/images/wave-accessibility-results.png "wave accessibility results") 
 
 ***Date:*** Saturday, May 15th, 2021
-
-[Back to Content](#content)
-
-## **Testing User Stories**
------
-
-*Crucial User Stories to Test MVP & Validate Hypothesis:*
-
-1. As an **Entrepreneur/Solopreneur**, I want to **register** to Effie's **online workshops** so that I can boost my business' monthly sales.
-    > Feature that will be implemented in the next iteration (Training Page: Online Workshops).
-2. As a **Tech Startup**, I want to **use** Effie's **free online resources** so that we can create a robust Digital Marketing strategy.
-    > Feature that will be implemented in the next iteration (Resources Page: Free Resources).
-3. As a **SME**, I want to **book** a **free consultaiton** with Effie so that we can increase our business' online presence and engagement.
-    > Feature that will be implemented in the next iteration (Contact Me Page: Calendly Integration).
-4. As a **Non-Profit**, I want to **contact** Effie for a **collaboration** and **consulting session** so that we can grow the organization organically.
-    > Users can contact Effie through the following: Navigation Bar (Contact), About Me Section (CTA Button), How Can I Help Section (CTA Button), What I Do (CTA Button), Get In Touch Section (Contact Information & Form).
-5. As a **Mentee**, I want to **apply** to Effie's **mentorship program** so that I can get the proper guidance to build my professional career.
-    > Feature that will be implemented in the next iteration (Services Page: Mentorship Program Applycation).
 
 [Back to Content](#content)
 

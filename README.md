@@ -152,16 +152,11 @@ Site Owner's Goals:
 **Target Audience:**
 
 *Crucial User Stories to Test MVP & Validate Hypothesis:*
-1. As a **XXXX**, I want to XXXX so that I can XXXX
-2. As a **XXXX**, I want to XXXX so that I can XXXX
-3. As a **XXXX**, I want to XXXX so that I can XXXX
-4. As a **XXXX**, I want to XXXX so that I can XXXX
-5. As a **XXXX**, I want to XXXX so that I can XXXX
-
-DELETE THIS PARAGRAPH
-- Use the Produck's **productivity web-based applications** to help me build a reading habit to learn as much as possible from book authors, which are experts in the field(*)
-- Use the **tobuylist web-based application** to keep track of the books I am planning to buy within the next six months and be mindful of the budget I will be allocating or investing in this. 
-- Use the **bookmarks web-based application** to save my favourite online sources of information about Product Management taken from Produck's resources directory.
+1. As an **Aspiring Product Manager**, I want to be able to find out which are the best sources of PM information so that I can learn and apply this knowledge to get my first PM role as an intern or APM.
+2. As a **Recent Graduate**, I want to be able to track my all the PM books I will be reading this year so that I can understand what PMs actually do and figure out if this is what I really want.
+3. As a **Entry-Level PM**, I want to be able to feel confident in that all the resources I'm reading, watching or listening are sharing accurate information about PM so that I can become a great PM.
+4. As an **Associate Product Manager**, I want to subscribe to Produck's newsletter to receive weekly or monthly up-to-date information so that I can use it wisely to be promoted to Product Manager. 
+5. As an **Entrepreneur**, I want to contact Produck's team to work on a side project so that I can show it on my portfolio at PM interviews at tech companies or other startups. 
 
 ### **Unique Selling Proposition**
 
@@ -177,8 +172,9 @@ USPs or Core Differentiators:
 - Connecting Professionals 
 - Exclusive PM Content
 - Irish-Oriented (Irish Recruiting Info)
-- 1:1 Mentoring & Coaching Sessions
-- **Productivity Web-Based Apps** (Key Service)
+- Mentoring & Coaching
+
+**Productivity Web-Based Apps** (Key Service)
   - ToReadList App → Users are able to create a list of up to 10 books (per category) that they want to read in order of priority. They can also separte the books in categories (e.g. Product, Data Analytics, Software Development, Marketing, Business, etc.).
   - ToBuyList App → Users are able to create a list of up to 10 books they are planning to buy. Once they have already bought them, they can remove them from the list.
   - ToRateList App → Users are able to rate the top must-read PM books (already listed) depending on how much value they provided, or if they even liked them at all.
@@ -198,32 +194,10 @@ USPs or Core Differentiators:
 - Login/Logout (Instead of Local Storage)
 - Membership Options (Monthly/Annual Subscription)
 - Fast Loading Platform
-- MVP w/Local Storage (Replace in 1nd Iteration)
-- Night Mode (Web-Based Applications)
+- MVP w/Local Storage (Replace in Next Iteration)
+- Dark Mode (Web-Based Applications)
 
 [Back to Content](#content)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## **Scope Plane** 
 ____
@@ -233,7 +207,20 @@ ____
 - Navigation Bar section containing the main menu of the website, which allows users to navigate within the platform.
 - About Produck section, which introduces the brand, its purpose, and how it can be useful for aspiring PMs.
 - Our Services section, which shows users all the services Produck is offering for them to land their dream job as PMs.
-- 
+- Contact Us section, which allows the users to contact Produck team via email or phone during business hours.
+- Footer section, which shows a summary of the platform and let users locate favourite links and subscribe to the newsletter.
+- About PM section, which introduces the role to aspiring product managers in a high-level way and let users contact Produck team.
+- What PMs Do section, which shows users a broad idea of the key responsibilities that a product manager might have in the role.
+- What PMs Know section, which shows users what kind of background knowledge PMs should have to excel in this role, but not mandatory.
+- What PMs Need section, which shows users in percentages what key soft skills they would need to have to be a great product manager.
+- Leaders page, which consists of a comprehensive directory of international thought leaders or industry experts in this domain. 
+- Top PM Books page, which consists of a comprehensive directory of books related to various disciplines that help PMs excel in their role. 
+- ToBuyList App, which allows users to create a list of books they are planning to buy within the next 6 months and keep track of them.
+- ToReadList App, which allows users to create a "to-do" list of all the books they are planning to read throughout the year.
+- BookNotes App, which allows users to create notes of key or most valuable concepts they find in the book they are currently reading.
+- ToRate App, which allows users to rate the recommended books by Produck for aspiring PMs and product professionals (the must-read books).
+- Top Resources page, which consists of a comprehensive directory of external resources, which had been picked by industry experts.  
+- Bookmarks App, which allows users to save their favourite sources of information and resources to keep track of news in the industry.
 
 ### **Future Additions**
 
@@ -298,18 +285,6 @@ At the moment, the platform consists of only **10 pages and 10 sections**. The *
 8. ToRateList App
 9. Top Resources
 10. Bookmarks App
-
-## **Skeleton Plane** 
-____
-
-### **Wireframes**
-
-- **Dektop**
-- **Tablet**
-- **Mobile**
-![wireframes for desktop, tablet, and mobile](./assets/images/wireframes-img.png "wireframes for desktop, tablet, and mobile")
-
-[Back to Content](#content)
 
 ## **Surface Plane** 
 ____
@@ -427,10 +402,11 @@ The following technologies were used during the development and testing of this 
 
 The entire testing process, issues and bugs found during development, solutions, and final results can be found [here](https://github.com/effiemanyos/ms2-produck/blob/master/testing.md).
 
-- HTML, CSS, JAVASCRIPT Validation Testing
+- HTML Validation Testing
+- CSS Validation Testing
+- JAVASCRIPT Validation Testing
 - Testing Performance
 - Testing Accessibility
-- Testing User Stories
 
 [Back to Content](#content)
 

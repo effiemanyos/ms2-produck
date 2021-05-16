@@ -27,11 +27,10 @@ This is the **second milestone project** in obtaining a **[Full-Stack Web Develo
     - [Unique Selling Proposition](#unique-selling-proposition "Unique Selling Proposition")
   - [Scope plane](#scope-plane "Scope plane")
     - [Existing Features](#existing-features "Existing Features")
-    - [Future Iterations](#future-iterations "Future Iterations")
+    - [Future Additions](#future-additions "Future Additions")
   - [Structure Plane](#structure-plane "Structure plane")
     - [Website Structure](#website-structure "Website Structure")
     - [Planned Structure](#planned-structure "Planned Structure")
-    - [Future Additions](#future-additions "Future Additions")
   - [Skeleton Plane](#skeleton-plane "Skeleton Plane")
     - [Wireframes](#wireframes "Wireframes")
   - [Surface Plane](#surface-plane "Surface Plane")
@@ -308,69 +307,23 @@ ____
 
 >(*) Not fully functional at the moment
 
-### **Future Iterations**
+### **Future Additions**
 
-These are some of the features that still need to be implemented to have a fully working website as required by the owner: 
+These are some of the features that still need to be implemented to have a fully working platform as required by the owners: 
 
-**Home *"Page"*:**
-- Welcome Video or Hero Video
-- Featured In or Partners Section
-- Key Figures Section
-- Instagram Feed Section
-- Clients Section
+- XXXX
+- XXXX
+- XXXX
+- XXXX
+- XXXX
+- XXXX
+- XXXX
+- XXXX
+- XXXX
+- XXXX
+- XXXX
 
-**About *"Page"*:**
-- Side Projects Section
-- Volunteering Section
-
-**Services *"Page"*:**
-- Entrepreneurship Section
-- Recommended Partners Section
-- Case Studies Section
-
-**Training *"Page"*:**
-- Live Workshops Section
-- Online Webinars Section
-- Online Courses Section
-- 1:1 & Group Sessions Section
-- Podcast & YouTube Section
-- Blog & Newsletter Section
-- Virtual Meetups Section
-
-**Resources *"Page"*:**
-- Books & eBooks Section
-- Blogs & Newsletters Section
-- Podcasts & Clubhouse Section
-- PPL/SM/YT Channels Section
-- Free/Cheap Tools Section
-- Other Resources Section
-
-**Join Us *"Page"*:**
-- Memberships (Plans & Pricing) Section
-- Join Huasi Section
-- Join NetCork Section
-- P&C (Partnerships & Collaborations) Section
-
-**Contact *"Page"*:**
-- Calendly Integration ("Book a Call" or "Request Free Consultation")
-
-**Other Features:**
-- Blog
-- Chatbot
-- Pop Up Lead Magnet & Form
-- Login/Logout (Navigation Bar)
-- Restricted Access (Memership Plans)
-- Membership Payment (Monthly & Annually)
-- Functional Forms (Contact & Newsletter)
-- Registration Forms (Events, Courses, Workshops...)
-- Newsletter Long Form
-- News & Upcoming Events
-- Link Forms to Webserver (Data Collection)
-- GDPR Compliance Cookies Policy
-- Search (Website Content)
-- Store (Merchandising)
-
-Eventually, integrations or links to tools like Notion, Miro, Trello, Eventbrite, Slack, Google Calendar, Teachable might be included in the website.
+Eventually, integrations or links to tools like Notion, Miro, Trello, Eventbrite, Slack, Google Calendar, Calendly, Teachable might be included in the website for better user experience.
 
 [Back to Content](#content)
 
@@ -379,53 +332,39 @@ ____
 
 ### **Website Structure**
 
-At the moment, the platform consists of only **10 pages and 11 sections**. The **current structure** of the website is the following:
+At the moment, the platform consists of only **10 pages and 10 sections**. The **current structure** of the website is the following:
 
 |HOME|PM ROLE|LEADERS|PM BOOKS|RESOURCES|CONTACT|
 |--|----|-----|---|---|---|
-|Produck|What Is PM?|Industry Experts|Must-Read Books|Key Resources||
-|Services|Career Path|Networking App|ToReadList App|Bookmarks App||
-|Contact|What PMs Do||ToBuyList App|Tech Companies||
-|Top Links|Background||ToRateListApp|||
-||Soft Skills||MyNotes App|||
+|About Produck|What Is PM?|Industry Experts|Top PM Books|Key Resources|Contact Us|
+|Our Services|What PMs Do||ToBuyList App|Bookmarks App|Newsletter|
+|Contact Us|What PMs Know||ToReadList App||Social Media|
+|Favourite Links|Key Soft Skills||BookNotes App|||
+||||ToRateList App|||
 
 **Sections:**
-- Navigation Bar
-- Jumbotron
-- About
-- Services
-- Contact
-- Footer
-- What Is PM?
-- Career Path
-- What PMs Do
-- Background
-- Soft Skills
+1. Navigation Bar
+2. Jumbotron
+3. About Produck
+4. Our Services
+5. Contact Us
+6. Main Footer
+7. What Is PM?
+8. What PMs Do
+9. What PMs Know
+10. Key Soft Skills
 
 **Pages:**
-- Industry Experts
-- Networking App
-- Must-Read Books
-- ToReadList App
-- ToBuyList App
-- ToRateList App
-- MyNotes App
-- Key Resources
-- Bookmarks App
-- Tech Companies
-
-### **Future Additions**
-
-The sections that will be added in the near future are the following:
-
-|HOME|ABOUT|SERVICES|TRAINING|RESOURCES|JOIN US|CONTACT|
-|---|---|---|---|---|---|---|
-|Welcome Video (#)|Side Projects|Entrepreneurship|Workshops & Webinars|Books & eBooks|Memberships|Book a Call (**)|
-|Featured In (*)|Volunteering|Recommended Partners|Online Courses|Blogs & Newsletters|Join Huasi||
-|Key Figures||Case Studies (Clients)|1:1 & Group Sessions|Podcasts & Clubhouse|Join NetCork||
-|Instagram Feed|||Podcast & YouTube|PPL/SM/YT Channels|P&C||
-|Clients|||Blog & Newsletter|Free/Cheap Tools||
-||||Virtual Meetups|Other Resources (^)||
+1. Homepage
+2. PM Role
+3. Leaders
+4. Top PM Books
+5. ToBuyList App
+6. ToReadList App
+7. BookNotes App
+8. ToRateList App
+9. Top Resources
+10. Bookmarks App
 
 ## **Skeleton Plane** 
 ____
@@ -600,8 +539,6 @@ This project was deployed to **GitHub Pages** following these steps:
 8. Click **Save** (*Note:* the page will automatically refresh)
 9. Scroll all the way down again to the **GitHub Pages** section
 10. Finally, you can see the link where the site is published highlited with a light green/blue background 
-
-Follow these visual steps [here](https://github.com/effiemanyos/ms2-produck/blob/master/assets/images/github-pages.png).
 
 ### **Run Project Locally**
 

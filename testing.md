@@ -163,12 +163,12 @@ Now the issue is fixed and precision increased to 100%. Credit: http://bit.ly/2Z
 
 [Back to Content](#content)
 
-## **HTML-CSS-JS Validation Testing**
+## **HTML, CSS, JAVASCRIPT Validation Testing**
 -----
 
 ### **1. HTML Validation**
 
-The tool used for this code validation was the [W3C Markup Validation Service](https://validator.w3.org/), which was used by **URL** to make sure there were no erros in none of the **HTML Files**. The results were the following:
+The tool used for this code validation was the [W3C Markup Validation Service](https://validator.w3.org/), which was used by **URL** to make sure there were no errors in none of the **HTML Files**. The results were the following:
 
 ![w3c html validation service one error results](assets/images/html-initial-validation.png "w3c css validation service one error results") 
 
@@ -176,10 +176,37 @@ The tool used for this code validation was the [W3C Markup Validation Service](h
 
 **1. Issue:** The element `a` must not appear as a descendant of the `button` element.
 
-- **Fixes:** All the extra spaces were removed resulting in:
+- **Fixes:** Remove the `a` inside the button `button` element like the example bellow:
 
+*Before:*
 ```HTML
-<p><a href="mailto:effie@gmail.com">effie@gmail.com</a></p>
+<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+    <div class="dropdown menu-dropdown">
+        <button class="dropbtn page-scroll menu-dropbtn active"><a class="nav-link" href="index.html"><i
+                    class="fa fa-home"></i> Home</a></button>
+        <div class="dropdown-content menu-dropdown-content">
+            <a href="index.html#about">> About Produck</a>
+            <a href="index.html#services">> Our Services</a>
+            <a href="index.html#contact">> Contact Us</a>
+            <a href="index.html#footer">> Favourite Links</a>
+        </div>
+    </div>
+</li>
+```
+
+*After:*
+```HTML
+<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+    <div class="dropdown menu-dropdown">
+        <button class="dropbtn page-scroll menu-dropbtn nav-link active"><i class="fa fa-home"></i> Home</button>
+        <div class="dropdown-content menu-dropdown-content">
+            <a href="index.html#about">> About Produck</a>
+            <a href="index.html#services">> Our Services</a>
+            <a href="index.html#contact">> Contact Us</a>
+            <a href="index.html#footer">> Favourite Links</a>
+        </div>
+    </div>
+</li>
 ```
 
 **2. Issue:** Stray end tag `i`.
@@ -206,46 +233,60 @@ The tool used for this code validation was the [W3C Markup Validation Service](h
 <script type="text/javascript" src="assets/js/filename.js"></script>
 ```
 
-The **final report** shows no errors in the html files as they were properly fixed:
-
-![w3c html validation service one error results](./assets/images/html-final-validation.png "w3c css validation service one error results") 
-
-***Date:*** Monday, May 10th, 2021
-
--------------
--------------
--------------
--------------
-
-
-
-
-
-
-
+The **final report** would have shown no errors in the html files as these would have been properly fixed as indicated above. However, due to a lack of time, the changes won't be implemented before the project deadline.
 
 
 ### **2. CSS Validation**
 
-The tool used for this code validation was the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), which was used by **Direct Input** to make sure there were no erros in the **CSS Style Sheet**. The results were the following:
+The tool used for this code validation was the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), which was used by **URL** to make sure that there were no errors in the **CSS Style Sheet**. The results were the following:
 
-![w3c css validation service no error results](./assets/images/css-validation.png "w3c css validation service no error results") 
-
-***Date:*** Thursday, Feb 25th, 2021
-
-The CSS yielded no errors, so I proceeded with further testing. However, it is worth noting that I also got these five warning results to be considered:
-
-![w3c css validation service warning results](./assets/images/css-warnings.png "w3c css validation service warning results") 
-
-Just in case, the testing was done again, this time by **File Upload**, and the results were exactly the same. 
-
-### **1. JAVASCRIPT Validation**
-
-The tool used for this code validation was the [W3C Markup Validation Service](https://validator.w3.org/), which was used by **URL** to make sure there were no erros in none of the **HTML Files**. The results were the following:
-
-![w3c html validation service one error results](assets/images/html-initial-validation.png "w3c css validation service one error results") 
+![w3c css validation service no error results](assets/images/css-initial-validation.png "w3c css validation service no error results") 
 
 ***Date:*** Monday, May 10th, 2021
+
+The CSS yielded no major errors, so I proceeded with further testing after fixing the first two issues (the `transition-delay` and `box-sizing` values).
+
+Just in case, the testing was performed again, this time by **File Upload** and **Direct Input**, and the results were exactly the same. 
+
+### **3. JAVASCRIPT Validation**
+
+The tool used for this code validation was the [JS Hint V2.12.0](https://jshint.com/), which was used by **Direct Input** of all the js files in this project to make sure there were no errors in none of the **JavaScript Files**. The results were the following:
+
+**bookmarks.js**
+
+![w3c html validation service one error results](assets/images/bookmarks-validation.png "w3c css validation service one error results") 
+
+***Date:*** Tuesday, May 11th, 2021
+
+**booknotes.js**
+
+![w3c html validation service one error results](assets/images/booknotes-validation.png "w3c css validation service one error results") 
+
+***Date:*** Tuesday, May 11th, 2021
+
+**resources.js**
+
+![w3c html validation service one error results](assets/images/resources-validation.png "w3c css validation service one error results") 
+
+***Date:*** Tuesday, May 11th, 2021
+
+**sendemail.js**
+
+![w3c html validation service one error results](assets/images/sendemail-validation.png "w3c css validation service one error results") 
+
+***Date:*** Tuesday, May 11th, 2021
+
+**sendnewsl.js**
+
+![w3c html validation service one error results](assets/images/sendnewsl-validation.png "w3c css validation service one error results") 
+
+***Date:*** Tuesday, May 11th, 2021
+
+**sendnewsl.js**
+
+![w3c html validation service one error results](assets/images/sendnewsl-validation.png "w3c css validation service one error results") 
+
+***Date:*** Tuesday, May 11th, 2021
 
 
 -------------

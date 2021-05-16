@@ -30,7 +30,6 @@ This is the **second milestone project** in obtaining a **[Full-Stack Web Develo
     - [Future Additions](#future-additions "Future Additions")
   - [Structure Plane](#structure-plane "Structure plane")
     - [Website Structure](#website-structure "Website Structure")
-    - [Planned Structure](#planned-structure "Planned Structure")
   - [Skeleton Plane](#skeleton-plane "Skeleton Plane")
     - [Wireframes](#wireframes "Wireframes")
   - [Surface Plane](#surface-plane "Surface Plane")
@@ -105,21 +104,6 @@ Users are looking for **ONE THING** (their main goal):
 - Watch Produck's weekly live interviews with Q&As at the end to learn from other PMs working at Fortune 100 companies in Ireland or other countries.
 - Locate the best and most useful PM mock interviews recommended by Produck to ace mine and get my dream job in Product Management.
 
-*Important Features:*
-- Use the Produck's **productivity web-based applications** to help me build a reading habit to learn as much as possible from book authors, which are experts in the field(*)
-- Use the **tobuylist web-based application** to keep track of the books I am planning to buy within the next six months and be mindful of the budget I will be allocating or investing in this. 
-- Use the **toreadlist web-based application**
-- Use the **booknotes web-based application**
-- Use the **toratelist web-based application**
-- Use the **bookmarks web-based application** to save my favourite online sources of information about Product Management taken from Produck's resources directory.
-
-
-
-
-
-
-
-
 >(*) Currently, books are one of the most reliable (cost-effective) source of information about Product Management. This is the main reason why Produck's owner has decided to create various web-based applications using Vanilla JavaScript, jQuery, and Local Storage to help Produck users set their own objectives and track their reading milestones in the same platform where they can also learn more about Product Management through other carefully selected external resources.          
 (**) This is not part of the MVP features but Produck will do have a job board.
 
@@ -165,56 +149,19 @@ Site Owner's Goals:
 - ToRateList App
 - Bookmarks App
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 **Target Audience:**
-- As an **Entrepreneur/Solopreneur**, I want to **register** to Effie's **online workshop** so that I can boost my business' monthly sales.
-- As a **Tech Startup**, I want to **use** Effie's **free online resources** so that we can create a robust Digital Marketing strategy.
-- As a **SME**, I want to **book** a **free consultaiton** with Effie so that we can increase our business' online presence and engagement. 
-- As a **Non-Profit**, I want to **contact** Effie for a **collaboration** and **consulting session** so that we can grow the organization organically.  
-- As a **Mentee**, I want to **apply** to Effie's **mentorship program** so that I can get the proper guidance to build my professional career.
-- As an **Entry-Level Professional**, I want to **join** Effie's **networking community** so that I can land my first full-time job faster through contacts.
-- As a **Recent Graduate**, I want to **consume** Effie's **free courses and resources** so that I can launch my business idea.
-- As a **Professional Expat**,I want to **learn** from Effie's successful journey so that I know where to start mine as a new international professional in Ireland.  
 
-**Visitor Types:**
+*Crucial User Stories to Test MVP & Validate Hypothesis:*
+1. As a **XXXX**, I want to XXXX so that I can XXXX
+2. As a **XXXX**, I want to XXXX so that I can XXXX
+3. As a **XXXX**, I want to XXXX so that I can XXXX
+4. As a **XXXX**, I want to XXXX so that I can XXXX
+5. As a **XXXX**, I want to XXXX so that I can XXXX
 
-*First-Time Visitor:*
-- As a **First Time Visitor**, I want to know **who Effie is** and **what she does** so that I can evaluate if I need her expertise to scale my business (SMEs)
-- As a **First Time Visitor**, I want to know what **qualifications** Effie has so that I can use the resources she offers to increase my client base and profit (Entry-Level Professionals)
-- As a **First Time Visitor**, I want to know what kind of **services** Effie offers so that I can come back whenever I need them to launch my business idea (Entrepreneurs)
-- As a **First Time Visitor**, I want to Know **what other people say about Effie** so that I can hire her to manage my social media accounts (Solopreneurs)
-- As a **First Time Visitor**, I want to know about Effie's **work experience** so that I can get in touch with her once I finish my studies (Recent Graduates)
-
-*Returning Visitor:*
-- As a **Returning Visitor**, I want to **make sure** Effie's **site is not a scam** so that I can pay for her services before the product launch (Tech Startups)
-- As a **Returning Visitor**, I want to **contact** Effie so that we can work together on my business growth and retention rates (SMEs)
-- As a **Returning Visitor**, I want to **book** Effie's **free consultation** so that I can create a solid Digital Marketing strategy for my business (Solopreneurs)
-- As a **Returning Visitor**, I want to **call Effie directly** so that I can start working with her on my personal branding to get a corporate job in Ireland (Professional Expats)
-- As a **Returning Visitor**, I want to **send Effie a message** so that I can be sure that she would be able to work on the product-market fit for my business idea (Recent Graduates)
-
-*Frequent Visitor:*
-- As a **Frequent Visitor**, I want to **register** to Effie's **upcoming online workshops and events** so that I can learn more marketing and business skills for my entrepreurial venue (Recent Graduate)
-- As a **Frequent Visitor**, I want to **join Effie's community for expats (Huasi)** so that I can meet more connections to land my dream job faster (Professional Expats)
-- As a **Frequent Visitor**, I want to **pay a monthly or annually subscription** so that I can always be up to date with the latest methods and frameworks for my business growth (Entrepreneurs)
-- As a **Frequent Visitor**, I want to **pay online for Effie's services** so that I can reduce churn and increase product adoption and customer retention (Tech Startups)
-- As a **Frequent Visitor**, I want to **get the freemium plan** so that I can use Effie's free resources and implement them to growth my business (Solopreneurs)
-
-These are just some of the user stories that were created for this project. However, not all of these will be met due to an important reduction of the initial scope. The MVP is now more oriented to building brand awareness, confidence, trust and social proof. The features required by the **returning visitors** will be implemented by the second month after the launch of the MVP.
+DELETE THIS PARAGRAPH
+- Use the Produck's **productivity web-based applications** to help me build a reading habit to learn as much as possible from book authors, which are experts in the field(*)
+- Use the **tobuylist web-based application** to keep track of the books I am planning to buy within the next six months and be mindful of the budget I will be allocating or investing in this. 
+- Use the **bookmarks web-based application** to save my favourite online sources of information about Product Management taken from Produck's resources directory.
 
 ### **Unique Selling Proposition**
 
@@ -229,13 +176,13 @@ USPs or Core Differentiators:
 - Recommended PM Content
 - Connecting Professionals 
 - Exclusive PM Content
-- Irish-Oriented (Irish Recruiting Information)
+- Irish-Oriented (Irish Recruiting Info)
 - 1:1 Mentoring & Coaching Sessions
 - **Productivity Web-Based Apps** (Key Service)
   - ToReadList App → Users are able to create a list of up to 10 books (per category) that they want to read in order of priority. They can also separte the books in categories (e.g. Product, Data Analytics, Software Development, Marketing, Business, etc.).
   - ToBuyList App → Users are able to create a list of up to 10 books they are planning to buy. Once they have already bought them, they can remove them from the list.
   - ToRateList App → Users are able to rate the top must-read PM books (already listed) depending on how much value they provided, or if they even liked them at all.
-  - MyBookNotes App → Users are able to create short notes of what they consider the most important concepts mentioned in the books they are reading. These notes will then be useful for them when starting their first role as APM.
+  - BookNotes App → Users are able to create short notes of what they consider the most important concepts mentioned in the books they are reading. These notes will then be useful for them when starting their first role as APM.
   - Bookmarks App → Users are able to save their favourite sources of information about PM in a simple but useful list. They just need the name and the URL of that source to save it.
 
 **Website Functionality:**
@@ -283,45 +230,31 @@ ____
 
 ### **Existing Features**
 
-**About Me *"Page"*:**
-- **About Me** → Users can see a brief summary of Effie's biography and who she is. Users are also able to get in touch with her by clicking on the CTA button "Let's Talk!".
-- **Work Experience** → Users can see a high level description of Effie's work experience and are able to visit each company's official website by clicking on each logo. Users can also visit Effie's LinkedIn profile by clicking on the CTA button "View More".
-- **Qualifications** → Users can see Effie's education and are able to visit each school's official website by clicking on each logo. Users can also visit Effie's LinkedIn profile by clicking on the CTA button "View More".
-- **Communities** → Users can see the communities Effie is part of and are able to visit each community's official website by clicking on each logo.
-
-**Services *"Page"*:**
-- **Services Types** → Users can see the type of services Effie provides, and by clicking on the CTA button "Request Free Consultation", they are able to request a free consultation with her.
-- **Services Fields** → Users can see Effie's services fields and are able to see at least **four** of the services' detailed description to have an idea of what she provides.
-
-**Training *"Page"*:**
-- **Learning Hub** → Users can see all the ways they can learn new theory and skills provided by Effie's team. 
-
-**Contact *"Page"*:**
-- **Contact Me Form** (*) → Users are able to fill out the form to contact Effie. However, the form is not fully functional at the moment.  
-- **Contact Information** → Users can see Effie's location, mobile number, social media channels, and email. Users can contact her via any of those channels during the indicated opening hours. 
-
-**Footer *Section*:**
-- **Footer** → Users can see a brief summary of who Effie is and what she offers.
-- **Social Media** Links → Users can visit Effie's social media channels by clicking on each icon.
-- **Newsletter Quick Sign Up Form** (*) → Users can fill out a quick sign up form to receive Effie's monthly newsletter straight to their inbox.
-
->(*) Not fully functional at the moment
+- Navigation Bar section containing the main menu of the website, which allows users to navigate within the platform.
+- About Produck section, which introduces the brand, its purpose, and how it can be useful for aspiring PMs.
+- Our Services section, which shows users all the services Produck is offering for them to land their dream job as PMs.
+- 
 
 ### **Future Additions**
 
 These are some of the features that still need to be implemented to have a fully working platform as required by the owners: 
 
-- XXXX
-- XXXX
-- XXXX
-- XXXX
-- XXXX
-- XXXX
-- XXXX
-- XXXX
-- XXXX
-- XXXX
-- XXXX
+- Membership Plans (Monthly & Annually)
+- Payment Options (Visa, Stripe, Paypal)
+- Login Option (Account & Password)
+- Integration w/Third Party Apps
+- Replace localStorage (Shareable Content)
+- Pagination (Resources, Books, Leaders...)
+- Search Bar (Resources, Books, Leaders...)
+- Job Board (Job Listings in IE & UK)
+- Account Settings Option (Dark Mode)
+- Notifications Feature (Toggle)
+- Personal Profiles (From LinkedIn)
+- Fully Responsive Produck Applications
+- Instructions Section for Produck Apps
+- Export to PDF Feature for Produck Apps
+
+At the moment, users have the Dark Mode option in all Produck applications; however, only some of them have Local Storage implemented due to the lack of resources such as expertise and time. These particular apps will be tested regarding how many users actually interact with them in order to work on them and improve the experience for the next iteration.  
 
 Eventually, integrations or links to tools like Notion, Miro, Trello, Eventbrite, Slack, Google Calendar, Calendly, Teachable might be included in the website for better user experience.
 
@@ -494,12 +427,10 @@ The following technologies were used during the development and testing of this 
 
 The entire testing process, issues and bugs found during development, solutions, and final results can be found [here](https://github.com/effiemanyos/ms2-produck/blob/master/testing.md).
 
-- Issues Solved During Development
-- HTML-CSS-JavaScript Validation Testing
+- HTML, CSS, JAVASCRIPT Validation Testing
 - Testing Performance
 - Testing Accessibility
 - Testing User Stories
-- Code Institute Peer Code Review
 
 [Back to Content](#content)
 

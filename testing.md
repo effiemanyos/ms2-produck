@@ -1,12 +1,10 @@
 # **Content** 
 
 - [Testing](#testing "Testing")
-  - [Issues Solved During Development](#issues-solved-during-development "Issues Solved During Development")
-  - [HTML-CSS Validation Testing](#html-css-validation-testing "HTML-CSS Validation Testing")
+  - [HTML, CSS, JAVASCRIPT Validation Testing](#html-css-validation-testing "HTML, CSS, JAVASCRIPT Validation Testing")
   - [Testing Performance](#testing-performance "Testing Performance")
   - [Testing Accessibility](#testing-accessibility "Testing Accessibility")
   - [Testing User Stories](#testing-user-stories "Testing User Stories")
-  - [Code Institute Peer Code Review](#code-institute-peer-code-review "Code Institute Peer Code Review")
 
   [Return to README.md Document](https://github.com/effiemanyos/ms2-produck/blob/master/README.md)
 
@@ -224,16 +222,6 @@ To test the website accessibility [Wave Web Accessibility Evaluation Tool](https
     > Users can contact Effie through the following: Navigation Bar (Contact), About Me Section (CTA Button), How Can I Help Section (CTA Button), What I Do (CTA Button), Get In Touch Section (Contact Information & Form).
 5. As a **Mentee**, I want to **apply** to Effie's **mentorship program** so that I can get the proper guidance to build my professional career.
     > Feature that will be implemented in the next iteration (Services Page: Mentorship Program Applycation).
-6. As an **Entry-Level Professional**, I want to **join** Effie's **networking community** so that I can land my first full-time job faster through contacts.
-    > Feature that will be implemented in the next iteration (Join Us Page: Join Huasi or Join NetCork Communities).
-7. As a **Recent Graduate**, I want to **consume** Effie's **free courses and resources** so that I can launch my business idea.
-    > Feature that will be implemented in the next iteration (Training Page: Online Courses & Resources Page: Free Resources).
-8. As a **Professional Expat**,I want to **learn** from Effie's successful journey so that I know where to start mine as a new international professional in Ireland.
-    > Feature that will be implemented in the next iteration (About Page: Online Video, Effie's Journey).
-9. As a **Professional Expat**,I want to **learn** from Effie's successful journey so that I know where to start mine as a new international professional in Ireland.
-    > Feature that will be implemented in the next iteration (About Page: Online Video, Effie's Journey).
-10. As a **Professional Expat**,I want to **learn** from Effie's successful journey so that I know where to start mine as a new international professional in Ireland.
-    > Feature that will be implemented in the next iteration (About Page: Online Video, Effie's Journey).
 
 [Back to Content](#content)
 

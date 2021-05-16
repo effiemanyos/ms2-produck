@@ -573,7 +573,7 @@ The following technologies were used during the development and testing of this 
 
 # **TESTING**  
 
-The entire testing process, issues and bugs found during development, solutions, and final results can be found [here](https://github.com/effiemanyos/milestone-project-one/blob/master/testing.md).
+The entire testing process, issues and bugs found during development, solutions, and final results can be found [here](https://github.com/effiemanyos/ms2-produck/blob/master/testing.md).
 
 - Issues Solved During Development
 - HTML-CSS-JavaScript Validation Testing
@@ -591,7 +591,7 @@ The entire testing process, issues and bugs found during development, solutions,
 This project was deployed to **GitHub Pages** following these steps:
 
 1. Login to **[GitHub](https://github.com/)**
-2. Insert the following **GitHub Repository** name in the **Search Bar** to locate the project: **[effiemanyos/milestone-project-one](https://github.com/effiemanyos/milestone-project-one)**
+2. Insert the following **GitHub Repository** name in the **Search Bar** to locate the project: **[effiemanyos/ms2-produck](https://github.com/effiemanyos/ms2-produck)**
 3. Click on that repository to view more details
 4. Click on **Settings**, which is located right above the **Gitpod** green button
 5. Scroll all the way down to the **GitHub Pages** section
@@ -601,18 +601,18 @@ This project was deployed to **GitHub Pages** following these steps:
 9. Scroll all the way down again to the **GitHub Pages** section
 10. Finally, you can see the link where the site is published highlited with a light green/blue background 
 
-Follow these visual steps [here](https://github.com/effiemanyos/milestone-project-one/blob/master/assets/images/github-pages.png).
+Follow these visual steps [here](https://github.com/effiemanyos/ms2-produck/blob/master/assets/images/github-pages.png).
 
 ### **Run Project Locally**
 
 1. Login to **[GitHub](https://github.com/)**
-2. Insert the following **GitHub Repository** name in the **Search Bar** to locate the project: **[effiemanyos/milestone-project-one](https://github.com/effiemanyos/milestone-project-one)**
+2. Insert the following **GitHub Repository** name in the **Search Bar** to locate the project: **[effiemanyos/ms2-produck](https://github.com/effiemanyos/ms2-produck)**
 3. Select **Code** and click on **Download ZIP File**
 4. You can extract the file and use it in your local environment once it is downloaded
 
 ### **Clone & Fork GitHub Repository**
 
-Additionally, you can either **Clone** or **Fork** this repository ([Milestone-Project-One](https://github.com/effiemanyos/milestone-project-one)) into your [GitHub](https://github.com/) account by following these guides:
+Additionally, you can either **Clone** or **Fork** this repository ([ms2-produck](https://github.com/effiemanyos/ms2-produck)) into your [GitHub](https://github.com/) account by following these guides:
 - **[Cloning a Repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)**
 - **[Fork a Repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)**
 

@@ -163,7 +163,7 @@ Now the issue is fixed and precision increased to 100%. Credit: http://bit.ly/2Z
 
 [Back to Content](#content)
 
-## **HTML-CSS Validation Testing**
+## **HTML-CSS-JS Validation Testing**
 -----
 
 ### **1. HTML Validation**
@@ -212,12 +212,10 @@ The **final report** shows no errors in the html files as they were properly fix
 
 ***Date:*** Monday, May 10th, 2021
 
-
-
 -------------
----------
--------
-----
+-------------
+-------------
+-------------
 
 
 
@@ -240,6 +238,28 @@ The CSS yielded no errors, so I proceeded with further testing. However, it is w
 ![w3c css validation service warning results](./assets/images/css-warnings.png "w3c css validation service warning results") 
 
 Just in case, the testing was done again, this time by **File Upload**, and the results were exactly the same. 
+
+### **1. JAVASCRIPT Validation**
+
+The tool used for this code validation was the [W3C Markup Validation Service](https://validator.w3.org/), which was used by **URL** to make sure there were no erros in none of the **HTML Files**. The results were the following:
+
+![w3c html validation service one error results](assets/images/html-initial-validation.png "w3c css validation service one error results") 
+
+***Date:*** Monday, May 10th, 2021
+
+
+-------------
+-------------
+-------------
+-------------
+
+
+
+
+
+
+
+
 
 ## **Testing Performance**
 -----
@@ -334,6 +354,18 @@ label {
 
 [Back to Content](#content)
 
+
+-------------
+-------------
+-------------
+-------------
+
+
+
+
+
+
+
 ## **Testing Accessibility**
 -----
 
@@ -382,6 +414,17 @@ In order to fix this to improve the accessibility of the website, `alt text` was
 ![wave accessibwaveility errors results](./assets/images/wave-accessibility-finalresults.png "wave accessibility errors and alerts results")
 
 [Back to Content](#content)
+
+
+
+-------------
+-------------
+-------------
+-------------
+
+
+
+
 
 ## **Testing User Stories**
 -----

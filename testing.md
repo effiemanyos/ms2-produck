@@ -88,6 +88,46 @@ The tool used for this code validation was the [W3C Markup Validation Service](h
 
 The **final report** would have shown no errors in the html files as these would have been properly fixed as indicated above. However, due to a lack of time, the changes won't be implemented before the project deadline.
 
+**Home Page**
+
+![w3c html validation home page results](assets/images/homepagehtml.png "w3c html validation home page results") 
+
+**PM Role Page**
+
+![w3c html validation pm role page results](assets/images/pmrolehtml.png "w3c html validation pm role page results") 
+
+**Leaders Page**
+
+![w3c html validation leaders page results](assets/images/leadershtml.png "w3c html validation leaders page results") 
+
+**PM Books Page**
+
+![w3c html validation pm books page results](assets/images/pmbookshtml.png "w3c html validation pm books page results") 
+
+**Resources Page**
+
+![w3c html validation resources page results](assets/images/resourceshtml.png "w3c html validation resources page results")
+
+**ToBuyList Page**
+
+![w3c html validation tobuylist page results](assets/images/tobuylisthtml.png "w3c html validation tobuylist page results")
+
+**ToReadList Page**
+
+![w3c html validation toreadlist page results](assets/images/toreadlisthtml.png "w3c html validation toreadlist page results")
+
+**ToRateList Page**
+
+![w3c html validation toratelist page results](assets/images/toratelisthtml.png "w3c html validation toratelist page results")
+
+**Bookmarks Page**
+
+![w3c html validation bookmarks page results](assets/images/bookmarkshtml.png "w3c html validation bookmarks page results")
+
+**BookNotes Page**
+
+![w3c html validation booknotes page results](assets/images/booknoteshtml.png "w3c html validation booknotes page results")
+
 
 ### **2. CSS Validation**
 

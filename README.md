@@ -31,7 +31,7 @@ This is the **second milestone project** in obtaining a **[Full-Stack Web Develo
   - [Structure Plane](#structure-plane "Structure plane")
     - [Website Structure](#website-structure "Website Structure")
   - [Skeleton Plane](#skeleton-plane "Skeleton Plane")
-    - [Wireframes](#wireframes "Wireframes")
+    - [High-Fidelity Design](#high-fidelity-design "High-Fidelity Design")
   - [Surface Plane](#surface-plane "Surface Plane")
     - [Typography](#typography "Typography")
     - [Color Scheme](#color-scheme "Color Scheme")
@@ -305,7 +305,7 @@ At the moment, the platform consists of only **10 pages and 10 sections**. The *
 ## **Skeleton Plane** 
 ____
 
-### **Wireframes**
+### **High-Fidelity Design**
 
 #### **Informative Sections**
 
@@ -441,7 +441,6 @@ The following technologies were used during the development and testing of this 
 - Unicode Symbols → [Cool Symbol](https://coolsymbol.com/)
 - Illustrations → [UnDraw](https://undraw.co/)
 - Photography → [Unsplash](https://unsplash.com/)
-- Low Fidelity Wireframing → [Balsamiq](https://balsamiq.com/) (*)
 - Planning → [Miro](https://miro.com/)
 - Planning → [Trello](http://trello.com/)
 - Visuals → [Canva](https://www.canva.com/)
@@ -450,8 +449,6 @@ The following technologies were used during the development and testing of this 
 - Shapes & Diagrams → [Google Drawing](https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme)
 - Crop Portraits → [Crop Circle](https://crop-circle.imageonline.co/)
 - Image Compression → [TinyJPG](https://tinyjpg.com/)
-
->(*) This tool was used to create the first version of wireframes (first draft during brainstorming session). Nonetheless, the structure and the design of the website was modified afterwards to meet the project deadline.
 
 [Back to Content](#content)
 

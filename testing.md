@@ -213,13 +213,13 @@ To test the website accessibility [Wave Web Accessibility Evaluation Tool](https
 *Target Audience:*
 
 - Recent Graduates (Tech/Non-Tech Background)
-- Product Enthusiasts (Curious/Passionate)
-- Aspiring Product Managers
+- Product Enthusiasts (Curious/Passionate) √
+- Aspiring Product Managers √
 - Entry-Level Product Managers
-- APMs (Associate Product Managers)
-- Non-Tech Background Professionals
-- Entrepreneurs (Founders & Co-Founders)
-- Professionals Transitioning Into Product
+- APMs (Associate Product Managers) √
+- Non-Tech Background Professionals √
+- Entrepreneurs (Founders & Co-Founders) √
+- Professionals Transitioning Into Product √
 
 *Key Produck's Features:*
 
@@ -255,32 +255,32 @@ To test the website accessibility [Wave Web Accessibility Evaluation Tool](https
     - About section
     - Key Responsibilities section
 
-4. As a **Professional Transitioning Into PM**, I want to know what soft and hard skills are required to be a great Product Manager, so that I figure out if theres's anything I have to work on or develop.
+5. As a **Professional Transitioning Into PM**, I want to know what soft and hard skills are required to be a great Product Manager, so that I figure out if theres's anything I need to work on or develop.
 
     - Background Knowledge section
     - Required Soft Skills section
 
+**Leaders Page**
+![screenshot of the leaders page](assets/images/leaderspage-produck.png "screenshot of the leaders page")
 
+**PM Books Page**
+![screenshot of the pm books page](assets/images/pmbookspage-produck.png "screenshot of the pm books page")
 
+**Resources Page**
+![screenshot of the resources page](assets/images/resourcespage-produck.png "screenshot of the resources page")
 
+6. As an **Aspiring Product Manager**, I want to be able to easily find the best sources of product-related information, so that I can learn and apply this knowledge to get my first PM role as intern.
 
-
-
-
-**ToBuyList App**
-![screenshot of the tobuylist app](assets/images/tobuylistapp.png "screenshot of the tobuylist app")
-
-**ToRateList App**
-![screenshot of the toratelist app](assets/images/toratelistapp.png "screenshot of the toratelist app")
+    - Leaders page (Industry Experts)
+    - PM Books page (Must-Read Books)
+    - Resources page (Selected Resources)
 
 **Bookmarks App**
 ![screenshot of the bookmarks app](assets/images/bookmarksapp.png "screenshot of the bookmarks app")
 
-Crucial User Stories to Test MVP & Validate Hypothesis:
+7. As an **Aspiring Product Manager**, I want to be able to easily save my favourite sources of product-related information, so that I can revit them whenever and wherever I want to until I excel the topic.
 
-As an Aspiring Product Manager, I want to be able to find out which are the best sources of PM information so that I can learn and apply this knowledge to get my first PM role as an intern or APM.
-
-As a Recent Graduate, I want to be able to track my all the PM books I will be reading this year so that I can understand what PMs actually do and figure out if this is what I really want to work on from now on.
+    - Bookmarks app
 
 **ToBuyList App**
 ![screenshot of the tobuylist app](assets/images/tobuylistapp.png "screenshot of the tobuylist app")
@@ -291,15 +291,25 @@ As a Recent Graduate, I want to be able to track my all the PM books I will be r
 **BookNotes App**
 ![screenshot of the booknotes app](assets/images/booknotesapp.png "screenshot of the booknotes app")
 
+**ToRateList App**
+![screenshot of the toratelist app](assets/images/toratelistapp.png "screenshot of the toratelist app")
+
+8. As a **Recent Graduate**, I want to be able to track and rate all product-related books I will be reading this year, so that I can learn as much as possible to help me find a great opportunity as APM.
+
+    - ToBuyList app
+    - ToReadList app
+    - BookNotes app
+
+
+
+
+
+
+
+
+Crucial User Stories to Test MVP & Validate Hypothesis:
+
+
 As a Entry-Level PM, I want to be able to feel confident in that all the resources I'm reading, watching or listening are sharing accurate information about PM so that I can become a great PM.
-
-**Leaders Page**
-![screenshot of the leaders page](assets/images/leaderspage-produck.png "screenshot of the leaders page")
-
-**PM Books Page**
-![screenshot of the pm books page](assets/images/pmbookspage-produck.png "screenshot of the pm books page")
-
-**Resources Page**
-![screenshot of the resources page](assets/images/resourcespage-produck.png "screenshot of the resources page")
 
 [Return to README.md Document](https://github.com/effiemanyos/ms2-produck/blob/master/README.md)

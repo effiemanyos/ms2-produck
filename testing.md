@@ -213,13 +213,13 @@ To test the website accessibility [Wave Web Accessibility Evaluation Tool](https
 *Target Audience:*
 
 - Recent Graduates (Tech/Non-Tech Background)
-- Product Enthusiasts (Curious/Passionate) √
-- Aspiring Product Managers √
+- Product Enthusiasts (Curious/Passionate)
+- Aspiring Product Managers
 - Entry-Level Product Managers
-- APMs (Associate Product Managers) √
-- Non-Tech Background Professionals √
-- Entrepreneurs (Founders & Co-Founders) √
-- Professionals Transitioning Into Product √
+- APMs (Associate Product Managers)
+- Non-Tech Background Professionals
+- Entrepreneurs (Founders & Co-Founders)
+- Professionals Transitioning Into Product
 
 *Key Produck's Features:*
 
@@ -229,10 +229,12 @@ To test the website accessibility [Wave Web Accessibility Evaluation Tool](https
 - ToRateList App
 - Bookmarks App
 
+*Crucial User Stories to Test MVP & Validate Hypothesis:*
+
 **Home Page**
 ![screenshot of the home page](assets/images/homepage-produck.png "screenshot of the home page")
 
-1. As an **Product Enthusiast**, I want to easily understand what this web-based platform is all about and what kind of services it offers to aspiring Product Managers, so that I can decide to stay or leave.
+1. As a **Product Enthusiast**, I want to easily understand what this web-based platform is all about and what kind of services it offers to aspiring Product Managers, so that I can decide to stay or leave.
 
     - Hero Image section
     - Welcome section
@@ -247,6 +249,8 @@ To test the website accessibility [Wave Web Accessibility Evaluation Tool](https
     - Contact Us section
     - Footer section
 
+-----
+
 **PM Role Page**
 ![screenshot of the pm role page](assets/images/pmrolepage-produck.png "screenshot of the pm role page")
 
@@ -260,6 +264,8 @@ To test the website accessibility [Wave Web Accessibility Evaluation Tool](https
     - Background Knowledge section
     - Required Soft Skills section
 
+-----
+
 **Leaders Page**
 ![screenshot of the leaders page](assets/images/leaderspage-produck.png "screenshot of the leaders page")
 
@@ -269,11 +275,13 @@ To test the website accessibility [Wave Web Accessibility Evaluation Tool](https
 **Resources Page**
 ![screenshot of the resources page](assets/images/resourcespage-produck.png "screenshot of the resources page")
 
-6. As an **Aspiring Product Manager**, I want to be able to easily find the best sources of product-related information, so that I can learn and apply this knowledge to get my first PM role as intern.
+6. As an **Aspiring Product Manager**, I want to be able to easily find the best sources of product-related information, so that I can learn and apply this knowledge to get my first PM role as APM.
 
     - Leaders page (Industry Experts)
     - PM Books page (Must-Read Books)
     - Resources page (Selected Resources)
+
+-----
 
 **Bookmarks App**
 ![screenshot of the bookmarks app](assets/images/bookmarksapp.png "screenshot of the bookmarks app")
@@ -282,34 +290,32 @@ To test the website accessibility [Wave Web Accessibility Evaluation Tool](https
 
     - Bookmarks app
 
+-----
+
 **ToBuyList App**
 ![screenshot of the tobuylist app](assets/images/tobuylistapp.png "screenshot of the tobuylist app")
 
 **ToReadList App**
 ![screenshot of the toreadlist app](assets/images/toreadlistapp.png "screenshot of the toreadlist app")
 
-**BookNotes App**
-![screenshot of the booknotes app](assets/images/booknotesapp.png "screenshot of the booknotes app")
-
 **ToRateList App**
 ![screenshot of the toratelist app](assets/images/toratelistapp.png "screenshot of the toratelist app")
 
-8. As a **Recent Graduate**, I want to be able to track and rate all product-related books I will be reading this year, so that I can learn as much as possible to help me find a great opportunity as APM.
+8. As a **Recent Graduate**, I want to be able to track and rate all product-related books I will be reading this year, so that I can learn as much as possible to help me find a great opportunity as intern.
 
     - ToBuyList app
     - ToReadList app
+    - ToRateList app
+
+-----
+
+**BookNotes App**
+![screenshot of the booknotes app](assets/images/booknotesapp.png "screenshot of the booknotes app")
+
+9. As an **Entry-Level Product Manager**, I want to be able to take notes of key concepts/frameworks from the PM book I'm reading, so that I can use that valuable information later on when I'm at work.
+
     - BookNotes app
 
-
-
-
-
-
-
-
-Crucial User Stories to Test MVP & Validate Hypothesis:
-
-
-As a Entry-Level PM, I want to be able to feel confident in that all the resources I'm reading, watching or listening are sharing accurate information about PM so that I can become a great PM.
+[Back to Content](#content)
 
 [Return to README.md Document](https://github.com/effiemanyos/ms2-produck/blob/master/README.md)

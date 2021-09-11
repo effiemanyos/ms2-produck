@@ -100,7 +100,7 @@ function fetchBookmarks() {
         for (var i = 0; i < bookmarks.length; i++) {
             var name = bookmarks[i].name;
             var url = bookmarks[i].url;
-        }
+        
     
         // Credit: https://bit.ly/3fo1q40
         // Insert Content to HTML Through JavaScript
@@ -110,6 +110,7 @@ function fetchBookmarks() {
             ' <a onclick="deleteBookmark(\'' + url + '\')" class="btn bm-btn-danger" href="#"><i class="fa fa-trash"></i></a> ' +
             '</h3>' +
             '</div>';
+        }
     }
 }
 

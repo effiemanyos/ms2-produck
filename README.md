@@ -151,12 +151,26 @@ Site Owner's Goals:
 
 **Target Audience:**
 
-*Crucial User Stories to Test MVP & Validate Hypothesis:*
-1. As an **Aspiring Product Manager**, I want to be able to find out which are the best sources of PM information so that I can learn and apply this knowledge to get my first PM role as an intern or APM.
-2. As a **Recent Graduate**, I want to be able to track my all the PM books I will be reading this year so that I can understand what PMs actually do and figure out if this is what I really want.
-3. As a **Entry-Level PM**, I want to be able to feel confident in that all the resources I'm reading, watching or listening are sharing accurate information about PM so that I can become a great PM.
-4. As an **Associate Product Manager**, I want to subscribe to Produck's newsletter to receive weekly or monthly up-to-date information so that I can use it wisely to be promoted to Product Manager. 
-5. As an **Entrepreneur**, I want to contact Produck's team to work on a side project so that I can show it on my portfolio at PM interviews at tech companies or other startups. 
+- Recent Graduates (Tech/Non-Tech Background)
+- Product Enthusiasts (Curious/Passionate)
+- Aspiring Product Managers
+- Entry-Level Product Managers
+- APMs (Associate Product Managers)
+- Non-Tech Background Professionals
+- Entrepreneurs (Founders & Co-Founders)
+- Professionals Transitioning Into Product
+
+**Crucial User Stories to Test MVP & Validate Hypothesis:**
+1. As a **Product Enthusiast**, I want to easily understand what this web-based platform is all about and what kind of services it offers to aspiring Product Managers, so that I can decide to stay or leave.
+2. As an **Associate Product Manager**, I want to subscribe to Produck's newsletter to receive weekly or monthly up-to-date information, so that I can use it wisely to get promoted to Product Manager.
+3. As an **Entrepreneur**, I want to contact Produck's team or the founders directly to get to know them in person, so that I can propose them a strategic partnership to build great products together.
+4. As a **Non-Tech Background Professional**, I want to know what are the main tasks PMs usually do or are responsible for, so that I can prepare myself for the role by practicing in advance.
+5. As a **Professional Transitioning Into PM**, I want to know what soft and hard skills are required to be a great Product Manager, so that I figure out if theres's anything I need to work on or develop.
+6. As an **Aspiring Product Manager**, I want to be able to easily find the best sources of product-related information, so that I can learn and apply this knowledge to get my first PM role as APM.
+7. As an **Aspiring Product Manager**, I want to be able to easily save my favourite sources of product-related information, so that I can revit them whenever and wherever I want to until I excel the topic.
+8. As a **Recent Graduate**, I want to be able to track and rate all product-related books I will be reading this year, so that I can learn as much as possible to help me find a great opportunity as intern.
+9. As an **Entry-Level Product Manager**, I want to be able to take notes of key concepts/frameworks from the PM book I'm reading, so that I can use that valuable information later on when I'm at work.
+
 
 ### **Unique Selling Proposition**
 

@@ -4,6 +4,7 @@
   - [HTML, CSS, JAVASCRIPT Validation Testing](#html-css-validation-testing "HTML, CSS, JAVASCRIPT Validation Testing")
   - [Testing Performance](#testing-performance "Testing Performance")
   - [Testing Accessibility](#testing-accessibility "Testing Accessibility")
+  - [Testing User Stories](#testing-user-stories "Testing User Stories")
 
   [Return to README.md Document](https://github.com/effiemanyos/ms2-produck/blob/master/README.md)
 
@@ -205,5 +206,24 @@ To test the website accessibility [Wave Web Accessibility Evaluation Tool](https
 ***Date:*** Saturday, May 15th, 2021
 
 [Back to Content](#content)
+
+## **Testing User Stories**
+-----
+
+Key Produck's Features:
+
+- ToBuyList App
+- ToReadList App
+- BookNotes App
+- ToRateList App
+- Bookmarks App
+
+Crucial User Stories to Test MVP & Validate Hypothesis:
+
+As an Aspiring Product Manager, I want to be able to find out which are the best sources of PM information so that I can learn and apply this knowledge to get my first PM role as an intern or APM.
+As a Recent Graduate, I want to be able to track my all the PM books I will be reading this year so that I can understand what PMs actually do and figure out if this is what I really want.
+As a Entry-Level PM, I want to be able to feel confident in that all the resources I'm reading, watching or listening are sharing accurate information about PM so that I can become a great PM.
+As an Associate Product Manager, I want to subscribe to Produck's newsletter to receive weekly or monthly up-to-date information so that I can use it wisely to be promoted to Product Manager.
+As an Entrepreneur, I want to contact Produck's team to work on a side project so that I can show it on my portfolio at PM interviews at tech companies or other startups.
 
 [Return to README.md Document](https://github.com/effiemanyos/ms2-produck/blob/master/README.md)

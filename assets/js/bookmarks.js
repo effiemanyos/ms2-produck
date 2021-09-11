@@ -23,7 +23,7 @@ function saveBookmark(e) {
     var bookmark = {
             name: websiteName,
             url: websiteUrl
-        },
+        }
 
         // Test If Bookmarks Is Null
         if (localStorage.getItem('bookmarks') === null) {
@@ -88,6 +88,7 @@ function fetchBookmarks() {
 
     // Get Bookmarks From Local Storage (Fetch From Local Storage)
     var bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
+    console.log(bookmarks);
 
     // Get Output ID
     var bookmarksList = document.getElementById('bookmarksList');
@@ -95,10 +96,12 @@ function fetchBookmarks() {
     // Build Output (Entered Bookmarks List Layout)
     bookmarksList.innerHTML = '';
     // Credit: https://bit.ly/3hoHdhf
-    for (var i = 0; i < bookmarks.length; i++) {
-        var name = bookmarks[i].name;
-        var url = bookmarks[i].url;
-
+    if(bookmarks) {
+        for (var i = 0; i < bookmarks.length; i++) {
+            var name = bookmarks[i].name;
+            var url = bookmarks[i].url;
+        }
+    
         // Credit: https://bit.ly/3fo1q40
         // Insert Content to HTML Through JavaScript
         bookmarksList.innerHTML += '<div class="results-list">' +

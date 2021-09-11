@@ -286,6 +286,49 @@ At the moment, the platform consists of only **10 pages and 10 sections**. The *
 9. Top Resources
 10. Bookmarks App
 
+[Back to Content](#content)
+
+## **Skeleton Plane** 
+____
+
+### **Wireframes**
+
+#### **Informative Sections**
+
+**Home Page**
+![screenshot of the home page](assets/images/homepage-produck.png "screenshot of the home page")
+
+**PM Role Page**
+![screenshot of the pm role page](assets/images/pmrolepage-produck.png "screenshot of the pm role page")
+
+**Leaders Page**
+![screenshot of the leaders page](assets/images/leaderspage-produck.png "screenshot of the leaders page")
+
+**PM Books Page**
+![screenshot of the pm books page](assets/images/pmbookspage-produck.png "screenshot of the pm books page")
+
+**Resources Page**
+![screenshot of the resources page](assets/images/resourcespage-produck.png "screenshot of the resources page")
+
+#### **Interactive Sections**
+
+**ToBuyList App**
+![screenshot of the tobuylist app](assets/images/tobuylistapp.png "screenshot of the tobuylist app")
+
+**ToReadList App**
+![screenshot of the toreadlist app](assets/images/toreadlistapp.png "screenshot of the toreadlist app")
+
+**ToRateList App**
+![screenshot of the toratelist app](assets/images/toratelistapp.png "screenshot of the toratelist app")
+
+**BookNotes App**
+![screenshot of the booknotes app](assets/images/booknotesapp.png "screenshot of the booknotes app")
+
+**Bookmarks App**
+![screenshot of the bookmarks app](assets/images/bookmarksapp.png "screenshot of the bookmarks app")
+
+[Back to Content](#content)
+
 ## **Surface Plane** 
 ____
 

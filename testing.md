@@ -14,9 +14,7 @@
 
 ![the webpage on different devices](assets/images/mockup-img.png "the webpage on different devices")
 
-**[VIEW WEBSITE LIVE](https://effiemanyos.github.io/ms2-produck/)**
-
-## **HTML, CSS, JAVASCRIPT Validation Testing**
+**[VIEW WEBSITE LIVE](https://effiemanyos.github.io/ms2-produck/)**## **HTML, CSS, JAVASCRIPT Validation Testing**
 -----
 
 ### **1. HTML Validation**
@@ -140,6 +138,8 @@ The tool used for this code validation was the [W3C CSS Validation Service](http
 The CSS yielded no major errors, so I proceeded with further testing after fixing the first two issues (the `transition-delay` and `box-sizing` values).
 
 Just in case, the testing was performed again, this time by **File Upload** and **Direct Input**, and the results were exactly the same. 
+
+![w3c css validation final results](assets/images/cssfinaltest.png "w3c css validation final results")
 
 ### **3. JAVASCRIPT Validation**
 

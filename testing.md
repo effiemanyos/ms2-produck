@@ -6,12 +6,15 @@
   - [Testing Accessibility](#testing-accessibility "Testing Accessibility")
   - [Testing User Stories](#testing-user-stories "Testing User Stories")
   - [Testing Site Responsiveness](#testing-site-responsiveness "Testing Site Responsiveness")
+  - [Manual Testing](#manual-testing "Manual Testing")
   
   [Return to README.md Document](https://github.com/effiemanyos/ms2-produck/blob/master/README.md)
 
 # **TESTING**
 
 ![the webpage on different devices](assets/images/mockup-img.png "the webpage on different devices")
+
+**[VIEW WEBSITE LIVE](https://effiemanyos.github.io/ms2-produck/)**
 
 ## **HTML, CSS, JAVASCRIPT Validation Testing**
 -----
@@ -329,8 +332,94 @@ It was also tested in the following mobile phone **operating systems**:
 
 *Results:* 
 
-The website had an great performance and could be used perfectly, no funcional issues were found during the testing. However, the layout was not exactly the same (or the intended design) in all systems and devices but the users could interact with ease and achieve their goals successfully.
+The website had a great performance and could be used perfectly, no funcional issues were found during the testing. However, the layout was not exactly the same (or the intended design) in all systems or devices, but the interviewed users could interact with ease and achieve their goals successfully.
 
+[Back to Content](#content)
+
+## **Manual Testing**
+-----
+
+Testing buttons, links, and overall functionality throughout the entire platform:
+
+### **Interactive Sections**
+
+**ToBuyList App**
+- Switch to night mode √
+- Add books √
+- Flash messages √
+- Delete books √
+
+**ToReadList App**
+- Switch to night mode √
+- Add new category √
+- Delete categories √
+- Add new book √
+- Delete books √
+- Sort books √
+- Mark books as done √
+- Sort categories √
+
+**BookNotes App**
+- Switch to night mode √
+- Add notes √
+- Edit notes √
+- Delete notes √
+
+**ToRateList App**
+- Switch to night mode √
+- Select book from the list √
+- Enter rating √
+
+**Bookmarks App**
+- Select book from the list √
+- Add bookmarks √
+- Delete bookmarks √
+
+### **Informative Sections**
+
+**Home Page**
+
+*Nav Bar Section*
+- Links lead to correct destination √
+- Naming is clear and accurate √
+- Dropdown menus work perfectly on Desktop √
+- Dropdown menus work perfectly on Mobile √
+
+*Hero Image Section*
+- Link lead to correct destination √
+
+*Welcome Section*
+- Links lead to correct destination √
+
+*Contact Us Section*
+- Links lead to correct destination √
+- External links open in new tab √
+- Message submission works perfectly √
+
+*Footer Section*
+- Links lead to correct destination √
+- External links open in new tab √
+- Newsletter subscription works perfectly √
+
+**PM Role Page**
+
+*About Section*
+- Links lead to correct destination √
+
+**Leaders Page**
+- Links lead to correct destination √
+- External links open in new tab √
+
+**PM Books Page**
+- Links lead to correct destination √
+- External links open in new tab √
+
+**Resources Page**
+- Links lead to correct destination √
+- External links open in new tab √
+- Filters work perfectly √
+- Dropdown menus work perfectly on Desktop √
+- Dropdown menus work perfectly on Mobile √
 
 [Back to Content](#content)
 

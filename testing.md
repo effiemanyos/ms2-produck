@@ -5,42 +5,13 @@
   - [Testing Performance](#testing-performance "Testing Performance")
   - [Testing Accessibility](#testing-accessibility "Testing Accessibility")
   - [Testing User Stories](#testing-user-stories "Testing User Stories")
-
+  - [Testing Site Responsiveness](#testing-site-responsiveness "Testing Site Responsiveness")
+  
   [Return to README.md Document](https://github.com/effiemanyos/ms2-produck/blob/master/README.md)
 
 # **TESTING**
 
 ![the webpage on different devices](assets/images/mockup-img.png "the webpage on different devices")
-
-The website was tested in the following **browsers**:
-
-- Chrome √
-- Firefox √
-- Microsoft Edge √
-- Safari √
-- Internet Explorer X
-- Opera √
-
-It was also tested in the following phone **operating systems**:
-
-- iOS √
-- Android √
-
-Finally, it was tested in the following **devices**:
-
-- Desktop √
-- iPhone 5/SE √
-- Pixel 2/2XL √
-- Moto 4G √
-- Galaxy S5 √
-- iPhone 6/7/8 (+Plus) √
-- iPhone X/iPhone XS Max √
-- iPad/iPad Pro √
-- Surface Duo √
-
-*Results:* 
-
-The website had an great performance and could be used perfectly, no funcional issues were found during the testing. However, the layout was not exactly the same (or the intended design) in all systems and devices but the users could interact with ease and achieve their goals successfully.
 
 ## **HTML, CSS, JAVASCRIPT Validation Testing**
 -----
@@ -315,6 +286,51 @@ To test the website accessibility [Wave Web Accessibility Evaluation Tool](https
 9. As an **Entry-Level Product Manager**, I want to be able to take notes of key concepts/frameworks from the PM book I'm reading, so that I can use that valuable information later on when I'm at work.
 
     - BookNotes app
+
+[Back to Content](#content)
+
+## **Testing Site Responsiveness**
+-----
+
+The tool used to test the website responsiveness was [Responsive Test Tool](http://responsivetesttool.com/), which helped view the platform on various devices (mobile, tablet, laptop, desktop, tv).
+
+The platform was tested in the following **devices**:
+
+- Desktop (various sizes)
+- Laptop (various sizes)
+- Mobile Phones (various sizes)
+    - Apple iPhones (various sizes)
+    - Google Pixels (various sizes)
+    - Samsung Galaxys (various sizes)
+    - LGs (various sizes)
+- Tablets (various sizes)
+    - Amazon
+    - Apple
+    - LG
+    - Samsung
+    - HTC
+    - Microsoft
+- Television (various sizes)
+
+![screenshot of tool options](assets/images/responsivetest.png "screenshot of tool options")
+
+In more detail, the platform was tested in the following **browsers**:
+
+- Chrome
+- Firefox
+- Microsoft Edge
+- Safari
+- Opera
+
+It was also tested in the following mobile phone **operating systems**:
+
+- iOS
+- Android
+
+*Results:* 
+
+The website had an great performance and could be used perfectly, no funcional issues were found during the testing. However, the layout was not exactly the same (or the intended design) in all systems and devices but the users could interact with ease and achieve their goals successfully.
+
 
 [Back to Content](#content)
 
